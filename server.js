@@ -94,9 +94,13 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 10000; // Endret til 10000 for Render
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, '0.0.0.0', () => {
+  console.log('Server starter opp...');
   console.log(`Server kjører på port ${PORT}`);
   console.log(`API tilgjengelig på: http://localhost:${PORT}`);
   console.log('Trykk Ctrl+C for å avslutte');
+}).on('error', (err) => {
+  console.error('Server feil:', err);
+  process.exit(1);
 }); 
