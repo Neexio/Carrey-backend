@@ -11,6 +11,43 @@ app.get('/', (req, res) => {
   res.json({ message: 'Velkommen til Carrey API' });
 });
 
+// SEO Audit API
+app.get('/api/seo-audit', (req, res) => {
+  const { domain } = req.query;
+  if (!domain) {
+    return res.status(400).json({ error: 'Domain er påkrevd' });
+  }
+
+  // Simulert SEO-audit resultat
+  const result = {
+    domain,
+    score: Math.floor(Math.random() * 100),
+    issues: [
+      'Manglende meta-beskrivelse',
+      'For få interne lenker',
+      'Bilder mangler alt-tekst',
+      'Siden er for treg'
+    ]
+  };
+
+  res.json(result);
+});
+
+// Clara AI Assistent API
+app.get('/api/clara-response', (req, res) => {
+  const { q } = req.query;
+  if (!q) {
+    return res.status(400).json({ error: 'Spørsmål er påkrevd' });
+  }
+
+  // Simulert svar fra Clara
+  const response = {
+    response: `Jeg har analysert spørsmålet ditt om "${q}". Her er mine anbefalinger for å forbedre SEO-en på nettstedet ditt...`
+  };
+
+  res.json(response);
+});
+
 // Bruker-ruter
 app.get('/api/users', (req, res) => {
   res.json({ message: 'Liste over brukere' });
