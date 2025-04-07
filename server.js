@@ -6,31 +6,52 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Logg alle forespørsler
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+  next();
+});
+
 // Ruter
 app.get('/', (req, res) => {
+  console.log('Hovedside besøkt');
   res.json({ message: 'Velkommen til Carrey API' });
 });
 
-// SEO Audit API
+// SEO Audit API - Forenklet versjon
 app.get('/api/seo-audit', (req, res) => {
-  const { domain } = req.query;
-  if (!domain) {
-    return res.status(400).json({ error: 'Domain er påkrevd' });
+  console.log('SEO Audit forespørsel mottatt');
+  try {
+    const { domain } = req.query;
+    console.log('Mottatt domene:', domain);
+    
+    if (!domain) {
+      console.log('Ingen domene oppgitt');
+      return res.status(400).json({ error: 'Domain er påkrevd' });
+    }
+
+    // Returner en simpel test-respons
+    const result = {
+      domain,
+      score: 85,
+      issues: ['Test issue 1', 'Test issue 2'],
+      details: {
+        metaDescription: 'Test meta description',
+        title: 'Test title',
+        h1Count: 1,
+        internalLinks: 10
+      }
+    };
+
+    console.log('Returnerer resultat:', result);
+    res.json(result);
+  } catch (error) {
+    console.error('SEO Audit feil:', error);
+    res.status(500).json({ 
+      error: 'Kunne ikke analysere nettstedet',
+      message: error.message
+    });
   }
-
-  // Simulert SEO-audit resultat
-  const result = {
-    domain,
-    score: Math.floor(Math.random() * 100),
-    issues: [
-      'Manglende meta-beskrivelse',
-      'For få interne lenker',
-      'Bilder mangler alt-tekst',
-      'Siden er for treg'
-    ]
-  };
-
-  res.json(result);
 });
 
 // Clara AI Assistent API
@@ -73,7 +94,9 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || 10000; // Endret til 10000 for Render
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server kjører på port ${PORT}`);
+  console.log(`API tilgjengelig på: http://localhost:${PORT}`);
+  console.log('Trykk Ctrl+C for å avslutte');
 }); 
