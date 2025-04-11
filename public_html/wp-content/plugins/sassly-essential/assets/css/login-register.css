@@ -1,0 +1,47 @@
+.sassly--user-form .single-input {
+  margin-bottom: 10px;
+}
+
+.sassly--user-form .single-input input {
+  line-height: 1.5;
+  width: 100%;
+  padding: 15px 30px;
+  outline: none;
+  border-radius: 30px;
+  transition: all 0.3s;
+  border: 1px solid #ECECEC;
+  background-color: transparent !important;
+}
+
+.sassly--user-form .single-input input:focus {
+  color: #101010;
+  border-color: #FF845D;
+}
+
+.sassly--user-form .checkbox-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sassly--user-form .checkbox-input label,
+.sassly--user-form .checkbox-input input {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sassly--user-form .checkbox-input a {
+  display: inline-block;
+}
+
+.sassly--user-form .submit-input .submit {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #FF845D;
+  transition: all 0.3s;
+}

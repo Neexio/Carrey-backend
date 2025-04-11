@@ -1,0 +1,109 @@
+[pl_row pagelayer-id="kqC6CbMVPCxKCfoh"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#272627ff" row_shape_bottom_width="400" row_shape_bottom_height="300" ele_padding="70px,0px,20px,0px" ele_bg_type="color" ele_bg_color="#000000ff" row_shape_position="bottom" row_shape_type_bottom="mountains"]
+[pl_col pagelayer-id="b3rMbAe0qs5Wo2qN"  overlay_hover_delay="400" col="3"]
+[pl_inner_row pagelayer-id="bW3ZM2RtLJWjzZ18"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100"]
+[pl_inner_col pagelayer-id="pDZI6sy87i1vcGQh"  overlay_hover_delay="400" col="3"]
+[pl_image pagelayer-id="OxgrTTP4KEtSSjaq"  id="{{theme_url}}/images/logo1.png" id-size="full" align="left" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" max-width="75" link_type="custom_url" link="11459" max-width_tablet="35" max-width_mobile="60"]
+
+
+[/pl_image]
+[pl_text pagelayer-id="pMFN20iAPzRBStvM"  font_family="Raleway" font_size="16" ele_padding="20px,0px,0px,0px" ele_css="{{element}} {
+color:white;
+}"]
+
+
+
+
+
+
+
+
+
+
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>[/pl_text]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="sMnbvUi7XLs9MbDr"  overlay_hover_delay="400" col="3"]
+[pl_heading pagelayer-id="9RbOlBkypSqOKOXp"  heading_state="normal" color="#ffffffff" heading_typo="Montserrat,22,,,,,Solid,,,," align="center" align_tablet="left" align_mobile="left"]
+
+
+
+<h2>Applications</h2>[/pl_heading]
+[pl_list pagelayer-id="wY1jb5xltVy1z3v6"  list_type="none" spacing="15" list_text_state="normal" item_indent="NaN" list_icon_state="normal" icon_color="#0986c0" icon_border_type="solid" icon_border_color="#ffffffff" icon_border_width="1" ele_padding="10px,0px,0px,65px" list_color="#ffffffff" list_typo="Raleway,16,,,,,Solid,,,," ele_padding_tablet="10px,0px,0px,0px" ele_padding_mobile="10px,0px,0px,0px"]
+[pl_list_item pagelayer-id="dXNIY9YateYKpTV1"  show_icon="" icon="fas fa-star"]
+
+
+
+Our Products[/pl_list_item]
+[pl_list_item pagelayer-id="IIYvnLaf63MDHRup"  show_icon="" icon="fas fa-star"]
+
+
+
+News & Updates[/pl_list_item]
+[pl_list_item pagelayer-id="cjrLGhGOf1N9yp6s"  show_icon="" icon="fas fa-star"]
+
+
+
+Try for free[/pl_list_item]
+[pl_list_item pagelayer-id="SaVD1Er2uyN0bvcu"  show_icon="" icon="fas fa-star"]
+
+
+
+Features[/pl_list_item]
+[pl_list_item pagelayer-id="st21jTHFNYt708kv"  show_icon="" icon="fas fa-star"]
+
+
+
+Pricelist[/pl_list_item]
+[/pl_list]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="Pnljpd8pBtnsFhnz"  overlay_hover_delay="400" col="3"]
+[pl_heading pagelayer-id="tK1YQo9Juc6LOLrO"  heading_state="normal" color="#ffffffff" heading_typo="Montserrat,22,,,,,Solid,,,," align="left" ele_padding="0px,0px,0px,40px" ele_padding_tablet="0px,0px,0px,0px" ele_padding_mobile="0px,0px,0px,0px"]
+
+
+
+<h2>Quick Links</h2>[/pl_heading]
+[pl_list pagelayer-id="ajblI1j7bnzUFgex"  list_type="none" spacing="15" list_text_state="normal" item_indent="NaN" list_icon_state="normal" icon_color="#0986c0" icon_border_type="solid" icon_border_color="#ffffffff" icon_border_width="1" ele_padding="10px,30px,0px,50px" list_color="#ffffffff" list_typo="Raleway,16,,,,,Solid,,,," ele_padding_tablet="10px,0px,0px,0px" ele_padding_mobile="10px,0px,0px,0px"]
+[pl_list_item pagelayer-id="1zbs5v4xwkieNNCS"  show_icon="" icon="fas fa-star"]
+
+
+
+Home[/pl_list_item]
+[pl_list_item pagelayer-id="ZAni1nzWLvAe0ppD"  show_icon="" icon="fas fa-star"]
+
+
+
+About Us[/pl_list_item]
+[pl_list_item pagelayer-id="nIdCZkEvDLdUsQIV"  show_icon="" icon="fas fa-star"]
+
+
+
+Contact Us[/pl_list_item]
+[pl_list_item pagelayer-id="kjWJzUoLIpadDDbF"  show_icon="" icon="fas fa-star"]
+
+
+
+Locations[/pl_list_item]
+[pl_list_item pagelayer-id="l3FcahqriL79Y8m3"  show_icon="" icon="fas fa-star"]
+
+
+
+Blog[/pl_list_item]
+[/pl_list]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="3NP7gPeL1JpHGKxP"  overlay_hover_delay="400" col="3"]
+[pl_heading pagelayer-id="7FDM6NJSnJ3yMbnU"  heading_state="normal" color="#ffffffff" heading_typo="Montserrat,22,,,,,Solid,,,," align="left"]
+
+
+
+<h2>Contact Us</h2>[/pl_heading]
+[pl_address pagelayer-id="ogYk7fEJeGpGMWdG"  icon="fas fa-map-marker-alt" color="#ffffffff" space="10" typography="Raleway,16,,,,,Solid,,,," icon_color="#ffffffff" icon_size="16" ele_padding="10px,0px,0px,0px"]
+[/pl_address]
+[pl_phone pagelayer-id="GcbBb9gOSVAiwXUV"  icon="fas fa-mobile-alt" ele_padding="10px,0px,0px,0px" color="#ffffffff" linked="true" typography="Raleway,16,,,,,Solid,,,," space="10" icon_size="16" icon_color="#ffffffff"]
+[/pl_phone]
+[pl_email pagelayer-id="zTz78iqjVOqSayfV"  icon="fas fa-envelope-open-text" linked="true" color="#ffffffff" space="10" icon_color="#ffffffff" icon_size="16" typography="Raleway,16,,,,,Solid,,,," ele_padding="10px,0px,0px,0px"]
+[/pl_email]
+[/pl_inner_col]
+[/pl_inner_row]
+[pl_copyright pagelayer-id="1dWm5RgLabhLIkJD"  color="#ffffffff" align="center" typography="Raleway,20,,600,,,Solid,,,," ele_padding="20px,0px,0px,0px"]
+[/pl_copyright]
+[/pl_col]
+[/pl_row]

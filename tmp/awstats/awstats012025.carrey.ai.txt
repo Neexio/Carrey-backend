@@ -1,0 +1,315 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202501 will be lost/reset.
+# Last config file used to build this data file was /home/carrfacy/tmp/awstats/awstats.carrey.ai.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2040                
+POS_TIME 2719                
+POS_VISITOR 6898                
+POS_DAY 7153                
+POS_DOMAIN 3325                
+POS_LOGIN 3566                
+POS_ROBOT 3721                
+POS_WORMS 3963                
+POS_EMAILSENDER 4094                
+POS_EMAILRECEIVER 4237                
+POS_SESSION 7236                
+POS_FILESIZE 9413                
+POS_SIDER 7393                
+POS_FILETYPES 4372                
+POS_DOWNLOADS 4612                
+POS_OS 4733                
+POS_BROWSER 4825                
+POS_SCREENSIZE 4929                
+POS_UNKNOWNREFERER 5003                
+POS_UNKNOWNREFERERBROWSER 5313                
+POS_ORIGIN 5618                
+POS_SEREFERRALS 5753                
+POS_PAGEREFS 5897                
+POS_SEARCHWORDS 6071                
+POS_KEYWORDS 6223                
+POS_MISC 2382                
+POS_ERRORS 6282                
+POS_CLUSTER 3422                
+POS_SIDER_404 6440                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250201023058 11 1956 10728739398325
+FirstTime 20250110124736
+LastTime 20250110125420
+LastUpdate 20250201075347 11 0 10 0 0
+TotalVisits 4                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 13 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 11 11 8745
+1 0 0 0 5 6 3975
+2 0 0 0 16 26 16695
+3 0 0 0 11 12 9192
+4 0 0 0 18 18 12720
+5 0 0 0 7 8 4770
+6 0 0 0 22 26 20670
+7 0 0 0 5 7 5565
+8 0 0 0 18 22 16695
+9 0 0 0 16 17 13515
+10 0 0 0 6 8 6360
+11 0 0 0 3 5 3975
+12 125 318 4902743 57 63 517474
+13 0 0 0 67 73 55302
+14 0 0 0 19 22 17490
+15 0 0 0 22 23 18285
+16 0 0 0 11 11 8745
+17 0 0 0 3 3 2385
+18 0 0 0 57 60 44520
+19 0 0 0 4 4 2385
+20 0 0 0 15 15 8745
+21 0 0 0 15 22 12720
+22 0 0 0 14 19 15552
+23 0 0 0 11 11 8745
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 125 316 4902561
+gb 0 2 182
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Go\-http\-client/ 1 14802 20250110125238 0
+crawl 1 12811 20250110125220 0
+TelegramBot 1 1902 20250110125327 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+html 6 142117 0 0
+svg 5 9037 0 0
+woff2 2 182656 0 0
+txt 2 182 0 0
+css 34 205521 0 0
+gif 1 15238 0 0
+png 6 24724 0 0
+php 59 850248 0 0
+js 145 3195308 0 0
+Unknown 58 277712 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/.well-known/pki-validation/D06A4A3967BCAE8447054C374C3AB3E4.txt 2 0 182
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 285 94
+Unknown 33 31
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+firefox122.0 3 3
+chrome131.0.0.0 282 91
+Unknown 33 31
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+WordPress.com;_http://carrey.ai 20250110125215
+WordPress/6.7.1;_http://carrey.ai 20250110125420
+Jetpack_by_WordPress.com 20250110125216
+WordPress.com;_https://jetpack.wordpress.com 20250110125200
+Sectigo_DCV 20250110125222
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WordPress.com;_http://carrey.ai 20250110125215
+WordPress/6.7.1;_http://carrey.ai 20250110125420
+Jetpack_by_WordPress.com 20250110125216
+Sectigo_DCV 20250110125222
+WordPress.com;_https://jetpack.wordpress.com 20250110125200
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 31
+From1 0 0
+From2 0 0
+From3 1 1
+From4 95 286
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://wordpress.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+409 4 4852
+405 1 46
+404 7 52934
+302 12 404487
+301 444 326745
+403 5 6210
+422 1 101
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/sapp-plugin-activate.php 3 -
+/wordpress/wp-admin/setup-config.php 3 -
+/.well-known/hosting-provider 1 http://carrey.ai/.well-known/hosting-provider
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 5
+4.15.123.185 91 282 4824086 20250110125420
+198.54.115.157 27 27 64667 20250110125420
+192.0.115.196 6 6 13774 20250110125217
+192.0.86.102 1 1 34 20250110125200
+91.199.212.132 0 2 182 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20250110 125 318 4902743 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 2
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/wp-admin/admin-ajax.php 27 3981 0 1
+/wp-cron.php 17 0 0 1
+/wp-json/wc-admin/options 10 826 0 0
+/wp-json/extendify/v1/help-center/router-data 7 931 0 0
+/ 5 77625 2 1
+/xmlrpc.php 4 753 0 1
+/wp-json/wc-admin/plugins/activate 4 1699 0 0
+/wp-admin/admin.php 4 391732 0 0
+/wp-admin/load-scripts.php 4 158256 0 0
+/wp-json/wc-admin/plugins/install 4 961 0 0
+/wp-json/wc-analytics/admin/notes 3 3022 0 0
+/wp-json/wc-admin/onboarding/profile 2 562 0 0
+/wp-json/wc-admin/onboarding/free-extensions 2 17133 0 0
+/wp-json/wc-admin/plugins/installed 2 571 0 0
+/wp-json/wc-admin/plugins/active 2 527 0 0
+/wp-json/wc-analytics/reports/performance-indicators 2 970 0 0
+/wp-json/jetpack/v4/connection 2 447 0 0
+/wp-admin/load-styles.php 2 295449 1 0
+/wp-json/jetpack/v4/stats-app/sites/240608244/stats/top-posts 1 79 0 0
+/wp-json/jetpack/v4/stats-app/sites/240608244/stats/referrers 1 92 0 0
+/wp-json/jetpack/v4/module/akismet/data 1 12 0 0
+/wp-json/wc-analytics/settings/general/batch 1 103250 0 0
+/wp-json/wc-analytics/data/countries 1 136197 0 0
+/wp-json/jetpack/v4/connection/data 1 326 0 0
+/wp-json/jetpack/v4/scan 1 173 0 0
+/wp-json/wc-analytics/orders 1 2 0 0
+/wp-json/wc-admin/launch-your-store/initialize-coming-soon 1 4 0 0
+/wp-json/jetpack/v4/module/protect/data 1 1 0 0
+/wp-json/wc-admin/onboarding/plugins/jetpack-authorization-url 1 812 0 0
+/wp-json/extendify/v1/shared/activity 1 70 0 0
+/softtest_9o6gdo1m/soft 1 20 0 0
+/wp-json/wc-admin/onboarding/tasks 1 8538 0 0
+/wp-content/plugins/softaculous-pro/assets/font-awesome/webfonts/fa-regular-400.woff2 1 25464 0 0
+/check_charset.php 1 77 1 0
+/wp-admin/ 1 64492 0 0
+/wp-json/wc-admin/onboarding/plugins/install-and-activate-async 1 259 0 0
+/wp-content/plugins/softaculous-pro/assets/font-awesome/webfonts/fa-solid-900.woff2 1 157192 0 0
+/wp-json/wc-analytics/products/reviews 1 2 0 0
+/wp-json/wc-analytics/products/count-low-in-stock 1 11 0 0
+/wp-json/jetpack/v4/stats-app/sites/240608244/stats/visits 1 215 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 3
+1K-2K 5
+0-44 14
+500-1K 215
+END_FILESIZE

@@ -1,0 +1,30 @@
+[pl_row pagelayer-id="FXUQ2blVvq21EiJI"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="15px,0px,15px,0px" ele_bg_type="color" ele_bg_color="#000000ff" border_type="solid" border_width="0px,0px,3px,0px" border_color="#009b72ff"]
+[pl_col pagelayer-id="tXiP9yZCfyY5jhQb"  overlay_hover_delay="400" col_width="30" content_pos="center" col_width_mobile="70"]
+[pl_image pagelayer-id="br6IGLAOMot5TRIf"  id="{{theme_url}}/images/logo1.png" id-size="full" align="left" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" max-width="65" link_type="custom_url" link="11459" max-width_tablet="100" max-width_mobile="90"]
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="hOcbCmbRBWuMmzIo"  overlay_hover_delay="400" col_width="70" content_pos="center" col_width_mobile="30"]
+[pl_wp_menu pagelayer-id="kYYCLw7g1lbfyudX"  nav_list="2" align="center" layout="horizontal" pointer="" m_animation="slide" list_style="none" submenu_ind="caret-down" menu_bg_color_hover=" " horizontal_padding="20" vertical_padding="NaN" submenu_color="#ffffff" submenu_bg_color="#3e8ef7ff" submenu_horizontal_padding="10" submenu_vertical_padding="NaN" submenu_left_margin="10" menu_toggle_align="center" menu_toggle_bg_color="#009b72ff" menu_toggle_size="30" ele_bg_hover_delay="400" submenu_position="left" menu_color="#ffffffff" menu_color_hover="#009b72ff" menu_bg_color_active=" " close_hover_delay="600" menu_typo="Montserrat,18,,600,,,Solid,,Uppercase,," menu_color_active="#009b72ff" ele_padding="0px,0px,0px,0px" ele_align="margin" ele_height="auto" align_tablet="center" align_mobile="center" ele_margin="0px,0px,0px,0px" slide_style="pagelayer-wp_menu-right" menu_width="30" menu_items_width="100" menu_posy="10" menu_bg="color" close_size="25" close_padding="8" close_color="#ffffffff" close_bg_color="#009b72ff" close_color_hover="#ffffff" close_bg_color_hover="#000000" menu_items_bg="#ffffffff" drop_breakpoint="tablet" menu_toggle_size_tablet="20" menu_toggle_padding_tablet="10" ele_margin_tablet="0px,0px,0px,0px" menu_posy_mobile="NaN" menu_width_mobile="60" menu_width_tablet="60" menu_toggle_align_tablet="right" menu_toggle_color="#ffffffff" menu_toggle_align_mobile="right" menu_toggle_size_mobile="18" menu_toggle_padding_mobile="10" ele_margin_mobile="0px,0px,0px,0px" vertical_padding_tablet="20" vertical_padding_mobile="20" menu_color_mobile="#000000ff" menu_color_tablet="#000000ff"]
+[/pl_wp_menu]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="caHSw2o4vnNMHlCO"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" content_pos="center" ele_padding="70px,0px,70px,0px"]
+[pl_col pagelayer-id="suiehQmsOHr0lHEN"  overlay_hover_delay="400" col="6"]
+[pl_image pagelayer-id="SOpAMmkLZjyiGHzv"  id="{{theme_url}}/images/header.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0"]
+
+
+
+
+
+
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="1fqGXtbisfRWfCh9"  overlay_hover_delay="400" col="6"]
+[pl_post_title pagelayer-id="8S9BggKqDgB6AGpx"  title_color="#009b72ff" typo="Montserrat,60,,700,,,Solid,,,," align="center" typo_mobile=",40,,,,,Solid,,,,"]
+[/pl_post_title]
+[pl_breadcrumb pagelayer-id="jSZ8vyUJezrAvsST"  home="Home" alignment="center" separator=" » " separator_color="#009b72ff" ele_padding="20px,0px,0px,0px" typo="Raleway,,,600,,,Solid,,,," breadcrumb_color="#000000ff" breadcrumb_hover="#009b72ff" cur_color="#009b72ff" ele_css="{{element}} .pagelayer-breadcrumb-sep{
+font-weight: 600;
+}" ele_padding_mobile="10px,0px,0px,0px"]
+[/pl_breadcrumb]
+[/pl_col]
+[/pl_row]

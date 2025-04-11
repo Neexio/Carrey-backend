@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: carrfacy@server212.web-hosting.com
+Received: from server212.web-hosting.com
+	by server212.web-hosting.com with LMTP
+	id CIlSF/Y482dRuBcAbfgLEw
+	(envelope-from <>)
+	for <carrfacy@server212.web-hosting.com>; Sun, 06 Apr 2025 22:31:18 -0400
+Return-path: <>
+Envelope-to: carrfacy@server212.web-hosting.com
+Delivery-date: Sun, 06 Apr 2025 22:31:18 -0400
+Received: from mailnull by server212.web-hosting.com with local (Exim 4.98.1)
+	id 1u1cGc-00000006bw6-1X5h
+	for carrfacy@server212.web-hosting.com;
+	Sun, 06 Apr 2025 22:31:18 -0400
+X-Failed-Recipients: Eiriklarsen2010@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server212.web-hosting.com>
+To: carrfacy@server212.web-hosting.com
+References: <xrRPEHoPCUnpWsSVDJOqg2PmcxVwIwDPJGgqnru1xk@carrey.ai>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1743993078-eximdsn-1605012122
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1u1cGc-00000006bw6-1X5h@server212.web-hosting.com>
+Date: Sun, 06 Apr 2025 22:31:18 -0400
+
+--1743993078-eximdsn-1605012122
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  Eiriklarsen2010@gmail.com
+    host prod-lbout-phx.jellyfish.systems [198.54.127.244]
+    SMTP error from remote mail server after end of data:
+    554 5.7.1 Spam content detected in the message body. Reason:
+    JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1743993078-eximdsn-1605012122
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server212.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;Eiriklarsen2010@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; prod-lbout-phx.jellyfish.systems
+Diagnostic-Code: smtp; 554 5.7.1 Spam content detected in the message body. Reason: JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1743993078-eximdsn-1605012122
+Content-type: message/rfc822
+
+Return-path: <carrfacy@server212.web-hosting.com>
+Received: from carrfacy by server212.web-hosting.com with local (Exim 4.98.1)
+	(envelope-from <carrfacy@server212.web-hosting.com>)
+	id 1u1cGb-00000006bu6-22jh
+	for Eiriklarsen2010@gmail.com;
+	Sun, 06 Apr 2025 22:31:17 -0400
+To: Eiriklarsen2010@gmail.com
+Subject: [Carrey] Email Change Request
+Date: Mon, 7 Apr 2025 02:31:17 +0000
+From: WordPress <wordpress@carrey.ai>
+Message-ID: <xrRPEHoPCUnpWsSVDJOqg2PmcxVwIwDPJGgqnru1xk@carrey.ai>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <carrfacy@server212.web-hosting.com>
+
+Howdy lift,
+
+You recently requested to have the email address on your account changed.
+
+If this is correct, please click on the following link to change it:
+https://carrey.ai/wp-admin/profile.php?newuseremail=301b9e34e371e60119e35902a07972d2
+
+You can safely ignore and delete this email if you do not want to
+take this action.
+
+This email has been sent to Eiriklarsen2010@gmail.com
+
+Regards,
+All at Carrey
+https://carrey.ai
+
+
+--1743993078-eximdsn-1605012122--

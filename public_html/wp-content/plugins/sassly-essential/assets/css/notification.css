@@ -1,0 +1,48 @@
+.sassly-notification {
+    position: relative;
+    background-color: #5DC988;
+    padding: 15px;
+    text-align: center;
+}
+
+.sassly-notification svg {
+    width: 1em;
+}
+
+.sassly-notification p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.sassly-notification .close-icon {
+    position: absolute;
+    height: auto;
+    top: 0;
+    color: #fff;
+    fill: #fff;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+.notify-icon-pos-left .close-icon {
+    left: 0;
+    right: unset;
+    padding-left: 15px;
+}
+
+.notify-icon-pos-right .close-icon {
+    right: 0;
+    left: unset;
+    padding-right: 15px;
+}
+
+.sassly-notification .highlight {
+    color: #fff;
+}
+
+.sassly-notification .notify-btn {
+    padding: 3px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #FFFFFF55;
+}

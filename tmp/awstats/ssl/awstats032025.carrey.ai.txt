@@ -1,0 +1,604 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202503 will be lost/reset.
+# Last config file used to build this data file was /home/carrfacy/tmp/awstats/ssl/awstats.carrey.ai.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2044                
+POS_TIME 2721                
+POS_VISITOR 10888               
+POS_DAY 16193               
+POS_DOMAIN 3535                
+POS_LOGIN 4056                
+POS_ROBOT 4211                
+POS_WORMS 4992                
+POS_EMAILSENDER 5123                
+POS_EMAILRECEIVER 5266                
+POS_SESSION 17035               
+POS_FILESIZE 18063               
+POS_SIDER 17246               
+POS_FILETYPES 5401                
+POS_DOWNLOADS 5593                
+POS_OS 5641                
+POS_BROWSER 5878                
+POS_SCREENSIZE 7306                
+POS_UNKNOWNREFERER 7380                
+POS_UNKNOWNREFERERBROWSER 7970                
+POS_ORIGIN 8501                
+POS_SEREFERRALS 8640                
+POS_PAGEREFS 8800                
+POS_SEARCHWORDS 8948                
+POS_KEYWORDS 9100                
+POS_MISC 2385                
+POS_ERRORS 9159                
+POS_CLUSTER 3912                
+POS_SIDER_404 9298                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250401004610 29 5710 7910248325211
+FirstTime 20250301021733
+LastTime 20250331235124
+LastUpdate 20250401085543 29 0 28 0 0
+TotalVisits 339                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 135                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 60 95 1627899 15 23 376640
+1 41 76 288277 11 15 727003
+2 45 83 443946 6 41 1028037
+3 10 10 42 5 27 264557
+4 55 195 1913650 15 44 1628406
+5 35 35 609320 12 15 782648
+6 27 27 685259 6 10 114764
+7 22 22 152223 9 12 195544
+8 22 22 76606 9 33 1343641
+9 18 18 670255 7 11 252285
+10 26 26 228816 13 57 1343496
+11 48 48 790364 13 27 584480
+12 23 23 632277 4 12 135150
+13 25 25 304457 7 13 1320273
+14 65 520 4022090 11 46 464162
+15 35 35 457994 10 17 858438
+16 40 78 760287 18 27 742694
+17 38 38 709497 14 74 846896
+18 148 148 30963381 7 15 998599
+19 34 34 812719 21 73 1136605
+20 44 44 153619 11 18 156297
+21 27 27 784979 4 57 984968
+22 55 155 1098815 2 6 76386
+23 62 209 1434512 14 24 212375
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+us 894 1403 39916297
+ca 17 68 922418
+be 13 166 1202978
+gb 13 112 930873
+cn 11 11 257531
+se 11 11 761079
+ro 9 43 662701
+ru 7 42 534346
+no 5 43 372389
+de 4 4 228410
+dk 3 3 228498
+ir 3 38 306044
+bd 3 37 282119
+ua 3 3 1667802
+sg 2 2 82687
+in 2 2 1112320
+at 1 1 76164
+lt 1 1 76070
+pl 1 1 186
+my 1 1 186
+cl 1 1 186
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bingbot/ 230 1931943 20250331053523 27
+bot[\s_+:,\.\;\/\\-] 65 281059 20250331224456 30
+CheckMarkNetwork/ 52 371625 20250304215332 2
+SemrushBot/ 52 778984 20250328185211 17
+yandex 50 378387 20250316175603 0
+YandexBot/ 38 732855 20250316213736 19
+Go\-http\-client/ 19 35702 20250327235726 7
+feed 19 96713 20250311035835 0
+MJ12bot/ 17 514259 20250329050821 8
+no_user_agent 13 6261753 20250330183335 0
+unknown 8 1140 20250331165204 8
+DuckDuckBot 4 304657 20250312121504 0
+nutch 4 152462 20250325221945 2
+Apache\-HttpClient/ 2 152367 20250310044706 0
+TestCrawler 2 76285 20250303062504 1
+curl 1 556160 20250302100919 0
+survey 1 556160 20250306045851 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+Unknown 1 0 0 0
+js 507 3278789 0 0
+css 480 1169456 0 0
+html 190 43488162 0 0
+php 768 27686 0 0
+ttf 46 1656432 0 0
+svg 1 759 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx 6 6
+android13 10 4
+win10 782 171
+Unknown 738 738
+win11 2 2
+unix 1 1
+win7 20 5
+macosx15 38 26
+linux 278 36
+macosx9 2 2
+ios_iphone 113 11
+winnt 1 1
+androidnougat 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 67
+chrome128.0.0.0 39 4
+chrome100.0.4896.127 1 1
+chrome92.0.1782 1 1
+opera11.00 1 1
+opera46.0.2207.0 38 3
+chrome116.0.5845.96 7 7
+chrome112.0.5615.136 8 4
+chrome120.0.0.0 77 7
+chrome133.0.0.0 1 1
+chrome84.0.4147.89 1 1
+chrome66.0.3359.181 14 14
+firefox129.0 2 2
+safari15.5 8 0
+safari17.0.96 1 1
+chrome60.0.3112.90 1 1
+safari 113 11
+chrome117.0.5938.132 38 3
+chrome128.0.6613.648 38 3
+firefox127.0 2 2
+chrome114.0.5735.134 4 4
+chrome121.0.0.0 1 1
+chrome114.0.0.0 2 2
+chrome134.0.0.0 83 10
+chrome107.0.0.0 2 2
+chrome122.0.0.0 44 6
+firefox133.0 38 3
+safari17.4 1 1
+chrome60.0.3112.107 2 2
+firefox126.0 6 6
+firefox125.0.1 1 1
+chrome91.0.4472.114 4 4
+chrome83.0.4103.97 1 1
+firefox95.0 3 3
+firefox110.0 1 1
+chrome126.0.0.0 14 14
+chrome125.0.6422.60 68 5
+chrome60.0.2241 1 1
+chrome112.0.0.0 16 0
+chrome115.0.5790.102 2 2
+chrome92.0.718 1 1
+chrome35.0.1916.47 1 1
+firefox128.0 3 3
+chrome105.0.0.0 4 4
+chrome83.0.4103.61 16 1
+firefox45.0 1 1
+chrome112.0.5615.138 4 4
+chrome113.0.5672.93 3 3
+netscape5.0 1 1
+mozilla 4 4
+chrome114.0.5735.199 2 2
+chrome127.0.0.0 5 5
+safari14.0 1 1
+msie10.0 1 1
+chrome97.0.4692.71 1 1
+Unknown 740 740
+chrome75.0.3770.100 1 1
+firefox112.0 2 0
+chrome102.0.0.0 378 26
+chrome96.0.4664.110 11 11
+firefox136.0 1 1
+chrome130.0.6723.1056 38 3
+chrome79.0.3945.79 38 3
+firefox135.0 1 1
+safari17.2 1 1
+chrome100.0.4896.75 2 2
+firefox122.0 43 43
+chrome51.0.2704.103 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Softaculous 20250330182040
+Mozilla/5.0_(compatible) 20250326073545
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20250322002703
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250327211543
+WordPress/6.7.2;_https://carrey.ai 20250331235124
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20250322002703
+WordPress/6.7.2;_https://carrey.ai 20250331235124
+python-requests/2.6.0_CPython/2.7.5_Linux/4.19.188-10.el7.ucloud.x86_64 20250326113951
+Softaculous 20250330182040
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 871 871
+From1 2 2
+From2 1 1
+From3 0 0
+From4 131 1119
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+cn_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+405 3 62
+409 1 1213
+403 3 3726
+404 53 3386827
+301 51 0
+400 1 5
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 39
+/yad2Ph 1 -
+/wp-content/plugins/wp-engine-module/assets/icon-128x128.png 1 -
+/sitemap.txt 2 -
+/backup 1 www.google.com
+/carrey 1 www.google.com
+/wp-content/plugins/akismet-plugin/akismet.php 1 -
+/.vscode/sftp.json 1 -
+/wp-json/v1/u 2 -
+/wp-content/plugins/fix/up.php 1 -
+/temp 1 www.google.com
+/wp-includes/customize/customize/cache.php 1 -
+/heapdump 2 -
+/wp 2 www.google.com
+/sitemap.xml 2 -
+/wp-content/plugins/akismet-plugin/akismetss.php 1 -
+/ads.txt 1 http://carrey.ai/ads.txt
+/wp-content/plugins/google-analytics-for-wordpress/readme.txt 1 -
+/wp-content/themes/twentystd/ 1 -
+/up.php 1 -
+/wp-content/themes/classwithtostring.php 1 -
+/wordpress 2 www.google.com
+/test 1 www.google.com
+/wp-content/plugins/definite-unique/license.txt 2 -
+/sitemaps.xml 2 -
+/sitemap.xml.gz 2 -
+/new 1 www.google.com
+/actuator/heapdump 2 -
+/wp-content/plugins/zezotonahe/zezotonahe.php 1 -
+/wordpress/wp-admin/setup-config.php 1 http://carrey.ai/wordpress/wp-admin/setup-config.php
+/images/images/cache.php 2 -
+/assets/images/accesson.php 2 -
+/sFET1A 1 -
+/options-reading.php 1 -
+/options-permalink.php 1 -
+/wp-content/plugins/WordPressCore/include.php 1 -
+/wp-json/custom/v1/ 2 -
+/old 1 www.google.com
+/lock360.php 1 -
+/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 135
+198.54.115.157 775 775 31805939 20250331235124
+57.129.4.123 12 165 1126911 20250305144232
+106.75.249.249 8 8 29135 20250326113951
+54.37.10.247 6 111 691664 20250305144240
+62.209.114.86 5 43 372389 20250330161849
+168.151.119.53 4 38 282167 20250310232324
+162.213.255.14 4 4 792 20250324024025
+205.169.39.222 4 54 449000 20250310231656
+34.86.212.119 4 39 286842 20250310221403
+95.29.226.13 3 38 306044 20250314042002
+38.60.255.19 3 38 306044 20250314041852
+51.89.36.64 3 41 290123 20250311021125
+205.169.39.21 3 38 286843 20250311012624
+162.0.232.160 3 3 558 20250323015410
+54.70.53.60 3 38 286842 20250310221401
+104.197.69.115 3 38 286842 20250310231613
+192.64.117.193 3 3 582 20250323215111
+141.95.114.30 3 3 0 20250320005738
+18.144.101.242 3 38 306044 20250314041714
+38.60.255.143 3 38 286717 20250308000800
+167.114.3.106 3 36 234039 20250305144233
+51.75.162.18 3 37 301224 20250305144226
+91.222.174.85 3 3 1667802 20250331040422
+188.241.249.115 3 37 282311 20250316141207
+180.149.14.39 3 37 282119 20250316141256
+63.250.38.151 1 1 210 20250323230909
+44.243.171.52 2 2 152055 20250323071739
+79.139.61.219 1 1 186 20250323223646
+5.189.203.174 1 1 76070 20250321111955
+34.213.48.45 2 2 152134 20250331061519
+192.64.117.93 1 1 210 20250322192618
+162.0.232.166 1 1 210 20250323173756
+44.247.47.152 2 2 152330 20250309055919
+118.26.39.231 1 1 76164 20250302101054
+170.247.221.187 1 1 56976 20250321042937
+89.47.161.179 1 1 75980 20250320002420
+68.65.122.96 2 2 372 20250323224938
+162.213.251.40 1 1 186 20250323204702
+181.214.31.78 1 1 186 20250322195412
+134.199.209.28 1 1 0 20250326073545
+195.181.242.53 1 1 76166 20250313054435
+198.187.29.183 2 2 396 20250323222352
+162.0.232.111 1 1 186 20250323152451
+54.177.74.8 1 1 76067 20250329023633
+176.100.243.133 1 1 0 20250310225225
+212.24.110.22 1 1 76164 20250310202633
+35.187.132.195 2 12 135874 20250310221406
+171.25.193.80 1 1 76164 20250310221357
+142.44.198.48 1 19 130305 20250318142356
+93.158.91.24 1 1 76070 20250321180149
+192.64.117.43 1 1 186 20250322235509
+34.122.147.229 2 30 187048 20250310231650
+198.54.120.87 1 1 186 20250323211901
+198.54.114.56 1 1 186 20250323171248
+162.0.232.11 1 1 186 20250323153734
+66.29.132.86 1 1 210 20250322232819
+205.210.31.76 1 1 555932 20250322002703
+54.183.2.7 1 1 76165 20250307222155
+118.194.250.113 1 1 76067 20250327235722
+94.159.108.209 1 1 76165 20250309202008
+66.70.220.140 2 17 148723 20250318142402
+87.236.176.10 1 1 76067 20250327104842
+118.193.36.63 1 1 76165 20250315164935
+34.209.128.161 2 2 152328 20250311061444
+64.225.100.118 1 1 76165 20250310234536
+162.0.232.211 2 2 396 20250323182757
+192.36.109.117 1 1 76067 20250325131303
+99.81.216.206 1 1 76071 20250322234859
+162.0.235.2 1 1 186 20250324012546
+203.161.63.215 1 1 186 20250323202131
+66.29.146.47 1 1 186 20250323170633
+45.157.54.38 1 1 556160 20250303173114
+147.185.132.60 1 1 555922 20250318122929
+199.188.200.139 1 1 186 20250323012946
+5.133.192.88 1 1 76067 20250329130640
+66.29.153.28 1 1 186 20250323024959
+192.104.34.34 1 1 555934 20250331092854
+54.37.50.199 1 1 232 20250325152349
+13.52.212.242 1 1 76071 20250322001250
+54.185.205.140 2 2 152134 20250327062326
+34.223.66.164 1 1 556160 20250306000911
+54.38.152.16 0 2 5118 
+5.133.192.168 1 1 76166 20250307125728
+3.16.138.154 1 1 76164 20250310221359
+118.139.180.100 2 2 82687 20250322160224
+109.235.67.253 1 1 76070 20250323051813
+195.181.242.86 1 1 76167 20250309153505
+149.34.252.49 1 1 76066 20250317211720
+35.187.132.194 0 10 19661 
+93.158.91.31 1 1 76165 20250314213237
+45.157.54.34 1 1 556160 20250314140456
+185.13.96.91 1 1 0 20250319090430
+18.132.196.8 2 2 103683 20250313193943
+162.213.249.63 1 1 186 20250322201732
+54.68.150.15 1 1 76165 20250307192502
+31.56.240.152 3 38 306044 20250314041735
+89.47.162.206 1 1 0 20250310135101
+89.47.163.216 1 1 76164 20250302155722
+198.54.114.37 3 3 558 20250324023320
+54.185.129.241 2 2 152330 20250315060748
+94.176.239.43 2 2 152230 20250326174858
+93.158.90.69 1 1 76164 20250312103257
+54.202.110.230 2 2 152332 20250313054418
+93.127.222.80 1 1 76067 20250325023524
+199.188.200.151 1 1 210 20250324021252
+198.54.126.140 1 1 210 20250324002149
+98.81.96.128 1 1 76165 20250310044723
+162.0.209.35 2 2 420 20250323234853
+46.228.199.158 2 2 152157 20250328051526
+50.19.129.227 1 1 76067 20250331134308
+138.197.127.231 1 1 0 20250311221251
+199.188.201.3 1 1 210 20250324022622
+54.88.179.33 2 2 114216 20250317095810
+185.12.251.124 1 1 76067 20250331165205
+217.160.187.4 1 1 186 20250324011230
+198.54.114.59 1 1 186 20250324013226
+199.188.200.191 1 1 186 20250323221046
+198.54.126.134 2 2 464 20250326103232
+157.173.122.176 2 2 152329 20250312085322
+198.54.114.25 1 1 210 20250324015911
+3.142.211.11 1 1 76159 20250310221359
+108.167.151.90 1 1 186 20250323020013
+3.87.245.236 1 1 76166 20250308192959
+35.187.132.193 2 12 63387 20250310221405
+52.159.93.251 1 1 186 20250323161542
+185.247.137.49 1 1 76067 20250327211543
+94.247.172.129 1 1 76067 20250329140046
+188.126.94.107 1 1 76082 20250311052932
+195.181.243.11 1 1 76165 20250306063803
+198.244.133.160 1 1 0 20250318142354
+51.38.135.19 2 29 187197 20250305144222
+68.65.122.90 1 1 186 20250324003418
+18.144.162.169 1 1 76166 20250314165738
+3.90.72.181 1 1 76067 20250331134305
+176.223.141.62 1 1 76016 20250330002014
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20250301 8 8 556223 3
+20250302 28 28 708698 9
+20250303 28 28 1112551 7
+20250304 21 21 1744771 8
+20250305 39 391 3097300 9
+20250306 34 34 1493397 11
+20250307 23 23 784824 10
+20250308 19 54 919169 8
+20250309 16 16 860927 6
+20250310 63 310 3011035 21
+20250311 39 112 2474066 12
+20250312 25 25 708698 11
+20250313 34 34 2305468 9
+20250314 42 182 2489079 15
+20250315 31 31 1897206 9
+20250316 37 105 1197049 9
+20250317 29 29 1858496 9
+20250318 34 69 2508044 11
+20250319 12 12 556027 6
+20250320 29 29 2124160 10
+20250321 24 24 1877080 9
+20250322 58 58 1349042 20
+20250323 108 108 1901870 36
+20250324 41 41 558368 15
+20250325 25 25 1820347 10
+20250326 28 28 1773559 9
+20250327 21 21 1240642 8
+20250328 44 44 632442 10
+20250329 20 20 784282 9
+20250330 25 63 3228222 10
+20250331 20 20 2048242 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 10
+5mn-15mn 10
+30mn-1h 22
+30s-2mn 9
+2mn-5mn 5
+1h+ 14
+0s-30s 269
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 22
+/wp-cron.php 374 0 127 60
+/wp-admin/admin-ajax.php 330 6279 53 116
+/ 177 43063690 101 87
+/xmlrpc.php 58 11430 51 52
+/wp-content/themes/sassly/assets/fonts/icomoon.ttf 28 607824 1 7
+/wp-content/plugins/sassly-essential/assets/fonts/oak-suns/OakSans-Regular.ttf 18 1048608 0 13
+/blog-pages/ 2 54937 0 1
+/login/ 2 42258 2 0
+/wp-login.php 2 3360 1 1
+/pricing/ 2 72169 0 0
+/integration/ 1 46412 0 0
+/index.php 1 6617 0 1
+/wp-json/contact-form-7/v1/contact-forms/15153/feedback/schema 1 0 0 0
+/about/ 1 36875 0 0
+/author/lift/ 1 25767 0 0
+/integration-single/ 1 48207 1 0
+/sign-up/ 1 23840 1 0
+/contact/ 1 27085 0 0
+/options-permalink.php 1 0 0 1
+/options-reading.php 1 0 0 0
+/why-you-should-use-carrey-ai-to-rank-your-website/ 1 46922 0 0
+/lock360.php 1 0 1 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 188
+500-1K 282
+0-44 789
+44-100 2
+5K+ 786
+100-500 374
+1K-2K 269
+END_FILESIZE
