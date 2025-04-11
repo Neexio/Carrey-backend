@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard &lsaquo; Carrey SEO Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f1;
+            color: #1d2327;
+        }
+        .wp-admin {
+            display: flex;
+            min-height: 100vh;
+        }
+        .wp-admin-sidebar {
+            width: 160px;
+            background: #1d2327;
+            color: #f0f0f1;
+            padding: 20px 0;
+        }
+        .wp-admin-sidebar h2 {
+            padding: 0 20px;
+            margin: 0 0 20px 0;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .wp-admin-sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .wp-admin-sidebar li {
+            padding: 0;
+            margin: 0;
+        }
+        .wp-admin-sidebar a {
+            display: block;
+            padding: 8px 20px;
+            color: #f0f0f1;
+            text-decoration: none;
+        }
+        .wp-admin-sidebar a:hover {
+            background: #2271b1;
+        }
+        .wp-admin-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .wp-admin-header {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.13);
+        }
+        .wp-admin-header h1 {
+            margin: 0;
+            font-size: 23px;
+            font-weight: 400;
+        }
+        .wp-admin-main {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.13);
+        }
+        .welcome-panel {
+            background: #f0f6fc;
+            border-left: 4px solid #72aee6;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .seo-analysis {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.13);
+        }
+        .seo-analysis-form {
+            margin-bottom: 20px;
+        }
+        .seo-analysis-form input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .seo-analysis-form button {
+            background: #2271b1;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        .seo-analysis-form button:hover {
+            background: #135e96;
+        }
+        .seo-results {
+            display: none;
+        }
+        .seo-score {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2271b1;
+            margin-bottom: 10px;
+        }
+        .seo-recommendations {
+            list-style-type: none;
+            padding: 0;
+        }
+        .seo-recommendations li {
+            padding: 8px;
+            margin-bottom: 5px;
+            background: #f0f6fc;
+            border-left: 4px solid #72aee6;
+        }
+        .seo-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .seo-metric {
+            background: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        .seo-metric-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2271b1;
+        }
+    </style>
+</head>
+<body>
+    <div class="wp-admin">
+        <div class="wp-admin-sidebar">
+            <h2>Carrey SEO</h2>
+            <ul>
+                <li><a href="/wp-admin">Dashboard</a></li>
+                <li><a href="/wp-admin/post-new.php">Add New</a></li>
+                <li><a href="/wp-admin/edit.php">Posts</a></li>
+                <li><a href="/wp-admin/media-new.php">Media</a></li>
+                <li><a href="/wp-admin/edit-comments.php">Comments</a></li>
+                <li><a href="/wp-admin/themes.php">Appearance</a></li>
+                <li><a href="/wp-admin/plugins.php">Plugins</a></li>
+                <li><a href="/wp-admin/users.php">Users</a></li>
+                <li><a href="/wp-admin/tools.php">Tools</a></li>
+                <li><a href="/wp-admin/options-general.php">Settings</a></li>
+            </ul>
+        </div>
+        <div class="wp-admin-content">
+            <div class="wp-admin-header">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="wp-admin-main">
+                <div class="welcome-panel">
+                    <h2>Welcome to Carrey SEO Dashboard!</h2>
+                    <p>This is your admin dashboard where you can manage your website's content and settings.</p>
+                </div>
+                <div class="seo-analysis">
+                    <h2>SEO Analysis Tool</h2>
+                    <div class="seo-analysis-form">
+                        <input type="text" id="analysis-url" placeholder="Enter URL to analyze" />
+                        <input type="text" id="analysis-keywords" placeholder="Enter keywords (optional)" />
+                        <button onclick="analyzeSEO()">Analyze</button>
+                    </div>
+                    <div id="seo-results" class="seo-results">
+                        <div class="seo-score">Score: <span id="seo-score">0</span>/100</div>
+                        <h3>Recommendations</h3>
+                        <ul id="seo-recommendations" class="seo-recommendations"></ul>
+                        <h3>Metrics</h3>
+                        <div id="seo-metrics" class="seo-metrics"></div>
+                    </div>
+                </div>
+                <div id="user-info">
+                    <h2>User Information</h2>
+                    <p>Loading user data...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Fetch user data
+        fetch('/wp-json/wp/v2/users/1')
+            .then(response => response.json())
+            .then(user => {
+                const userInfo = document.getElementById('user-info');
+                userInfo.innerHTML = `
+                    <h2>User Information</h2>
+                    <p>Username: ${user.user_login}</p>
+                    <p>Email: ${user.user_email}</p>
+                    <p>Display Name: ${user.display_name}</p>
+                `;
+            })
+            .catch(error => {
+                console.error('Error fetching user data:', error);
+                const userInfo = document.getElementById('user-info');
+                userInfo.innerHTML = `
+                    <h2>User Information</h2>
+                    <p>Error loading user data. Please try again later.</p>
+                `;
+            });
+
+        function analyzeSEO() {
+            const url = document.getElementById('analysis-url').value;
+            const keywords = document.getElementById('analysis-keywords').value;
+            
+            if (!url) {
+                alert('Please enter a URL to analyze');
+                return;
+            }
+
+            fetch('/wp-json/carrey/v1/seo-analysis', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url, keywords: keywords.split(',').map(k => k.trim()) })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultsDiv = document.getElementById('seo-results');
+                const scoreSpan = document.getElementById('seo-score');
+                const recommendationsList = document.getElementById('seo-recommendations');
+                const metricsDiv = document.getElementById('seo-metrics');
+
+                // Update score
+                scoreSpan.textContent = data.score;
+
+                // Update recommendations
+                recommendationsList.innerHTML = '';
+                data.recommendations.forEach(rec => {
+                    const li = document.createElement('li');
+                    li.textContent = rec;
+                    recommendationsList.appendChild(li);
+                });
+
+                // Update metrics
+                metricsDiv.innerHTML = '';
+                Object.entries(data.metrics).forEach(([key, value]) => {
+                    const metricDiv = document.createElement('div');
+                    metricDiv.className = 'seo-metric';
+                    metricDiv.innerHTML = `
+                        <div class="seo-metric-value">${value}</div>
+                        <div class="seo-metric-label">${key}</div>
+                    `;
+                    metricsDiv.appendChild(metricDiv);
+                });
+
+                // Show results
+                resultsDiv.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred during analysis. Please try again.');
+            });
+        }
+    </script>
+</body>
+</html> 

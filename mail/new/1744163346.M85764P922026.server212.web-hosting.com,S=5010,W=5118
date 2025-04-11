@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: carrfacy@server212.web-hosting.com
+Received: from server212.web-hosting.com
+	by server212.web-hosting.com with LMTP
+	id ME+VBBLS9WeqEQ4AbfgLEw
+	(envelope-from <>)
+	for <carrfacy@server212.web-hosting.com>; Tue, 08 Apr 2025 21:49:06 -0400
+Return-path: <>
+Envelope-to: carrfacy@server212.web-hosting.com
+Delivery-date: Tue, 08 Apr 2025 21:49:06 -0400
+Received: from mailnull by server212.web-hosting.com with local (Exim 4.98.1)
+	id 1u2KYs-00000003rxR-0FwE
+	for carrfacy@server212.web-hosting.com;
+	Tue, 08 Apr 2025 21:49:06 -0400
+X-Failed-Recipients: espenhoxha@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server212.web-hosting.com>
+To: carrfacy@server212.web-hosting.com
+References: <EWozWP3lHVvscGiLiFe6QHmfe1WVQbN9q1OkSPwJM@carrey.ai>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1744163346-eximdsn-1678055036
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1u2KYs-00000003rxR-0FwE@server212.web-hosting.com>
+Date: Tue, 08 Apr 2025 21:49:06 -0400
+
+--1744163346-eximdsn-1678055036
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  espenhoxha@gmail.com
+    host prod-lbout-phx.jellyfish.systems [198.54.127.244]
+    SMTP error from remote mail server after end of data:
+    554 5.7.1 Spam content detected in the message body. Reason:
+    JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1744163346-eximdsn-1678055036
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server212.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;espenhoxha@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; prod-lbout-phx.jellyfish.systems
+Diagnostic-Code: smtp; 554 5.7.1 Spam content detected in the message body. Reason: JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1744163346-eximdsn-1678055036
+Content-type: message/rfc822
+
+Return-path: <carrfacy@server212.web-hosting.com>
+Received: from carrfacy by server212.web-hosting.com with local (Exim 4.98.1)
+	(envelope-from <carrfacy@server212.web-hosting.com>)
+	id 1u2KYr-00000003rxA-1Itl
+	for espenhoxha@gmail.com;
+	Tue, 08 Apr 2025 21:49:05 -0400
+To: espenhoxha@gmail.com
+Subject: =?us-ascii?Q?[Carrey]_Your_Site_is_Experiencing_a_Technical_?=
+ =?us-ascii?Q?Issue?=
+Date: Wed, 9 Apr 2025 01:49:05 +0000
+From: WordPress <wordpress@carrey.ai>
+Message-ID: <EWozWP3lHVvscGiLiFe6QHmfe1WVQbN9q1OkSPwJM@carrey.ai>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <carrfacy@server212.web-hosting.com>
+
+Howdy!
+
+WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.
+
+In this case, WordPress caught an error with one of your plugins, Carrey SEO Dashboard.
+
+First, visit your website (https://carrey.ai/) and check for any visible issues. Next, visit the page where the error was caught (https://carrey.ai/wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=) and check for any visible issues.
+
+Please contact your host for assistance with investigating this issue further.
+
+If your site appears broken and you can't access your dashboard normally, WordPress now has a special "recovery mode". This lets you safely login to your dashboard and investigate further.
+
+https://carrey.ai/wp-login.php?action=enter_recovery_mode&rm_token=2lD7xgu2aOw9tz7c4onhzN&rm_key=8qXnOOjOxnC6vdP51f19Ed
+
+To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.
+
+When seeking help with this issue, you may be asked for some of the following information:
+WordPress version 6.7.2
+Active theme: Sassly Child (version 1.0)
+Current plugin: Carrey SEO Dashboard (version 1.0.0)
+PHP version 8.1.32
+
+
+
+Error Details
+=============
+An error of type E_ERROR was caused in line 1001 of the file /home/carrfacy/public_html/wp-content/plugins/carrey-seo-dashboard/carrey-seo-dashboard.php. Error message: Uncaught Error: Class "Carrey_License_Handler" not found in /home/carrfacy/public_html/wp-content/plugins/carrey-seo-dashboard/carrey-seo-dashboard.php:1001
+Stack trace:
+#0 /home/carrfacy/public_html/wp-includes/class-wp-hook.php(324): carrey_seo_dashboard_init()
+#1 /home/carrfacy/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/carrfacy/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/carrfacy/public_html/wp-admin/admin.php(175): do_action()
+#4 /home/carrfacy/public_html/wp-admin/plugins.php(10): require_once('/home/carrfacy/...')
+#5 {main}
+  thrown
+
+
+--1744163346-eximdsn-1678055036--

@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: carrfacy@server212.web-hosting.com
+Received: from server212.web-hosting.com
+	by server212.web-hosting.com with LMTP
+	id GOHtIjtdgWcLYQgAbfgLEw
+	(envelope-from <>)
+	for <carrfacy@server212.web-hosting.com>; Fri, 10 Jan 2025 12:47:39 -0500
+Return-path: <>
+Envelope-to: carrfacy@server212.web-hosting.com
+Delivery-date: Fri, 10 Jan 2025 12:47:39 -0500
+Received: from mailnull by server212.web-hosting.com with local (Exim 4.96.2)
+	id 1tWJ6h-002MAc-1p
+	for carrfacy@server212.web-hosting.com;
+	Fri, 10 Jan 2025 12:47:39 -0500
+X-Failed-Recipients: eiriklarsen2010@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server212.web-hosting.com>
+To: carrfacy@server212.web-hosting.com
+References: <E1tWJ6h-002MAB-05@server212.web-hosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1736531259-eximdsn-765128333
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1tWJ6h-002MAc-1p@server212.web-hosting.com>
+Date: Fri, 10 Jan 2025 12:47:39 -0500
+
+--1736531259-eximdsn-765128333
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  eiriklarsen2010@gmail.com
+    host prod-lbout-phx.jellyfish.systems [198.54.127.244]
+    SMTP error from remote mail server after end of data:
+    554 5.7.1 Spam content detected in the message body. Reason:
+    JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1736531259-eximdsn-765128333
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server212.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;eiriklarsen2010@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; prod-lbout-phx.jellyfish.systems
+Diagnostic-Code: smtp; 554 5.7.1 Spam content detected in the message body. Reason: JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+
+--1736531259-eximdsn-765128333
+Content-type: message/rfc822
+
+Return-path: <carrfacy@server212.web-hosting.com>
+Received: from carrfacy by server212.web-hosting.com with local (Exim 4.96.2)
+	(envelope-from <carrfacy@server212.web-hosting.com>)
+	id 1tWJ6h-002MAB-05
+	for eiriklarsen2010@gmail.com;
+	Fri, 10 Jan 2025 12:47:39 -0500
+To: eiriklarsen2010@gmail.com
+Subject: =?UTF-8?B?TmV3IEluc3RhbGxhdGlvbiBvZiBXb3JkUHJlc3M=?=
+X-PHP-Originating-Script: 0:mail_functions.php
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+From: Softaculous <softaculous@server212.web-hosting.com>
+Reply-To: softaculous@server212.web-hosting.com
+X-Mailer: PHP/8.3.14
+Message-Id: <E1tWJ6h-002MAB-05@server212.web-hosting.com>
+Sender:  <carrfacy@server212.web-hosting.com>
+Date: Fri, 10 Jan 2025 12:47:39 -0500
+
+A new installation of WordPress 6.7.1 has been completed. The details of the installation are shown below:
+Path : /home/carrfacy/public_html
+URL : http://carrey.ai
+Admin URL : http://carrey.ai/wp-admin/
+Admin Username : Eirik Shpend
+Admin Password : ********
+Admin Email: Eiriklarsen2010@gmail.com
+MySQL Database : carrfacy_wp137
+MySQL DB User : carrfacy_wp137
+MySQL DB Host : localhost
+MySQL DB Password : ********
+Update Notification : Enabled
+Auto Upgrade : Enabled (Minor)
+Automated Backups : Disabled
+Time of Installation : January 10, 2025, 12:47 pm
+
+If you wish to unsubscribe from such emails, go to your Control Panel -> Softaculous -> Email Settings
+
+
+--1736531259-eximdsn-765128333--

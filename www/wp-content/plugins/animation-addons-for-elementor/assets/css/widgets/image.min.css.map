@@ -1,0 +1,1 @@
+{"version":3,"sources":["widgets/image.css"],"names":[],"mappings":"AAAA,iBACI,WAAY,OACZ,SAAU,OAEd,qBACI,WAAY,MACZ,iBAAkB","file":"image.min.css","sourcesContent":[".img_anim_reveal {\r\n    visibility: hidden;\r\n    overflow: hidden;\r\n}\r\n.img_anim_reveal img {\r\n    object-fit: cover;\r\n    transform-origin: left;\r\n}"]}

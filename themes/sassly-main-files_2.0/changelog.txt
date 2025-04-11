@@ -1,0 +1,53 @@
+== Changelog ==
+
+v2.0 -- 21-01-2025
+compatibly: Check compatibly with core elementor
+Updated: Binox Essential Plugin (1.7)
+Updated: Animation Addon for Elementor(2.0)
+Updated: Animation Addon for Elementor ( Pro )
+
+v1.8.1 -- 18-12-2024
+fixed: fix swiper slider style issue
+compatibly: Check compatibly with core elementor
+
+v1.8 -- 10-12-2024
+Fixed: Text domain issues
+Added: Alternative demo import option
+
+
+v1.7 -- 21-11-2024
+Updated: Demos
+Fixed: Demo Import issues
+
+
+v1.6 -- 03-10-2024
+Updated: Translate able text
+Fixed: Theme Update issue
+
+v1.5 -- 28-09-2024
+Fixed: Increased Performance Speed
+Updated: Theme Settings
+Updated: Demos
+
+
+v1.4 -- 29-08-2024
+Fixed: PHP Session issues
+
+
+v1.3 -- 26-08-2024
+Added: WooCommerce
+Updated: Demo
+
+v1.2 -- 15-07-2024
+Updated: Demo Updated
+
+
+v1.1 -- 30-06-2024
+Updated: Demo Updated
+Fixed: Demo import permission issue
+New: Login and Register widgets
+
+
+v1.0 -- 12-06-2024
+Theme initial released
+   

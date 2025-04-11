@@ -1,0 +1,140 @@
+Return-Path: <>
+Delivered-To: carrfacy@server212.web-hosting.com
+Received: from server212.web-hosting.com
+	by server212.web-hosting.com with LMTP
+	id oItWCtQ582dRuBcAbfgLEw
+	(envelope-from <>)
+	for <carrfacy@server212.web-hosting.com>; Sun, 06 Apr 2025 22:35:00 -0400
+Return-path: <>
+Envelope-to: carrfacy@server212.web-hosting.com
+Delivery-date: Sun, 06 Apr 2025 22:35:00 -0400
+Received: from out-03.shared.jellyfish.systems ([63.250.43.110]:33320)
+	by server212.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	id 1u1cKC-00000006guT-0XOr
+	for carrfacy@server212.web-hosting.com;
+	Sun, 06 Apr 2025 22:35:00 -0400
+Received: by shared.jellyfish.systems (Postfix)
+	id 4ZWCvv6zLfzHtyJ; Mon, 07 Apr 2025 02:34:19 +0000 (UTC)
+Date: Mon, 07 Apr 2025 02:34:19 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@shared.jellyfish.systems>
+Subject: Undelivered Mail Returned to Sender
+To: carrfacy@server212.web-hosting.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="4ZWCvs4vt9zHtsT.1743993259/shared.jellyfish.systems"
+Content-Transfer-Encoding: 8bit
+Message-Id: <4ZWCvv6zLfzHtyJ@shared.jellyfish.systems>
+X-Spam-Status: No, score=
+X-Spam-Score: 
+X-Spam-Bar: 
+X-Ham-Report: 
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--4ZWCvs4vt9zHtsT.1743993259/shared.jellyfish.systems
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host shared.jellyfish.systems.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<espenhoxha@gmail.com>: host gmail-smtp-in.l.google.com[108.177.15.27] said:
+    550-5.7.26 Your email has been blocked because the sender is
+    unauthenticated. 550-5.7.26 Gmail requires all senders to authenticate with
+    either SPF or DKIM. 550-5.7.26  550-5.7.26  Authentication results:
+    550-5.7.26  DKIM = did not pass 550-5.7.26  SPF [server212.web-hosting.com]
+    with ip: [63.250.43.110] = did not 550-5.7.26 pass 550-5.7.26  550-5.7.26
+    For instructions on setting up authentication, go to 550 5.7.26
+    https://support.google.com/mail/answer/81126#authentication
+    ffacd0b85a97d-39c3023c47dsi5727918f8f.526 - gsmtp (in reply to end of DATA
+    command)
+
+--4ZWCvs4vt9zHtsT.1743993259/shared.jellyfish.systems
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; shared.jellyfish.systems
+X-Postfix-Queue-ID: 4ZWCvs4vt9zHtsT
+X-Postfix-Sender: rfc822; carrfacy@server212.web-hosting.com
+Arrival-Date: Mon, 07 Apr 2025 02:34:17 +0000 (UTC)
+
+Final-Recipient: rfc822; espenhoxha@gmail.com
+Original-Recipient: rfc822;espenhoxha@gmail.com
+Action: failed
+Status: 5.7.26
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.26 Your email has been blocked because the
+    sender is unauthenticated. 550-5.7.26 Gmail requires all senders to
+    authenticate with either SPF or DKIM. 550-5.7.26  550-5.7.26
+    Authentication results: 550-5.7.26  DKIM = did not pass 550-5.7.26  SPF
+    [server212.web-hosting.com] with ip: [63.250.43.110] = did not 550-5.7.26
+    pass 550-5.7.26  550-5.7.26  For instructions on setting up authentication,
+    go to 550 5.7.26
+    https://support.google.com/mail/answer/81126#authentication
+    ffacd0b85a97d-39c3023c47dsi5727918f8f.526 - gsmtp
+
+--4ZWCvs4vt9zHtsT.1743993259/shared.jellyfish.systems
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <carrfacy@server212.web-hosting.com>
+NC-Service-Type: out-shared
+Received: from prod-lbout-phx.jellyfish.systems (unknown [198.54.114.31])
+	by shared.jellyfish.systems (Postfix) with ESMTPA id 4ZWCvs4vt9zHtsT
+	for <espenhoxha@gmail.com>; Mon, 07 Apr 2025 02:34:17 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=server212.web-hosting.com; s=default; h=Sender:Content-Type:MIME-Version:
+	Message-ID:From:Date:Subject:To:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Leyz86+yyjVHfnk9QLWojGHTaCsWBNMKuAPylJk7XF4=; b=ZOf3M7OH3BuKXttnac/DttMJlw
+	pNuJaVJJOMda8Kxi1vdjKI+vAVKSZTVis4GHzLTz4FaZb9JR6LSy1MLFWWq/67qOoU7j67anNXXvu
+	soIYmLPjbM5/MhNfkKDeYMXl0A95HPQn6qM188hdR02MeNbGSONL7+73c8ANz36+xcYbI+nRy0xMY
+	D/x4QfbyGWGvY4FHJjwrFVyaEFu/4+IUNXYTV2aegFB6Sc/0RduWPGglzW3WxcatIC/fcKs6UhP3G
+	ozVPhKhzGvhbi9Gfm9ZP/5b6nL8zCH/vy7MIL05LWOq8um5H99jIbS4azKUexZ4Y3Bj2ga++lbocx
+	mPWCOLvw==;
+Received: from carrfacy by server212.web-hosting.com with local (Exim 4.98.1)
+	(envelope-from <carrfacy@server212.web-hosting.com>)
+	id 1u1cJV-00000006grC-1gJU
+	for espenhoxha@gmail.com;
+	Sun, 06 Apr 2025 22:34:17 -0400
+To: espenhoxha@gmail.com
+Subject: [Carrey] Password Changed
+Date: Mon, 7 Apr 2025 02:34:17 +0000
+From: WordPress <wordpress@carrey.ai>
+Message-ID: <NIQiYA04bP1GShr6MQH7NA6Q1bxP4blwxMi0CU1llE@carrey.ai>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Sender:  <carrfacy@server212.web-hosting.com>
+
+Hi lift,
+
+This notice confirms that your password was changed on Carrey.
+
+If you did not change your password, please contact the Site Administrator at
+espenhoxha@gmail.com
+
+This email has been sent to espenhoxha@gmail.com
+
+Regards,
+All at Carrey
+https://carrey.ai
+
+
+--4ZWCvs4vt9zHtsT.1743993259/shared.jellyfish.systems--
