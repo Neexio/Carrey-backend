@@ -3,4 +3,16 @@ node_modules/
 .DS_Store
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log* 
+yarn-error.log*
+
+# Store filer
+backup_restore/www/wp-content/updraft/*.zip
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# Backup filer
+etc (1).zip
+backup_restore/ 
