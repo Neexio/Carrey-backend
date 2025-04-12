@@ -1,0 +1,6 @@
+*.zip
+*.7z
+*.rar
+*.log
+node_modules/
+.env
