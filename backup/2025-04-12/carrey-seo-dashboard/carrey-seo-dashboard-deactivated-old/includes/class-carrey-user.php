@@ -6,7 +6,6 @@ if (!defined('ABSPATH')) {
 class Carrey_User {
     private static $instance = null;
     private $user_data = array();
-    private $two_factor_enabled = false;
 
     public static function get_instance() {
         if (null === self::$instance) {
@@ -20,16 +19,12 @@ class Carrey_User {
         add_action('wp_ajax_carrey_login', array($this, 'handle_login'));
         add_action('wp_ajax_carrey_register', array($this, 'handle_registration'));
         add_action('wp_ajax_carrey_reset_password', array($this, 'handle_password_reset'));
-        add_action('wp_login', array($this, 'handle_login'), 10, 2);
-        add_action('admin_menu', array($this, 'add_security_menu'));
     }
 
     public function init() {
         if (is_user_logged_in()) {
             $this->load_user_data();
         }
-        // Sjekk om tofaktor-autentisering er aktivert for brukeren
-        $this->two_factor_enabled = get_user_meta(get_current_user_id(), 'carrey_2fa_enabled', true);
     }
 
     public function load_user_data() {
@@ -55,14 +50,6 @@ class Carrey_User {
 
         if (is_wp_error($user)) {
             wp_send_json_error(array('message' => $user->get_error_message()));
-        }
-
-        if ($this->is_two_factor_enabled($user->ID)) {
-            // Send 2FA-kode til brukeren
-            $this->send_2fa_code($user);
-            // Omdiriger til 2FA-siden
-            wp_redirect(home_url('/wp-login.php?2fa=1'));
-            exit;
         }
 
         wp_send_json_success(array('redirect' => admin_url('admin.php?page=carrey-dashboard')));
@@ -206,62 +193,5 @@ class Carrey_User {
             'message' => 'Registration successful!',
             'redirect' => admin_url('admin.php?page=carrey-subscription')
         ));
-    }
-
-    private function is_two_factor_enabled($user_id) {
-        return get_user_meta($user_id, 'carrey_2fa_enabled', true);
-    }
-
-    private function send_2fa_code($user) {
-        $code = wp_rand(100000, 999999);
-        update_user_meta($user->ID, 'carrey_2fa_code', $code);
-        update_user_meta($user->ID, 'carrey_2fa_code_expires', time() + 300); // 5 minutter
-
-        // Her ville vi normalt sende koden til brukeren via SMS eller e-post
-        // For testformål logger vi den
-        error_log("2FA-kode for {$user->user_email}: {$code}");
-    }
-
-    public function add_security_menu() {
-        add_menu_page(
-            'Sikkerhetsinnstillinger',
-            'Sikkerhet',
-            'manage_options',
-            'carrey-security',
-            array($this, 'render_security_page'),
-            'dashicons-shield',
-            30
-        );
-    }
-
-    public function render_security_page() {
-        if (isset($_POST['enable_2fa'])) {
-            update_user_meta(get_current_user_id(), 'carrey_2fa_enabled', true);
-            echo '<div class="notice notice-success"><p>Tofaktor-autentisering er nå aktivert.</p></div>';
-        }
-
-        $is_enabled = $this->is_two_factor_enabled(get_current_user_id());
-        ?>
-        <div class="wrap">
-            <h1>Sikkerhetsinnstillinger</h1>
-            <form method="post">
-                <table class="form-table">
-                    <tr>
-                        <th scope="row">Tofaktor-autentisering</th>
-                        <td>
-                            <label>
-                                <input type="checkbox" name="enable_2fa" <?php checked($is_enabled); ?>>
-                                Aktiver tofaktor-autentisering
-                            </label>
-                            <p class="description">
-                                Når aktivert, vil du motta en sikkerhetskode på e-post hver gang du logger inn.
-                            </p>
-                        </td>
-                    </tr>
-                </table>
-                <?php submit_button('Lagre innstillinger'); ?>
-            </form>
-        </div>
-        <?php
     }
 } 

@@ -16,8 +16,8 @@ $plans = $payment->get_plans();
 
 <div class="wrap carrey-subscription">
     <div class="carrey-header">
-        <h1>Unlock AI-powered SEO Optimization</h1>
-        <p class="subtitle">Boost your website's performance with our advanced AI technology</p>
+        <h1>Subscription</h1>
+        <p>Choose a subscription plan that fits your needs</p>
     </div>
 
     <?php if ($subscription): ?>
@@ -34,10 +34,7 @@ $plans = $payment->get_plans();
 
     <div class="carrey-plans-grid">
         <?php foreach ($plans as $plan_id => $plan): ?>
-            <div class="carrey-plan-card <?php echo $plan['featured'] ? 'featured' : ''; ?>">
-                <?php if ($plan['featured']): ?>
-                    <div class="featured-badge">Most Popular</div>
-                <?php endif; ?>
+            <div class="carrey-plan-card">
                 <h3><?php echo esc_html($plan['name']); ?></h3>
                 <div class="plan-price">
                     <span class="amount"><?php echo esc_html($plan['price']); ?></span>
@@ -45,54 +42,25 @@ $plans = $payment->get_plans();
                 </div>
                 <ul class="plan-features">
                     <?php foreach ($plan['features'] as $feature): ?>
-                        <li>
-                            <span class="feature-icon">✓</span>
-                            <?php echo esc_html($feature); ?>
-                        </li>
+                        <li><?php echo esc_html($feature); ?></li>
                     <?php endforeach; ?>
                 </ul>
                 <button class="button button-primary select-plan" data-plan="<?php echo esc_attr($plan_id); ?>">
-                    Get Started
+                    Select Plan
                 </button>
             </div>
         <?php endforeach; ?>
     </div>
 
-    <div class="carrey-benefits">
-        <h2>Why Choose Carrey SEO?</h2>
-        <div class="benefits-grid">
-            <div class="benefit-card">
-                <div class="benefit-icon">🤖</div>
-                <h3>AI-Powered Analysis</h3>
-                <p>Get deep insights into your website's performance with our advanced AI technology</p>
-            </div>
-            <div class="benefit-card">
-                <div class="benefit-icon">📈</div>
-                <h3>Real-time Optimization</h3>
-                <p>Automatically optimize your content and technical SEO in real-time</p>
-            </div>
-            <div class="benefit-card">
-                <div class="benefit-icon">🎯</div>
-                <h3>Keyword Tracking</h3>
-                <p>Track your keyword rankings and get actionable recommendations</p>
-            </div>
-            <div class="benefit-card">
-                <div class="benefit-icon">📱</div>
-                <h3>Mobile Optimization</h3>
-                <p>Ensure your website performs perfectly on all devices</p>
-            </div>
-        </div>
-    </div>
-
     <div id="carrey-payment-form" style="display: none;">
-        <h2>Complete Your Subscription</h2>
+        <h2>Payment Information</h2>
         <form id="stripe-payment-form">
             <div class="form-row">
                 <label for="card-element">Credit Card</label>
                 <div id="card-element"></div>
                 <div id="card-errors" role="alert"></div>
             </div>
-            <button type="submit" class="button button-primary">Subscribe Now</button>
+            <button type="submit" class="button button-primary">Pay Now</button>
         </form>
     </div>
 </div>
@@ -104,31 +72,15 @@ $plans = $payment->get_plans();
 }
 
 .carrey-header {
-    text-align: center;
-    margin-bottom: 50px;
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #2271b1 0%, #135e96 100%);
-    color: white;
-    border-radius: 12px;
-}
-
-.carrey-header h1 {
-    font-size: 2.5em;
-    margin: 0 0 10px;
-}
-
-.carrey-header .subtitle {
-    font-size: 1.2em;
-    opacity: 0.9;
-    margin: 0;
+    margin-bottom: 30px;
 }
 
 .carrey-current-subscription {
     background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
 .subscription-details {
@@ -138,50 +90,26 @@ $plans = $payment->get_plans();
 .carrey-plans-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-bottom: 50px;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 .carrey-plan-card {
     background: #fff;
-    padding: 40px 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
-    border: 2px solid transparent;
+    transition: transform 0.3s ease;
 }
 
 .carrey-plan-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-}
-
-.carrey-plan-card.featured {
-    border-color: #2271b1;
-    transform: scale(1.05);
-}
-
-.carrey-plan-card.featured:hover {
-    transform: scale(1.05) translateY(-10px);
-}
-
-.featured-badge {
-    position: absolute;
-    top: -12px;
-    right: 20px;
-    background: #2271b1;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    font-weight: bold;
+    transform: translateY(-5px);
 }
 
 .plan-price {
-    margin: 30px 0;
-    font-size: 2.5em;
+    margin: 20px 0;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -192,122 +120,39 @@ $plans = $payment->get_plans();
 .plan-features {
     list-style: none;
     padding: 0;
-    margin: 30px 0;
-    text-align: left;
+    margin: 20px 0;
 }
 
 .plan-features li {
-    padding: 15px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #eee;
-    display: flex;
-    align-items: center;
 }
 
 .plan-features li:last-child {
     border-bottom: none;
 }
 
-.feature-icon {
-    color: #2271b1;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.carrey-benefits {
-    margin: 60px 0;
-    text-align: center;
-}
-
-.carrey-benefits h2 {
-    margin-bottom: 40px;
-}
-
-.benefits-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-}
-
-.benefit-card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.benefit-card:hover {
-    transform: translateY(-5px);
-}
-
-.benefit-icon {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.benefit-card h3 {
-    margin: 0 0 15px;
-    color: #2271b1;
-}
-
-.benefit-card p {
-    margin: 0;
-    color: #666;
-    line-height: 1.5;
-}
-
 #carrey-payment-form {
     background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 30px;
 }
 
 .form-row {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #card-element {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    background: #f8f9fa;
+    border-radius: 4px;
 }
 
 #card-errors {
     color: #dc3232;
     margin-top: 10px;
-}
-
-.button-primary {
-    background: #2271b1;
-    border-color: #2271b1;
-    color: white;
-    padding: 12px 24px;
-    font-size: 1.1em;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-
-.button-primary:hover {
-    background: #135e96;
-    border-color: #135e96;
-    transform: translateY(-2px);
-}
-
-.button-secondary {
-    background: #f0f0f1;
-    border-color: #2271b1;
-    color: #2271b1;
-    padding: 10px 20px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-
-.button-secondary:hover {
-    background: #e2e4e7;
-    transform: translateY(-2px);
 }
 </style>
 
@@ -315,20 +160,7 @@ $plans = $payment->get_plans();
 jQuery(document).ready(function($) {
     var stripe = Stripe('<?php echo esc_js($payment->get_stripe_public_key()); ?>');
     var elements = stripe.elements();
-    var card = elements.create('card', {
-        style: {
-            base: {
-                fontSize: '16px',
-                color: '#32325d',
-                '::placeholder': {
-                    color: '#aab7c4'
-                }
-            },
-            invalid: {
-                color: '#dc3232'
-            }
-        }
-    });
+    var card = elements.create('card');
     card.mount('#card-element');
 
     card.addEventListener('change', function(event) {
