@@ -27,8 +27,6 @@ class Carrey_Dashboard {
         add_action('admin_enqueue_scripts', array($this, 'enqueue_scripts'));
         add_action('wp_ajax_carrey_analyze_website', array($this, 'analyze_website'));
         add_action('wp_ajax_carrey_automate_seo', array($this, 'automate_seo'));
-        add_action('admin_menu', array($this, 'add_test_environment_page'));
-        add_action('admin_init', array($this, 'handle_test_environment_actions'));
         $this->load_user_data();
         $this->load_automation_settings();
     }
@@ -343,66 +341,6 @@ class Carrey_Dashboard {
             return 'medium';
         } else {
             return 'low';
-        }
-    }
-
-    public function add_test_environment_page() {
-        add_submenu_page(
-            'carrey-dashboard',
-            'Test Environment',
-            'Test Environment',
-            'manage_options',
-            'carrey-test-environment',
-            array($this, 'render_test_environment_page')
-        );
-    }
-
-    public function render_test_environment_page() {
-        require_once plugin_dir_path(dirname(__FILE__)) . 'admin/templates/test-environment.php';
-    }
-
-    public function handle_test_environment_actions() {
-        if (!current_user_can('manage_options')) {
-            return;
-        }
-
-        if (isset($_POST['action'])) {
-            switch ($_POST['action']) {
-                case 'toggle_test_mode':
-                    if (check_admin_referer('carrey_test_mode_toggle', 'carrey_test_mode_nonce')) {
-                        $seo = Carrey_SEO::get_instance();
-                        if ($seo->is_test_mode_enabled()) {
-                            $seo->disable_test_mode();
-                        } else {
-                            $seo->enable_test_mode();
-                        }
-                    }
-                    break;
-
-                case 'add_test_site':
-                    if (check_admin_referer('carrey_add_test_site', 'carrey_add_site_nonce') && isset($_POST['site_url'])) {
-                        $seo = Carrey_SEO::get_instance();
-                        $seo->add_test_site(esc_url_raw($_POST['site_url']));
-                    }
-                    break;
-
-                case 'remove_test_site':
-                    if (check_admin_referer('carrey_remove_test_site', 'carrey_test_site_nonce') && isset($_POST['site_url'])) {
-                        $seo = Carrey_SEO::get_instance();
-                        $seo->remove_test_site(esc_url_raw($_POST['site_url']));
-                    }
-                    break;
-
-                case 'test_analysis':
-                    if (check_admin_referer('carrey_test_analysis', 'carrey_analysis_nonce') && isset($_POST['analysis_url'])) {
-                        $seo = Carrey_SEO::get_instance();
-                        $result = $seo->analyze_website(esc_url_raw($_POST['analysis_url']));
-                        
-                        // Lagre resultatet for visning
-                        update_option('carrey_last_test_analysis', $result);
-                    }
-                    break;
-            }
         }
     }
 } 

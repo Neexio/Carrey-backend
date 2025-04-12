@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrey Backend Test Environment</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .status.enabled {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status.disabled {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Carrey Backend Test Environment</h1>
+        
+        <div class="card">
+            <h2>Test Mode Status</h2>
+            <div id="testStatus" class="status"></div>
+            <button id="toggleTestMode">Toggle Test Mode</button>
+        </div>
+
+        <div class="card">
+            <h2>Test Domains</h2>
+            <table id="domainsTable">
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="domainsList"></tbody>
+            </table>
+            
+            <div class="form-group">
+                <h3>Add New Test Domain</h3>
+                <input type="text" id="newDomain" placeholder="example.com">
+                <button id="addDomain">Add Domain</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Hent teststatus
+        async function fetchTestStatus() {
+            const response = await fetch('/api/test/status');
+            const data = await response.json();
+            updateUI(data);
+        }
+
+        // Oppdater UI
+        function updateUI(data) {
+            const statusDiv = document.getElementById('testStatus');
+            statusDiv.textContent = `Test Mode: ${data.testMode ? 'Enabled' : 'Disabled'}`;
+            statusDiv.className = `status ${data.testMode ? 'enabled' : 'disabled'}`;
+
+            const domainsList = document.getElementById('domainsList');
+            domainsList.innerHTML = data.allowedDomains.map(domain => `
+                <tr>
+                    <td>${domain}</td>
+                    <td>
+                        <button onclick="removeDomain('${domain}')">Remove</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Toggle testmodus
+        document.getElementById('toggleTestMode').addEventListener('click', async () => {
+            await fetch('/api/test/toggle', { method: 'POST' });
+            fetchTestStatus();
+        });
+
+        // Legg til domene
+        document.getElementById('addDomain').addEventListener('click', async () => {
+            const domain = document.getElementById('newDomain').value;
+            if (domain) {
+                await fetch('/api/test/domains', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ domain })
+                });
+                document.getElementById('newDomain').value = '';
+                fetchTestStatus();
+            }
+        });
+
+        // Fjern domene
+        async function removeDomain(domain) {
+            await fetch(`/api/test/domains/${domain}`, { method: 'DELETE' });
+            fetchTestStatus();
+        }
+
+        // Initial load
+        fetchTestStatus();
+    </script>
+</body>
+</html> 
