@@ -20,48 +20,216 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    width: 100%;
 }
 
-/* Ensure all content is centered */
-.elementor-widget, .elementor-column, .elementor-container {
-    text-align: center !important;
-    justify-content: center !important;
-    align-items: center !important;
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .elementor-widget, .elementor-column, .elementor-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .elementor-section {
+        padding: 40px 0;
+    }
+
+    .elementor-widget-container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .elementor-button {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+
+    .wcf-nav-item {
+        padding: 15px 25px;
+        font-size: 18px;
+    }
 }
 
-/* Reset button and icon styles */
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .elementor-widget, .elementor-column, .elementor-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .elementor-section {
+        padding: 30px 0;
+    }
+
+    .elementor-button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .wcf-nav-item {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .elementor-widget, .elementor-column, .elementor-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .elementor-section {
+        padding: 20px 0;
+    }
+
+    .elementor-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .wcf-nav-item {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .elementor-widget-container {
+        padding: 0 10px;
+    }
+}
+
+/* Common styles for all devices */
+.elementor-widget-container,
+.elementor-widget,
+.elementor-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 button, .elementor-button, .wp-block-button__link {
     display: inline-block;
     margin: 10px auto;
-    padding: 12px 25px;
-    font-size: 16px;
     border: none;
     border-radius: 5px;
     background: #2ecc71;
     color: white;
     text-align: center;
+    transition: all 0.3s ease;
+}
+
+button:hover, .elementor-button:hover, .wp-block-button__link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 i, .elementor-icon, svg {
-    font-size: 24px !important;
-    max-width: 24px !important;
-    max-height: 24px !important;
+    font-size: 24px;
+    max-width: 24px;
+    max-height: 24px;
     color: inherit;
 }
 
-/* Prevent oversized background icons */
-[class*="icon"], .background-icon {
-    max-width: 24px !important;
-    max-height: 24px !important;
-    opacity: 0.7 !important;
-    position: relative !important;
-}
-
-/* Prevent layout shifts */
 img, svg {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Fix icon size and background */
+i, .elementor-icon {
+    font-size: 24px;
+    color: inherit;
+    background: transparent;
     display: inline-block;
+    vertical-align: middle;
+}
+
+/* Prevent layout shifts */
+img, svg, .elementor-icon i {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Force flex containers to behave consistently */
+.e-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Navigation menu fixes */
+.wcf-nav-item {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Ensure proper spacing */
+.elementor-section {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Fix for mobile menu */
+@media (max-width: 767px) {
+    .elementor-nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .elementor-nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Ensure proper text alignment */
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Fix for mobile images */
+@media (max-width: 767px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .elementor-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Ensure proper container width */
+.elementor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Fix for mobile buttons */
+@media (max-width: 767px) {
+    .elementor-button-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .elementor-button {
+        width: 100%;
+        max-width: 300px;
+    }
 }
 
 /* === GENERAL FIXES === */
@@ -103,25 +271,10 @@ header nav,
   justify-content: center !important;
 }
 
-/* === LAYOUT SPACING === */
-.section,
-.elementor-section {
-  padding: 20px !important;
-}
-
 /* === PREVENT FLOATING BLACK ICONS === */
 img[src*="data:image"], i[class*="icon"], svg {
   background: none !important;
   box-shadow: none !important;
-}
-
-/* Fix icon size and background */
-i, .elementor-icon {
-    font-size: 24px !important;
-    color: inherit !important;
-    background: transparent !important;
-    display: inline-block !important;
-    vertical-align: middle !important;
 }
 
 /* Prevent huge icons or emojis from stretching */
@@ -129,4 +282,94 @@ img, svg, .elementor-icon i {
     max-width: 100% !important;
     height: auto !important;
     object-fit: contain;
+}
+
+/* Reset misalignment caused by mobile-optimized styles */
+
+body {
+  overflow-x: hidden;
+}
+
+.wc-btn-wrapper.style-3 {
+  text-align: center !important;
+  display: inline-block;
+}
+
+.elementor-widget-wcf--sassly-button a.wc-btn-primary {
+  font-size: 16px !important;
+  padding: 12px 24px !important;
+}
+
+/* Fix oversized icons */
+.e-font-icon-svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+@font-face {
+  font-family: 'InstrumentSans';
+  src: url('https://carrey.ai/wp-content/uploads/2024/06/InstrumentSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* Fikse layout-shifts */
+img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+}
+
+/* Optimalisere bildeinnlasting */
+img[loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"].loaded {
+    opacity: 1;
+}
+
+/* Font optimalisering */
+@font-face {
+    font-family: 'InstrumentSans';
+    src: url('https://carrey.ai/wp-content/uploads/2024/06/InstrumentSans-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Elementor spesifikke fikser */
+.elementor-widget-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+}
+
+/* Responsive bilder */
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Theme Name: Sassly Child
+Theme URI: https://sassly.com
+Description: Sassly Child Theme
+Author: Sassly
+Author URI: https://sassly.com
+Template: sassly
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sassly-child
+*/
+
+@font-face {
+  font-family: 'InstrumentSans';
+  src: url('https://carrey.ai/wp-content/uploads/2024/06/InstrumentSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* TEMP FIX - Hide nav menu */
+.wcf__nav-menu {
+  display: none !important;
 }
