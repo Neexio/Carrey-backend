@@ -4,12 +4,12 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
-define('DB_NAME', 'wordpress');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '');
-define('DB_HOST', 'localhost');
+define('DB_NAME', 'Carrfacy_wp137');
+define('DB_USER', 'carrfacy_Lift');
+define('DB_PASSWORD', 'Eirik16498991');
+define('DB_HOST', '127.0.0.1:33060');
 define('DB_CHARSET', 'utf8mb4');
-define('DB_COLLATE', 'utf8mb4_unicode_ci');
+define('DB_COLLATE', 'utf8mb4_unicode_520_ci');
 
 /**#@+
  * Authentication unique keys and salts.
@@ -28,14 +28,14 @@ define('NONCE_SALT',       'atrmd1mhrrtksubvtzwcaj97p1kaisdcvqd9trfds7sfnvr9sjea
 /**
  * WordPress database table prefix.
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wpq8_';
 
 /**
  * For developers: WordPress debugging mode.
  */
-define('WP_DEBUG', false);
-define('WP_DEBUG_LOG', false);
-define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
 
 // Define site URL and home URL
 define('WP_HOME', 'https://carrey.ai');
