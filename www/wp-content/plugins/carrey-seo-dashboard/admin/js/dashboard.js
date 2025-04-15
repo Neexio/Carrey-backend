@@ -129,16 +129,6 @@ jQuery(document).ready(function($) {
         });
     });
 
-    // Add hover effects for stat boxes
-    $('.carrey-stat-box').hover(
-        function() {
-            $(this).css('transform', 'translateY(-5px)');
-        },
-        function() {
-            $(this).css('transform', 'translateY(0)');
-        }
-    );
-
     // Add click handlers for recommendation cards
     $('.recommendation-card').on('click', function(e) {
         if (!$(e.target).is('button')) {

@@ -13,7 +13,114 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: carrey-theme
 */
 
+/* Debug info */
+body::before {
+    content: "Carrey Theme Loaded";
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #21D37E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    z-index: 9999;
+    font-size: 12px;
+}
+
 /* Import main styles */
 @import url('assets/css/main.css');
 
-/* Theme styles will be loaded from template files */ 
+/* Theme styles will be loaded from template files */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Elementor layout fixes */
+.elementor-section {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    max-width: 1200px !important;
+    position: relative !important;
+}
+
+.elementor-container {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    max-width: 1200px !important;
+    position: relative !important;
+}
+
+.elementor-column {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.elementor-widget-wrap {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.elementor-element {
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .elementor-section {
+        padding: 0 15px !important;
+    }
+
+    .elementor-container {
+        padding: 0 15px !important;
+    }
+
+    .elementor-column {
+        margin-bottom: 20px !important;
+    }
+
+    .elementor-widget-wrap {
+        padding: 0 10px !important;
+    }
+
+    .elementor-button {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    img, svg, .elementor-icon {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .elementor-icon {
+        margin: 0 auto !important;
+    }
+
+    .elementor-widget-text-editor {
+        text-align: center !important;
+    }
+
+    .elementor-heading-title {
+        text-align: center !important;
+    }
+} 

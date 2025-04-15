@@ -1,6 +1,9 @@
 .carrey-dashboard {
-    max-width: 1200px;
-    margin: 20px auto;
+    padding: 20px;
+    max-width: 1400px;
+    margin-left: 0;
+    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .carrey-header {
@@ -9,9 +12,21 @@
 
 .carrey-stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .carrey-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carrey-stats-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .carrey-stat-box {
@@ -288,4 +303,281 @@
     background: #006291;
     border-color: #005177;
     color: #fff;
+}
+
+/* Carrey SEO Dashboard Styles */
+.carrey-dashboard h1 {
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.carrey-dashboard .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.carrey-dashboard .form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.carrey-dashboard .form-table th {
+    width: 200px;
+    padding: 15px 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.carrey-dashboard .form-table td {
+    padding: 15px 0;
+}
+
+.carrey-dashboard input[type="text"],
+.carrey-dashboard input[type="email"],
+.carrey-dashboard input[type="password"],
+.carrey-dashboard select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.carrey-dashboard .button-primary {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.carrey-dashboard .button-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .carrey-dashboard .form-table th {
+        width: 100%;
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .carrey-dashboard .form-table td {
+        display: block;
+        padding-top: 5px;
+    }
+    
+    .carrey-dashboard input[type="text"],
+    .carrey-dashboard input[type="email"],
+    .carrey-dashboard input[type="password"],
+    .carrey-dashboard select {
+        max-width: 100%;
+    }
+}
+
+/* Carrey SEO Dashboard Styles */
+.carrey-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.carrey-dashboard h3 {
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Stats Grid */
+.carrey-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.carrey-stat-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2271b1;
+    margin: 10px 0 0;
+}
+
+/* Charts Grid */
+.carrey-charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.carrey-chart-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.chart-container {
+    height: 300px;
+    margin-top: 20px;
+}
+
+/* Issues Grid */
+.carrey-issues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.carrey-issues-box,
+.carrey-recommendations-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.issues-list,
+.recommendations-list {
+    margin-top: 15px;
+}
+
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.issue-item:last-child {
+    border-bottom: none;
+}
+
+.issue-severity {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.issue-severity.high {
+    background: #d63638;
+}
+
+.issue-severity.medium {
+    background: #dba617;
+}
+
+.issue-severity.low {
+    background: #00a32a;
+}
+
+.issue-content h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.issue-content p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.recommendation-card {
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.recommendation-card:last-child {
+    margin-bottom: 0;
+}
+
+.recommendation-card h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.recommendation-card p {
+    margin: 0 0 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Buttons */
+.button-primary {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.4;
+    border: none;
+}
+
+.button-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
+
+.button-secondary {
+    background: #f0f0f1;
+    border-color: #2271b1;
+    color: #2271b1;
+}
+
+.button-secondary:hover {
+    background: #e2e4e7;
+    border-color: #135e96;
+    color: #135e96;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .carrey-stats-grid,
+    .carrey-charts-grid,
+    .carrey-issues-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .carrey-dashboard {
+        padding: 15px;
+    }
+    
+    .carrey-stat-box,
+    .carrey-chart-box,
+    .carrey-issues-box,
+    .carrey-recommendations-box {
+        padding: 15px;
+    }
+    
+    .chart-container {
+        height: 250px;
+    }
 } 

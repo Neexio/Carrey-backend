@@ -33,17 +33,17 @@ class Carrey_Dashboard {
 
     public function add_menu_pages() {
         add_menu_page(
-            'Carrey SEO',
-            'Carrey SEO',
+            'Carrey SEO Dashboard',
+            'Carrey SEO Dashboard',
             'manage_options',
-            'carrey-seo',
+            'carrey-seo-dashboard',
             array($this, 'render_dashboard_page'),
             'dashicons-chart-line',
             30
         );
         
         add_submenu_page(
-            'carrey-seo',
+            'carrey-seo-dashboard',
             'Register',
             'Register',
             'manage_options',
@@ -52,7 +52,7 @@ class Carrey_Dashboard {
         );
         
         add_submenu_page(
-            'carrey-seo',
+            'carrey-seo-dashboard',
             'Subscription',
             'Subscription',
             'manage_options',
@@ -61,7 +61,7 @@ class Carrey_Dashboard {
         );
 
         add_submenu_page(
-            'carrey-seo',
+            'carrey-seo-dashboard',
             'SEO Analysis',
             'SEO Analysis',
             'manage_options',
@@ -70,7 +70,7 @@ class Carrey_Dashboard {
         );
 
         add_submenu_page(
-            'carrey-seo',
+            'carrey-seo-dashboard',
             'Automation',
             'Automation',
             'manage_options',
@@ -79,7 +79,7 @@ class Carrey_Dashboard {
         );
 
         add_submenu_page(
-            'carrey-seo',
+            'carrey-seo-dashboard',
             'Reports',
             'Reports',
             'manage_options',

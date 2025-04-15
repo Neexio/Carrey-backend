@@ -29,9 +29,6 @@ $required_files = array(
     'includes/class-carrey-license-handler.php'
 );
 
-// Include Stripe library
-require_once CARREY_SEO_PLUGIN_DIR . 'vendor/autoload.php';
-
 $missing_files = array();
 foreach ($required_files as $file) {
     $file_path = CARREY_SEO_PLUGIN_DIR . $file;
@@ -54,6 +51,17 @@ require_once CARREY_SEO_PLUGIN_DIR . 'includes/class-carrey-payment.php';
 require_once CARREY_SEO_PLUGIN_DIR . 'includes/class-carrey-user.php';
 require_once CARREY_SEO_PLUGIN_DIR . 'includes/class-carrey-seo.php';
 require_once CARREY_SEO_PLUGIN_DIR . 'includes/class-carrey-license-handler.php';
+
+// Include Stripe library
+if (file_exists(CARREY_SEO_PLUGIN_DIR . 'vendor/autoload.php')) {
+    require_once CARREY_SEO_PLUGIN_DIR . 'vendor/autoload.php';
+} else {
+    error_log('Carrey SEO Dashboard: Stripe autoloader not found');
+    add_action('admin_notices', function() {
+        echo '<div class="error"><p>Carrey SEO Dashboard: Stripe library not found. Please reinstall the plugin.</p></div>';
+    });
+    return;
+}
 
 // Initialize plugin
 function carrey_seo_dashboard_init() {

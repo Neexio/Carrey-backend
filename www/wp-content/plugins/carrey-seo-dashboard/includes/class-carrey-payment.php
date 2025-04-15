@@ -38,7 +38,7 @@ class Carrey_Payment {
         $this->plans = array(
             'basic' => array(
                 'name' => 'Basic',
-                'price' => 299,
+                'price' => 49,
                 'features' => array(
                     '1 website',
                     'Basic SEO analysis',
@@ -47,28 +47,31 @@ class Carrey_Payment {
                 ),
                 'stripe_plan_id' => 'price_basic_monthly'
             ),
-            'pro' => array(
-                'name' => 'Professional',
-                'price' => 599,
+            'business' => array(
+                'name' => 'Business',
+                'price' => 149,
                 'features' => array(
                     '3 websites',
                     'Advanced SEO analysis',
                     'Weekly report',
                     'Priority support',
+                    'One-click site optimization',
                     'Automatic optimizations'
                 ),
-                'stripe_plan_id' => 'price_pro_monthly'
+                'stripe_plan_id' => 'price_business_monthly'
             ),
             'enterprise' => array(
                 'name' => 'Enterprise',
-                'price' => 999,
+                'price' => 399,
                 'features' => array(
                     'Unlimited websites',
                     'Full SEO analysis',
                     'Daily report',
                     'Dedicated support',
                     'API access',
-                    'Custom reports'
+                    'Custom reports',
+                    'One-click site optimization',
+                    'Advanced automation'
                 ),
                 'stripe_plan_id' => 'price_enterprise_monthly'
             )
