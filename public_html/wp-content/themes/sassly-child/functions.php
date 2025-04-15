@@ -101,12 +101,34 @@ function carrey_optimize_icons() {
 }
 add_action('init', 'carrey_optimize_icons');
 
-// Legg til JavaScript-fiks for ikoner
+// Legg til admin-toggle for JS-fiksen
+function carrey_add_icon_fix_toggle() {
+    add_settings_field(
+        'carrey_icon_fix_enabled',
+        'Aktiver ikon-fiks',
+        'carrey_icon_fix_toggle_callback',
+        'general',
+        'default',
+        array('label_for' => 'carrey_icon_fix_enabled')
+    );
+    register_setting('general', 'carrey_icon_fix_enabled');
+}
+add_action('admin_init', 'carrey_add_icon_fix_toggle');
+
+function carrey_icon_fix_toggle_callback() {
+    $enabled = get_option('carrey_icon_fix_enabled', true);
+    echo '<input type="checkbox" id="carrey_icon_fix_enabled" name="carrey_icon_fix_enabled" ' . checked($enabled, true, false) . '>';
+    echo '<p class="description">Aktiverer automatisk fiks for store ikoner og diplom</p>';
+}
+
+// Modifiser JS-fiksen for å respektere innstillingen
 function carrey_fix_icons_js() {
+    if (!get_option('carrey_icon_fix_enabled', true)) {
+        return;
+    }
     ?>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Fiks for diplomikonet og andre store ikoner
         const fixLargeIcons = () => {
             const icons = document.querySelectorAll('svg, i.icon, img[class*="icon"], .diploma-icon, [class*="diploma"], [class*="trophy"], [class*="certificate"]');
             icons.forEach(icon => {
@@ -119,7 +141,6 @@ function carrey_fix_icons_js() {
             });
         };
 
-        // Kjør ved lasting og ved resize
         fixLargeIcons();
         window.addEventListener('resize', fixLargeIcons);
     });

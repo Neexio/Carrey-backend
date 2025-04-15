@@ -39,4 +39,41 @@ backup_restore/www/wp-content/updraft/*.zip
 
 # Backup filer
 etc (1).zip
-backup_restore/ 
+backup_restore/
+
+# WordPress spesifikke filer
+wp-config.php
+wp-content/plugins/carrey-seo-dashboard/
+wp-content/plugins/carrey-user-panel/
+wp-content/plugins/carrey-user-panel-backup/
+wp-content/plugins/carrey-user-panel-new/
+
+# Systemfiler
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup filer
+*.bak
+*.backup
+*.old
+
+# IDE spesifikke filer
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node moduler
+node_modules/
+npm-debug.log
+
+# Kompilerte filer
+*.min.js
+*.min.css
+dist/
+build/
+
+# Midlertidige filer
+tmp/
+temp/ 
