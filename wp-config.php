@@ -4,9 +4,9 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
-define('DB_NAME', 'carrfacy_wp137');
-define('DB_USER', 'carrfacy_wpadmin');
-define('DB_PASSWORD', 'Eirik16498991');
+define('DB_NAME', 'wordpress');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', 'utf8mb4_unicode_ci');
