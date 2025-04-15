@@ -373,3 +373,98 @@ Text Domain: sassly-child
 .wcf__nav-menu {
   display: none !important;
 }
+
+/* Ikon-fikser */
+svg, i.icon {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Sikkerhetsnett for layout */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Vertikal justering for bilder */
+img, svg {
+  vertical-align: middle;
+}
+
+/* Ikon-font spesifikke stiler */
+.icon {
+  font-size: 24px;
+}
+
+/* Responsive ikoner */
+@media (max-width: 768px) {
+  svg, i.icon {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+}
+
+/* Spesifikke fikser for diplomikonet */
+.diploma-icon,
+[class*="diploma"],
+[class*="trophy"],
+[class*="certificate"] {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+}
+
+/* Sikkerhetsnett for alle ikoner */
+svg, i.icon, img[class*="icon"] {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    width: auto !important;
+    height: auto !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+}
+
+/* Sikkerhetsnett for layout */
+* {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+}
+
+/* Vertikal justering for bilder */
+img, svg {
+    vertical-align: middle !important;
+}
+
+/* Ikon-font spesifikke stiler */
+.icon {
+    font-size: 24px !important;
+}
+
+/* Responsive ikoner */
+@media (max-width: 768px) {
+    svg, i.icon, img[class*="icon"],
+    .diploma-icon,
+    [class*="diploma"],
+    [class*="trophy"],
+    [class*="certificate"] {
+        max-width: 30px !important;
+        max-height: 30px !important;
+    }
+    
+    .icon {
+        font-size: 18px !important;
+    }
+}
