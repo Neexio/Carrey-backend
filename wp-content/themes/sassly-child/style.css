@@ -1,3 +1,14 @@
+/* Prevent massive popup content from flashing on load */
+.wcf-image-generator-popup,
+.wcf-image-generator-popup * {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: hidden !important;
+  display: none !important; /* hide until JS reactivates */
+}
+
 /* Critical icon styling to stop FOUC (Flash of Unstyled Content) */
 svg,
 img[src*="diploma"],

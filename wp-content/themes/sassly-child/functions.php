@@ -6,7 +6,21 @@ add_action('wp_enqueue_scripts', 'carrey_enqueue_font_awesome');
 
 // JavaScript fallback for large icons
 function carrey_fix_icon_sizes_js() {
+ 
+function defer_diploma_popup() {
     ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const popup = document.querySelector('.wcf-image-generator-popup');
+        if (popup) {
+            popup.style.display = 'block';
+        }
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'defer_diploma_popup');
+   ?>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
         const icons = document.querySelectorAll('svg, i.icon, img[class*="icon"], .diploma-icon, [class*="trophy"], [class*="certificate"]');
