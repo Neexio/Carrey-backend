@@ -66,3 +66,7 @@ function sassly_child_enqueue_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'sassly_child_enqueue_styles', 16);
+
+// Load custom functions
+require_once get_stylesheet_directory() . '/functions-custom.php';
+
