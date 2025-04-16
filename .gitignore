@@ -1,20 +1,19 @@
-# Ignore backup files
 *.zip
+*.log
+node_modules/
+.env
+wp-content/uploads/
+
+# Ignore backup files
 backup_restore/
 backup/
 wp-content/updraft/
-wp-content/uploads/
-
-# Ignore node modules
-node_modules/
 
 # Ignore environment files
-.env
 .env.local
 .env.*.local
 
 # Ignore logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
