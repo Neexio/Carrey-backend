@@ -6,21 +6,7 @@ add_action('wp_enqueue_scripts', 'carrey_enqueue_font_awesome');
 
 // JavaScript fallback for large icons
 function carrey_fix_icon_sizes_js() {
- 
-function defer_diploma_popup() {
     ?>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const popup = document.querySelector('.wcf-image-generator-popup');
-        if (popup) {
-            popup.style.display = 'block';
-        }
-    });
-    </script>
-    <?php
-}
-add_action('wp_footer', 'defer_diploma_popup');
-   ?>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
         const icons = document.querySelectorAll('svg, i.icon, img[class*="icon"], .diploma-icon, [class*="trophy"], [class*="certificate"]');
@@ -38,17 +24,27 @@ add_action('wp_footer', 'defer_diploma_popup');
 }
 add_action('wp_footer', 'carrey_fix_icon_sizes_js');
 
-<?php
-/**
- * Theme functions and definitions.
- */
+// Delay showing the popup until page is ready
+function defer_diploma_popup() {
+    ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const popup = document.querySelector('.wcf-image-generator-popup');
+        if (popup) {
+            popup.style.display = 'block';
+        }
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'defer_diploma_popup');
+
+// Theme functions and definitions
 function sassly_child_enqueue_styles() {
-    
-    wp_enqueue_style( 'sassly-child-style',
+    wp_enqueue_style('sassly-child-style',
         get_stylesheet_directory_uri() . '/style.css',
         [],
         wp_get_theme()->get('Version')
     );
 }
-
-add_action(  'wp_enqueue_scripts', 'sassly_child_enqueue_styles', 16);
+add_action('wp_enqueue_scripts', 'sassly_child_enqueue_styles', 16);
