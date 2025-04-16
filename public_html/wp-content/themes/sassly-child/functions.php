@@ -148,3 +148,31 @@ function carrey_fix_icons_js() {
     <?php
 }
 add_action('wp_footer', 'carrey_fix_icons_js');
+
+function disable_icon_jumps() {
+    ?>
+    <style>
+    body * {
+      transition: none !important;
+    }
+    </style>
+    <?php
+}
+add_action('wp_head', 'disable_icon_jumps', 1);
+
+function nuke_diploma_path_loader() {
+    ?>
+    <script>
+    window.addEventListener('load', function () {
+        const allPaths = document.querySelectorAll('svg path');
+        allPaths.forEach(path => {
+            if (path.getAttribute('d')?.startsWith('M50,1')) {
+                console.log('🔥 Removing diploma icon:', path);
+                path.parentElement?.remove(); // removes the entire SVG
+            }
+        });
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'nuke_diploma_path_loader', 99);
