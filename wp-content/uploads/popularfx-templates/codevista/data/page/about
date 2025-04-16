@@ -1,0 +1,191 @@
+[pl_row pagelayer-id="vB4gYfLaLqawUIRf"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="color" ele_bg_color="#eeeeeeff" ele_padding="70px,0px,70px,0px"]
+[pl_col pagelayer-id="nNWQpc3NdiyuuRFs"  overlay_hover_delay="400" col="6" content_pos="center"]
+[pl_image pagelayer-id="YUDowMjYspaycgLl"  id="{{theme_url}}/images/about.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+
+
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="kBniBwkaXezuCWbJ"  overlay_hover_delay="400" col="6" ele_padding="0px,30px,0px,30px" content_pos="center" ele_padding_tablet="0px,0px,0px,0px" ele_padding_mobile="0px,0px,0px,0px"]
+[pl_iconbox pagelayer-id="MNUDxad6rdLYxG9c"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="About CodeVista" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" animation="fadeInRight" animation_delay="600"]
+
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="OPW6VBJaz3Xr7V74"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,32,,600,,,Solid,,,," ele_padding="10px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," animation="fadeInRight" animation_delay="600"]
+
+
+
+
+
+<h2>All in One Software Company</h2>[/pl_heading]
+[pl_text pagelayer-id="Ecx52XGb7hB7FG97"  font_family="Raleway" font_size="16" ele_padding="20px,0px,30px,0px" animation="fadeInRight" animation_delay="600"]
+
+
+
+
+<p style="text-align: justify; ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>[/pl_text]
+[pl_btn_grp pagelayer-id="R7udLKS7Km81KCT1"  align="left" group_layout="horizontal" vindent="3" hindent="10" ele_margin="0px,0px,0px,-10px" hindent_tablet="5" ele_margin_tablet="0px,0px,0px,-5px" hindent_mobile="3" ele_margin_mobile="0px,0px,0px,-3px" ele_css="@media (max-width: 767px) and (min-width: 321px){
+{{element}} .pagelayer-btn-holder{
+padding: calc(14px / 2) 14px !important;
+}
+}" animation="fadeInRight" animation_delay="600"]
+[pl_btn pagelayer-id="kt6Z8WXcpBdiSevj"  text="Install App" align="left" type="pagelayer-btn-custom" size="pagelayer-btn-custom" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" link="#" btn_typo="Raleway,18,,,,,Solid,,,," btn_bg_color="#009b72ff" btn_color="#ffffff" icon="fas fa-download" btn_border_type="solid" btn_border_color="#009b72ff" btn_border_width="2,2,2,2" btn_border_radius="25,25,25,25" btn_hover="hover" btn_bg_color_hover="#ffffffff" btn_color_hover="#009b72ff" btn_custom_size="25" btn_custom_size_tablet="20" icon_spacing_mobile="2" btn_custom_size_mobile="10" btn_typo_mobile=",16,,,,,Solid,,,,"]
+[/pl_btn]
+[pl_btn pagelayer-id="CPAcWCRJVE8kZKoP"  text="View Demo" align="left" type="pagelayer-btn-custom" size="pagelayer-btn-custom" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" link="#" btn_typo="Raleway,18,,,,,Solid,,,," btn_bg_color="#ffffffff" btn_color="#009b72ff" icon="fas fa-eye" btn_border_type="solid" btn_border_color="#009b72ff" btn_border_width="2,2,2,2" btn_border_radius="25,25,25,25" btn_hover="hover" btn_bg_color_hover="#009b72ff" btn_color_hover="#ffffffff" btn_custom_size="25" btn_custom_size_tablet="20" icon_spacing_mobile="2" btn_custom_size_mobile="10" btn_typo_mobile=",16,,,,,Solid,,,,"]
+[/pl_btn]
+[/pl_btn_grp]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="HY0TdBmQb4cb4ftz"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="70px,0px,70px,0px" content_pos="center"]
+[pl_col pagelayer-id="aDYmW7KxvsjpW8ld"  overlay_hover_delay="400" col="6"]
+[pl_iconbox pagelayer-id="wUUpfaYYvsryxApB"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Our Offering" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="sHPU6AEN5S67Xqce"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,32,,600,,,Solid,,,," ele_padding="10px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," animation="fadeInLeft" animation_delay="600"]
+
+
+
+<h2>What does <span style="color: #009B72;">&#60;CodeVista&#62;</span> offer?</h2>[/pl_heading]
+[pl_text pagelayer-id="LBWogkY4aofYYHXs"  ele_padding="20px,0px,0px,0px" font_family="Raleway" font_size="16" animation="fadeInLeft" animation_delay="600"]
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Nullam sapien lorem, fringilla sed porta eu, iaculis sed libero. Vivamus imperdiet nisi ex, quis facilisis sem rutrum sit amet.&nbsp;</span></p>[/pl_text]
+[pl_inner_row pagelayer-id="NjLjJtnqJ558dB1Q"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="kXVarMcTJpKcKALt"  overlay_hover_delay="400" col_width="50" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="jZE0Hpp73dj8fkZC"  service_icon="fas fa-download" service_alignment="top" service_vertical_alignment="top" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="One Click installation" heading_alignment="center" service_title_spacing="0,0,10,10" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="7CqeibM9QEPxiF3c"  overlay_hover_delay="400" col_width="50" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="25mrNdRQVGkGXIb1"  service_icon="fas fa-users-cog" service_alignment="top" service_vertical_alignment="top" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="User Management" heading_alignment="center" service_title_spacing="0,0,10,10" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="OYDDc0BdklDdFDJU"  overlay_hover_delay="400" col_width="50" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="tohODoFRGNAgk41r"  service_icon="fas fa-award" service_alignment="top" service_vertical_alignment="top" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Multiple Awards" heading_alignment="center" service_title_spacing="0,0,10,10" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="zOhTr8RA63BL8nyG"  overlay_hover_delay="400" col_width="50" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="xJ9YcNNZXog5O6Qt"  service_icon="fas fa-map-marked-alt" service_alignment="top" service_vertical_alignment="top" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Precise Location" heading_alignment="center" service_title_spacing="0,0,10,10" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[pl_col pagelayer-id="BqZEFqvn5zrUcEDU"  overlay_hover_delay="400" col="6"]
+[pl_image pagelayer-id="uK3cBw669f90nagh"  id="{{theme_url}}/images/codevista.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" animation="fadeInRight" animation_delay="600"]
+
+
+
+[/pl_image]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="H80A5vYUM90O15Ed"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="70px,0px,70px,0px" ele_bg_type="color" ele_bg_color="#eeeeeeff"]
+[pl_col pagelayer-id="R19w6QTyLBkLQn0S"  overlay_hover_delay="400" col="4"]
+[pl_iconbox pagelayer-id="4XJGgEXV5GgigM6R"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Our Team" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_alignment="center" ele_custom_pos="true" ele_align="50%" ele_height="auto" ele_custom_width="165px" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="if8Zv4yrN6jtGoyA"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,28,,600,,,Solid,,,," ele_padding="5px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," align="center" animation="fadeInUp" animation_delay="600"]
+
+
+<h2>Our Smart Brains</h2>[/pl_heading]
+[pl_inner_row pagelayer-id="BRyRHKDu0G9hubCI"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="CN75rhtW6eFVnxNO"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="iLVuEolJtP9bfbgn"  service_image="{{theme_url}}/images/team1.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Johnson Methew" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" border_radius="25px,25px,25px,25px" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>[/pl_service]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="kmF8Nbjs9MfYvQC9"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="r2cp6t5DWo0nTgXX"  service_image="{{theme_url}}/images/team2.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Thomas James" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" border_radius="25px,25px,25px,25px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>[/pl_service]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="UQhAQvXFw2kDsQeV"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="L5erXvpffKk9grjy"  service_image="{{theme_url}}/images/team3.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Ricky Pointing" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" border_radius="25px,25px,25px,25px" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>[/pl_service]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="iDb6ni7tuSHXlXuB"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="70px,0px,70px,0px" content_pos="center"]
+[pl_col pagelayer-id="YhHmzqZheSVZBJkw"  overlay_hover_delay="400" col="6"]
+[pl_image pagelayer-id="xefgIxqORRCFwVQq"  id="{{theme_url}}/images/testimonial.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" animation="fadeInLeft" animation_delay="600"]
+
+
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="l6GZFbtwloHFntud"  overlay_hover_delay="400" col="6" ele_padding="0px,20px,0px,20px" ele_padding_tablet="0px,0px,0px,0px" ele_padding_mobile="0px,0px,0px,0px"]
+[pl_iconbox pagelayer-id="2rzejldtzoYhsFXz"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Testimonial" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" ele_padding="0px,0px,0px,15px" animation="fadeInRight" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_testimonial_slider pagelayer-id="TN0NmS49ZFt7qAXw"  slide_items="1" slide_margin="10" arrows_bg="#6a6969" arraow_color="#ffffff" arraow_bg_size="20" arraow_bg_shape="20" font_family="Raleway" font_size="18" ele_padding="20px,0px,0px,0px" slide_controls="pager" active_pager_color="#009b72ff" slide_loop="true" slide_autoplay="true" slide_hoverpause="true" slide_timeout="2000" animation="fadeInRight" animation_delay="600"]
+[pl_testimonial pagelayer-id="0TPO5Q0UxaqPtuux"  image_position="aside-position" alignment="left" author-spacing="20" avatar="{{theme_url}}/images/testimonial1.jpg" testimonial_image_size="100" img_shape="circle" cite="John Smith" cite_color="#009b72ff" cite_style="Montserrat,20,,600,,,Solid,,,," designation="" designation_color="#9cafc0" cite_designation_style=",16,,100,,,,,,," cite_spacing="0,0,0,10"]
+
+
+<p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;">Best Software Company</strong></p><p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;"><br></strong></p><p style="text-align: justify; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>[/pl_testimonial]
+[pl_testimonial pagelayer-id="4Fyt23B8a9vzyzsE"  image_position="aside-position" alignment="left" author-spacing="20" avatar="{{theme_url}}/images/testimonial2.jpg" testimonial_image_size="100" img_shape="circle" cite="Teresa Methew" cite_color="#009b72ff" cite_style="Montserrat,20,,600,,,Solid,,,," designation="" designation_color="#9cafc0" cite_designation_style=",16,,100,,,,,,," cite_spacing="0,0,0,10"]
+
+
+<p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;">Best Software Company</strong></p><p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;"><br></strong></p><p style="text-align: justify; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>[/pl_testimonial]
+[pl_testimonial pagelayer-id="OSye2EHegvhGJKoD"  image_position="aside-position" alignment="left" author-spacing="20" avatar="{{theme_url}}/images/testimonial3.jpg" testimonial_image_size="100" img_shape="circle" cite="Tom Cruise" cite_color="#009b72ff" cite_style="Montserrat,20,,600,,,Solid,,,," designation="" designation_color="#9cafc0" cite_designation_style=",16,,100,,,,,,," cite_spacing="0,0,0,10"]
+
+
+<p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;">Best Software Company</strong></p><p style="text-align: justify;"><strong style="color: rgb(0, 0, 0); font-size: 25px;"><br></strong></p><p style="text-align: justify; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>[/pl_testimonial]
+[/pl_testimonial_slider]
+[/pl_col]
+[/pl_row]

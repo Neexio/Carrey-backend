@@ -1,0 +1,270 @@
+/**
+ * Carrey User Panel Styles
+ */
+
+/* Base Styles */
+.carrey-user-panel {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.carrey-panel-header {
+    background: linear-gradient(135deg, #00A3FF 0%, #00FFA3 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carrey-panel-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.carrey-panel-header p {
+    margin: 0.5rem 0 0;
+    opacity: 0.9;
+}
+
+/* Dashboard Grid */
+.carrey-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Stats Cards */
+.carrey-stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.carrey-stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.carrey-stat-card h3 {
+    margin: 0 0 1rem;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.carrey-stat-card .stat-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00A3FF;
+    margin: 0;
+}
+
+/* Feature Cards */
+.carrey-feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.carrey-feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.carrey-feature-card h3 {
+    margin: 0 0 1rem;
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.carrey-feature-card p {
+    margin: 0 0 1.5rem;
+    color: #666;
+}
+
+/* Buttons */
+.carrey-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #00A3FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.carrey-button:hover {
+    background: #0093E6;
+}
+
+.carrey-button-secondary {
+    background: #f5f5f5;
+    color: #333;
+}
+
+.carrey-button-secondary:hover {
+    background: #e5e5e5;
+}
+
+/* Forms */
+.carrey-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.carrey-form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.carrey-form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.carrey-form-control:focus {
+    border-color: #00A3FF;
+    outline: none;
+}
+
+/* Toggles */
+.carrey-toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.carrey-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.carrey-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ddd;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.carrey-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .carrey-toggle-slider {
+    background-color: #00A3FF;
+}
+
+input:checked + .carrey-toggle-slider:before {
+    transform: translateX(26px);
+}
+
+/* Notifications */
+.carrey-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.carrey-notification-success {
+    background: #00A3FF;
+}
+
+.carrey-notification-error {
+    background: #ff4444;
+}
+
+/* Charts */
+.carrey-chart-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carrey-dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .carrey-panel-header {
+        padding: 1.5rem;
+    }
+
+    .carrey-panel-header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .carrey-user-panel {
+        background: #1a1a1a;
+        color: #fff;
+    }
+
+    .carrey-stat-card,
+    .carrey-feature-card,
+    .carrey-chart-container {
+        background: #2a2a2a;
+        color: #fff;
+    }
+
+    .carrey-form-control {
+        background: #2a2a2a;
+        border-color: #444;
+        color: #fff;
+    }
+
+    .carrey-form-control:focus {
+        border-color: #00A3FF;
+    }
+
+    .carrey-button-secondary {
+        background: #444;
+        color: #fff;
+    }
+
+    .carrey-button-secondary:hover {
+        background: #555;
+    }
+} 

@@ -1,0 +1,1 @@
+jQuery,window,document,WCF_Addons_Editor,console.log("editor js");

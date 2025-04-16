@@ -1,0 +1,155 @@
+/*----------------------------------------*/
+/*  04. SPACE CSS START
+/*----------------------------------------*/
+
+
+// Padding Bottom
+@mixin pb {
+  @media #{$xl} {
+    padding-bottom: 120px;
+  }
+
+  @media #{$lg} {
+    padding-bottom: 100px;
+  }
+
+  @media #{$md} {
+    padding-bottom: 90px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 60px;
+  }
+}
+
+.pb-150 {
+  padding-bottom: 150px;
+
+  @include pb;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+
+  @media #{$lg} {
+    padding-bottom: 150px;
+  }
+
+  @media #{$md} {
+    padding-bottom: 120px;
+  }
+
+  @media #{$sm} {
+    padding-bottom: 100px;
+  }
+}
+
+
+// Padding Top
+@mixin pt {
+  @media #{$xl} {
+    padding-top: 120px;
+  }
+
+  @media #{$lg} {
+    padding-top: 100px;
+  }
+
+  @media #{$md} {
+    padding-top: 90px;
+  }
+
+  @media #{$sm} {
+    padding-top: 60px;
+  }
+}
+
+.pt-130 {
+  padding-top: 130px;
+
+  @include pt;
+}
+
+.pt-150 {
+  padding-top: 150px;
+
+  @include pt;
+}
+
+.pt-200 {
+  padding-top: 200px;
+
+  @media #{$lg} {
+    padding-top: 150px;
+  }
+
+  @media #{$md} {
+    padding-top: 120px;
+  }
+
+  @media #{$sm} {
+    padding-top: 100px;
+  }
+}
+
+.pt-250 {
+  padding-top: 250px;
+
+  @media #{$xxl} {
+    padding-top: 200px;
+  }
+
+
+  @media #{$lg} {
+    padding-top: 200px;
+  }
+
+  @media #{$lg} {
+    padding-top: 190px;
+  }
+
+  @media #{$sm} {
+    padding-top: 160px;
+  }
+}
+
+// Padding Left/Right
+
+.plr-150 {
+  padding-inline-start: 150px;
+  padding-inline-end: 150px;
+
+  @media #{$xxl} {
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+  }
+
+  @media #{$sm} {
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+  }
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+
+  @media #{$sm} {
+    margin-bottom: 30px;
+  }
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+
+  @media #{$md} {
+    margin-bottom: 40px;
+  }
+
+  @media #{$sm} {
+    margin-bottom: 30px;
+  }
+}
+
+.zi-3 {
+  z-index: 3;
+}

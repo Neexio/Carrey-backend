@@ -1,0 +1,32 @@
+.sassly-icon-box svg {
+    width: 1em;
+}
+
+.sassly-icon-box {
+    padding: 20px;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.sassly-icon-box .icon {
+    display: inline-block;
+    transition: all 0.3s;
+    margin-bottom: 15px;
+}
+
+.sassly-icon-box-icon-circle .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.sassly-icon-box .title {
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.sassly-icon-box .desc {
+    transition: all 0.3s;
+}

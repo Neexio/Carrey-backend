@@ -1,0 +1,362 @@
+/*----------------------------------------*/
+/*  13. FOOTER CSS START
+/*----------------------------------------*/
+
+
+.footer {
+  &__area-8 {
+    background-color: var(--black-3);
+  }
+
+  &__wrapper-8 {
+    gap: 90px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+
+    @media #{$xl} {
+      gap: 60px;
+    }
+
+    @media #{$lg} {
+      gap: 30px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media #{$md} {
+      gap: 20px 50px;
+    }
+
+    @media #{$sm} {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.copyright {
+  &__area-8 {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 70px;
+    border-top: 1px solid var(--black-6);
+  }
+
+  &__fees {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray-4);
+  }
+}
+
+
+// Widgets
+.footer__area-8 {
+  .default-sidebar__w-title {
+    color: var(--white);
+    text-decoration-color: var(--white);
+  }
+
+  .footer-widget {
+    margin-bottom: 50px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px 15px;
+    color: var(--white);
+    border: 1px solid #ddd;
+    text-transform: capitalize;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23212121'%3E%3Cpath d='M24 24H0V0h24v24z' fill='none' opacity='1'/%3E%3Cpath d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z'/%3E%3C/svg%3E");
+    background-position-x: calc(100% - 10px);
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    filter: brightness(100);
+
+    option {
+      color: var(--black-2);
+    }
+  }
+
+
+  .widget {
+    &_calendar {
+      a {
+        color: var(--white);
+
+        &:hover {
+          color: var(--primary);
+        }
+      }
+
+      table {
+        width: 100%;
+
+        tr {
+          color: var(--white);
+        }
+
+        #today {
+          color: #121212;
+          background: var(--primary);
+
+          a {
+            color: var(--white);
+          }
+        }
+      }
+
+      caption {
+        font-weight: 600;
+        margin-top: 15px;
+        color: var(--white);
+      }
+    }
+
+    .wp-block-heading {
+      color: #fff;
+    }
+
+    .wp-block-latest-comments__comment-meta {
+      color: #999999;
+    }
+
+    .wp-block-search__label {
+      color: #fff;
+    }
+
+    ol.wp-block-latest-comments,
+    .wp-block-categories,
+    .wp-block-latest-posts,
+    .wp-block-archives,
+    &_pages,
+    &_meta,
+    &_nav_menu,
+    &_recent_entries {
+      li {
+        display: grid;
+
+        a {
+          color: var(--white);
+          padding: 5px 0;
+          text-transform: capitalize;
+
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+
+      .children,
+      .sub-menu {
+        margin-inline-start: 15px;
+
+        @media #{$lg} {
+          margin-inline-start: 10px;
+        }
+      }
+    }
+
+    &_categories {
+      li {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        color: var(--white);
+
+        a {
+          padding: 5px 0;
+          text-transform: capitalize;
+
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+
+      .children {
+        margin-left: 15px;
+        grid-column: 1/-1;
+      }
+    }
+
+    &_tag_cloud {
+      .tagcloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        a {
+          background-color: var(--black-6);
+          padding: 8px 10px;
+          font-size: 12px !important;
+          text-transform: capitalize;
+          color: var(--white);
+          font-weight: 500;
+          transition: .5s;
+
+          &:hover {
+            color: var(--white);
+            background-color: var(--primary);
+          }
+        }
+      }
+    }
+
+    &_archive {
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--white);
+
+        a {
+          padding: 5px 0;
+          text-transform: capitalize;
+
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+
+    &_recent_comments {
+      ul {
+        gap: 20px;
+        display: grid;
+      }
+
+      li {
+        font-weight: 400;
+        color: var(--white);
+
+        a {
+          font-weight: 500;
+          color: var(--white);
+
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+
+    &_rss {
+      ul {
+        gap: 20px;
+        display: grid;
+
+        a {
+          font-weight: 500;
+          color: var(--white);
+
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+
+      .rssSummary {
+        color: #999;
+      }
+
+      .rss-date {
+        color: #999;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+
+      cite {
+        color: #999;
+        display: block;
+        margin-top: 3px;
+        font-weight: 500;
+      }
+    }
+
+    &_text {
+      .textwidget {
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        p {
+          color: #999;
+
+          strong {
+            color: var(--white);
+          }
+
+          img {
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+    }
+
+    .default-search__again-form {
+      form {
+        position: relative;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        line-height: 0;
+
+        input {
+          width: 100%;
+          border: 0;
+          background: transparent;
+          padding-right: 30px;
+          color: var(--white);
+          padding: 0;
+          height: unset;
+
+          &::placeholder {
+            font-size: 14px;
+            color: var(--black-9);
+          }
+
+          &:focus {
+            outline: 0;
+          }
+        }
+
+        button {
+          position: absolute;
+          inset-inline-end: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: var(--white);
+        }
+      }
+    }
+
+    .wp-block-search__input {
+      min-width: 150px;
+      background: transparent;
+      color: #fff;
+    }
+
+    .wp-block-search__button.wp-element-button {
+      padding: 5px;
+      color: var(--white);
+      background: var(--primary);
+      transition: all 0.3s;
+
+      &:hover {
+        color: var(--black-2);
+      }
+    }
+
+  }
+}

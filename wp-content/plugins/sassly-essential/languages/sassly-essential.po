@@ -1,0 +1,3026 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-09-28 17:15+0600\n"
+"PO-Revision-Date: 2024-06-05 15:45+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html;esc_url;__;_e;esc_hml__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: languages\n"
+
+#: inc/custom-fonts.php:91
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/custom-fonts.php:92
+msgid "Custom Font"
+msgstr ""
+
+#: inc/helper.php:302
+msgid "WCF "
+msgstr ""
+
+#: inc/hook.php:62
+msgid "No theme specified."
+msgstr ""
+
+#: inc/hook.php:76
+msgid "Sorry, you are not allowed to update themes for this site."
+msgstr ""
+
+#: inc/hook.php:128
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: inc/hook.php:139
+msgid "Theme update failed."
+msgstr ""
+
+#: inc/packages/codestar-framework/classes/setup.class.php:671
+msgid "//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+msgstr ""
+
+#: inc/packages/codestar-framework/fields/code_editor/code_editor.php:47
+msgid "/lib/codemirror.min.js"
+msgstr ""
+
+#: inc/packages/codestar-framework/fields/code_editor/code_editor.php:48
+msgid "/addon/mode/loadmode.min.js"
+msgstr ""
+
+#: inc/packages/codestar-framework/fields/code_editor/code_editor.php:52
+msgid "/lib/codemirror.min.css"
+msgstr ""
+
+#: inc/packages/codestar-framework/fields/map/map.php:84
+msgid "/dist/leaflet.js"
+msgstr ""
+
+#: inc/packages/codestar-framework/fields/map/map.php:88
+msgid "/dist/leaflet.css"
+msgstr ""
+
+#: inc/packages/ele-template-library/base/Templates_Lib.php:84
+msgid "assets/css/editor.min.css"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:39
+msgid "https://crowdytheme.com/wp/sassly/ai-conetnt-writer/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:45
+msgid "https://crowdytheme.com/wp/sassly/image-generator/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:51
+msgid "https://crowdytheme.com/wp/sassly/ai-chatbot/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:57
+msgid "https://crowdytheme.com/wp/sassly/ai-seo/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:63
+msgid "https://crowdytheme.com/wp/sassly/ai-software/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:69
+msgid "https://crowdytheme.com/wp/sassly/ai-video-editor/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:75
+msgid "https://crowdytheme.com/wp/sassly/home-booking/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:81
+msgid "https://crowdytheme.com/wp/sassly/online-meeting/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:87
+msgid "https://crowdytheme.com/wp/sassly/crm/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:93
+msgid "https://crowdytheme.com/wp/sassly/customer-service/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:99
+msgid "https://crowdytheme.com/wp/sassly/mobileapps/"
+msgstr ""
+
+#: inc/packages/importer/demo.class.php:105
+msgid "https://crowdytheme.com/wp/sassly/marketing-automation/"
+msgstr ""
+
+#: inc/packages/importer/framework/core/Fw.php:61
+msgid "Framework requirements not met:"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:333
+msgid "minimum required version is"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:336
+msgid "maximum required version is"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:341
+msgid "and"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:350
+#, php-format
+msgid "Current PHP version is %s, %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:358
+#, php-format
+msgid "Current WordPress version is %s, %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:364
+#, php-format
+msgid "Current Framework version is %s, %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:373
+#, php-format
+msgid "Current version of the %s extension is %s, %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:379
+#, php-format
+msgid "%s extension is required"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:384
+#, php-format
+msgid "%s extension is required (%s)"
+msgstr ""
+
+#: inc/packages/importer/framework/core/class-fw-manifest.php:403
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:746
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:357
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:370
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:6
+msgid "Framework"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:419
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2370
+msgid "Save"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:420
+msgid "Done"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:421
+msgid "Ah, Sorry"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:422
+#: inc/packages/importer/framework/includes/option-types/color-picker/class-fw-option-type-color-picker.php:39
+#: inc/packages/importer/framework/includes/option-types/color-picker/class-fw-option-type-color-picker.php:40
+msgid "Reset"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:423
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:320
+msgid "Apply"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:424
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2375
+msgid "Cancel"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:425
+msgid "Ok"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:608
+msgid "leave a review"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:615
+msgid "Facebook"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:619
+msgid ""
+"Unyson WordPress Framework is the fastest and easiest way to develop a "
+"premium theme. I highly recommend it"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:623
+msgid "Twitter"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:625
+msgid ""
+"If you like Unyson, {wp_review_link}, share on {facebook_share_link} or "
+"{twitter_share_link}."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:1457
+msgid "Unknown collected group"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:1800
+#, php-format
+msgid "Undefined option type: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend.php:1859
+#, php-format
+msgid "Undefined container type: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend/class-fw-settings-form-theme.php:12
+#: inc/packages/importer/framework/core/components/backend/class-fw-settings-form-theme.php:166
+#: inc/packages/importer/framework/core/components/backend/class-fw-settings-form-theme.php:167
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/backend/class-fw-settings-form-theme.php:56
+msgid "by"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions.php:472
+#: inc/packages/importer/framework/core/components/extensions.php:552
+#, php-format
+msgid "Extension %s is invalid."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:12
+msgid "Page Builder"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:13
+msgid ""
+"Let's you easily build countless pages with the help of the drag and drop "
+"visual page builder that comes with a lot of already created shortcodes."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:26
+msgid "Brizy - Visual Page Builder"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:27
+msgid ""
+"Lets you build pages live on the front end. No designer or developer skills "
+"required. The only tools you’ll need to master are clicks and drags."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:41
+msgid "WordPress Shortcodes"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:43
+msgid "Lets you insert Unyson shortcodes inside any wp-editor"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:58
+#: inc/packages/importer/framework/extensions/backups/manifest.php:7
+msgid "Backup & Demo Content"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:59
+#: inc/packages/importer/framework/extensions/backups/manifest.php:9
+msgid ""
+"This extension lets you create an automated backup schedule, import demo "
+"content or even create a demo content archive for migration purposes."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:72
+msgid "Sidebars"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:73
+msgid ""
+"Brings a new layer of customization freedom to your website by letting you "
+"add more than one sidebar to a page, or different sidebars on different "
+"pages."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:86
+msgid "Sliders"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:87
+msgid ""
+"Adds a sliders module to your website from where you'll be able to create "
+"different built in jQuery sliders for your homepage and rest of the pages."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:100
+msgid "Portfolio"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:101
+msgid ""
+"This extension will add a fully fledged portfolio module that will let you "
+"display your projects using the built in portfolio pages."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:114
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:115
+msgid ""
+"The Mega Menu extension adds a user-friendly drop down menu that will let "
+"you easily create highly customized menu configurations."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:128
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:129
+msgid ""
+"Creates a simplified navigation menu for the pages that can be placed "
+"anywhere in the theme. This will make navigating the website much easier."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:142
+msgid "SEO"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:143
+msgid ""
+"This extension will enable you to have a fully optimized WordPress website "
+"by adding optimized meta titles, keywords and descriptions."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:156
+msgid "Events"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:157
+msgid ""
+"This extension adds a fully fledged Events module to your theme. It comes "
+"with built in pages that contain a calendar where events can be added."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:170
+msgid "Analytics"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:171
+msgid ""
+"Enables the possibility to add the Google Analytics tracking code that will "
+"let you get all the analytics about visitors, page views and more."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:184
+msgid "Feedback"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:185
+msgid ""
+"Adds the possibility to leave feedback (comments, reviews and rating) about "
+"your products, articles, etc. This replaces the default comments system."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:198
+msgid "Learning"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:199
+msgid ""
+"This extension adds a Learning module to your theme. Using this extension "
+"you can add courses, lessons and tests for your users to take."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:212
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:226
+msgid "Builder"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:240
+msgid "Forms"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:241
+msgid ""
+"This extension adds the possibility to create a contact form. Use the drag & "
+"drop form builder to create any contact form you'll ever want or need."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:254
+msgid "Mailer"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:255
+msgid ""
+"This extension will let you set some global email options and it is used by "
+"other extensions (like Forms) to send emails."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:268
+msgid "Social"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:269
+msgid ""
+"Use this extension to configure all your social related APIs. Other "
+"extensions will use the Social extension to connect to your social accounts."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:282
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:473
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:474
+msgid "Backup"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:283
+msgid ""
+"This extension lets you set up daily, weekly or monthly backup schedule. You "
+"can choose between a full backup or a data base only backup."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:296
+msgid "Media"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:310
+msgid "Population method"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:324
+msgid "Translate Press"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:325
+msgid ""
+"This extension lets you translate your website in any language or even add "
+"multiple languages for your users to change at their will from the front-end."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:340
+msgid "Styling"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/available-extensions.php:341
+msgid ""
+"This extension lets you control the website visual style. Starting from "
+"predefined styles to changing specific fonts and colors across the website."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:411
+msgid "Cannot remove the old extensions backup dir"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:417
+msgid "Cannot create the extensions backup dir"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:422
+msgid "Cannot backup the extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:468
+msgid "Cannot clear the extensions directory"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:473
+msgid "Cannot recreate the extensions directory"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:479
+msgid "Cannot recover the extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:707
+#, php-format
+msgid "Cannot activate hidden standalone extension %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:919
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:64
+#, php-format
+msgid "%s Extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:949
+msgid "You are not allowed to install extensions."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:966
+msgid "All supported extensions are already installed."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:999
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1473
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1906
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2139
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:702
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:769
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:837
+msgid "Invalid nonce."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1037
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2491
+#, php-format
+msgid "Cannot remove temporary directory: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1114
+msgid "You have no permissions to install extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1121
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1564
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1970
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2201
+msgid "No extensions provided"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1145
+#, php-format
+msgid "Extension \"%s\" is already installed."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1158
+#, php-format
+msgid "Extension \"%s\" is not available for install."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1184
+#, php-format
+msgid "Parent extension \"%s\" not available."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1302
+#, php-format
+msgid "The %s extension has been successfully installed."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1451
+msgid "You are not allowed to delete extensions."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1557
+msgid "You have no permissions to uninstall extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1574
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3276
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3366
+msgid "WP Filesystem is not initialized"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1658
+#, php-format
+msgid "Cannot delete the \"%s\" extension."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1772
+msgid "Extension not specified."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1777
+#, php-format
+msgid "Extension \"%s\" is not installed."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1845
+#, php-format
+msgid "Extension \"%s\" does not exist or is not active."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1854
+#, php-format
+msgid "%s extension does not have settings."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1875
+msgid "Extension has no documentation. Maybe ask its developer to write some?"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1899
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2132
+msgid "Invalid request method."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1911
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2144
+msgid "No extension specified."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1963
+msgid "You have no permissions to activate extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:1999
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2225
+#, php-format
+msgid "Extension \"%s\" does not exist."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2194
+msgid "You have no permissions to deactivate extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2390
+msgid "You are not allowed to save extensions settings."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2397
+msgid "Invalid extension."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2402
+msgid "Extension does not have settings options."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2434
+msgid "Extensions settings successfully saved."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2461
+#, php-format
+msgid "Extension \"%s\" has no download sources."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2499
+#, php-format
+msgid "Cannot create temporary directory: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2538
+#, php-format
+msgid "Cannot remove the \"%s\" extension downloaded zip."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2547
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:323
+msgid "Cannot access the unzipped directory files."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2563
+#, php-format
+msgid "The unzipped \"%s\" extension directory not found."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2616
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2635
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2724
+#, php-format
+msgid "Cannot read directory \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2671
+#, php-format
+msgid "Cannot delete \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2685
+#, php-format
+msgid "Cannot create the \"%s\" directory."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:2704
+#, php-format
+msgid "Cannot move \"%s\" to \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3154
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3201
+#, php-format
+msgid "Cannot activate the %s extension because it is not installed. %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3158
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3205
+msgid "Install"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3258
+msgid "Install theme compatible extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3293
+#, php-format
+msgid "Temporary directory cannot be removed: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3300
+#, php-format
+msgid "Temporary directory cannot be created: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3323
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3330
+#, php-format
+msgid "Failed to extract relative directory from: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3339
+#, php-format
+msgid "Failed to create directory %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3347
+#, php-format
+msgid "Failed to copy extension to %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3377
+#, php-format
+msgid "Temporary directory does not exist: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3397
+#, php-format
+msgid "Cannot obtain WP Filesystem dir for %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3534
+#, php-format
+msgid "PHP needs to be updated to %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3543
+#, php-format
+msgid "Maximum supported PHP version is %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3562
+#, php-format
+msgid "You need to update WordPress to %s: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3564
+msgid "Update WordPress"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3568
+#, php-format
+msgid "WordPress needs to be updated to %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3578
+#, php-format
+msgid "Maximum supported WordPress version is %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3595
+#, php-format
+msgid "You need to update %s to %s: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3599
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3639
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3604
+#, php-format
+msgid "%s needs to be updated to %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3615
+#, php-format
+msgid "Maximum supported %s version is %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3635
+#, php-format
+msgid "You need to update the %s extension to %s: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3644
+#, php-format
+msgid "The %s extension needs to be updated to %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3655
+#, php-format
+msgid "Maximum supported %s extension version is %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3670
+#, php-format
+msgid "The %s extension is disabled"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3671
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3680
+#, php-format
+msgid "The %s extension is not installed: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3683
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/class--fw-extensions-manager.php:3688
+#, php-format
+msgid "The %s extension is not installed"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/class--fw-extensions-delete-upgrader-skin.php:14
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/class--fw-extensions-install-upgrader-skin.php:14
+msgid "Go to extensions page"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/class--fw-extensions-delete-upgrader-skin.php:17
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/class--fw-extensions-install-upgrader-skin.php:17
+msgid "Return to Extensions page"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:31
+#, php-format
+msgid "\"%s\" extension bitbucket source \"user_repo\" parameter is required"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:47
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:156
+#, php-format
+msgid "Cannot download the \"%s\" extension zip. (Response code: %d)"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:54
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:163
+#, php-format
+msgid "Cannot download the \"%s\" extension zip. %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:62
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:171
+#, php-format
+msgid "Cannot download the \"%s\" extension zip."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:73
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-custom.php:68
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:182
+#, php-format
+msgid "Cannot save the \"%s\" extension zip."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:106
+#: inc/packages/importer/framework/extensions/update/extensions/bitbucket-update/class-fw-extension-bitbucket-update.php:102
+#: inc/packages/importer/framework/extensions/update/extensions/custom-update/class-fw-extension-custom-update.php:106
+#, php-format
+msgid "Empty version for item: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-bitbucket.php:115
+#: inc/packages/importer/framework/extensions/update/extensions/bitbucket-update/class-fw-extension-bitbucket-update.php:111
+#, php-format
+msgid "Wrong Bibucket version for item: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-custom.php:111
+#, php-format
+msgid "Cannot get latest versions for extension: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-custom.php:165
+#, php-format
+msgid "Cannot install plugin: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-custom.php:169
+#, php-format
+msgid "Cannot find plugin: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:31
+#, php-format
+msgid "\"%s\" extension github source \"user_repo\" parameter is required"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:76
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:90
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:230
+msgid "Github error:"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:82
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:91
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:99
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:239
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases. (Response code: %d)"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:99
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases. (%s)"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:107
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:107
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:247
+#, php-format
+msgid "Failed to access Github repository \"%s\" releases."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/includes/download-source/types/class-fw-download-source-github.php:122
+#, php-format
+msgid "\"%s\" extension github repository \"%s\" has no releases."
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/delete-form.php:42
+#: inc/packages/importer/framework/core/components/extensions/manager/views/install-form.php:51
+msgid "No, Return me to the extension list"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/delete-form.php:45
+msgid "Click to view entire list of directories which will be deleted"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension-page-header.php:25
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:119
+msgid "Install Instructions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension-page-header.php:31
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:112
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:73
+#: page-settings/manager.php:42 widgets/dropdown.php:56
+#: widgets/header-menu.php:155 widgets/header-preset/header-preset.php:158
+#: widgets/lottie.php:55 widgets/offcanvas-menu.php:111
+#: widgets/wc-cart-count.php:50
+msgid "Settings"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension-page-header.php:40
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension-page-header.php:43
+#, php-format
+msgid "%s Install Instructions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension-page-header.php:46
+msgid "Unknown tab:"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:131
+msgid "Compatible"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:131
+msgid "with your current theme"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:170
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:231
+msgid "Remove"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:203
+#, php-format
+msgid "Parent extension \"%s\" is disabled"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:209
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:20
+msgid "Disabled"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extension.php:228
+msgid "View Requirements"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:62
+msgid "Active Extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:77
+msgid "No extensions activated yet"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:77
+msgid "Check the available extensions below"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:106
+msgid "Available Extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:233
+msgid "Show other extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/extensions/manager/views/extensions-page.php:234
+msgid "Hide other extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/theme.php:206
+msgid "Theme requirements not met:"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/theme.php:223
+msgid "More Details"
+msgstr ""
+
+#: inc/packages/importer/framework/core/components/theme.php:228
+msgid "Activate Now | for FREE"
+msgstr ""
+
+#: inc/packages/importer/framework/core/extends/class-fw-option-type.php:329
+#, php-format
+msgid "Option type %s has no default value"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:127
+#, php-format
+msgid ""
+"Oops, %s requires %s but it is not enabled on your server. If you are not "
+"familiar with PHP Zip module, please contact your hosting provider."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:132
+msgid "Unyson Backup"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:136
+msgid "PHP Zip module"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:281
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:274
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:373
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:440
+msgid "File not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:618
+#: inc/packages/importer/framework/helpers/general.php:1855
+msgid "Unknown error"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:622
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:636
+msgid "Access Denied"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:629
+msgid "Archive not found"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/class-fw-extension-backups.php:643
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:197
+msgid "Failed to open file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:117
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:118
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:438
+msgid "Demo Content Install"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:324
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:380
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:413
+msgid "Forbidden"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:393
+msgid "Invalid demo"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:400
+msgid "A content install is currently running"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:496
+msgid "Error"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/class-fw-extension-backups-demo.php:512
+msgid "Demo Install has been aborted"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/views/page.php:28
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/views/page.php:39
+#: inc/packages/importer/framework/extensions/backups/views/page.php:17
+#: inc/packages/importer/framework/extensions/backups/views/page.php:28
+msgid "Important"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/views/page.php:30
+#: inc/packages/importer/framework/extensions/backups/views/page.php:19
+#, php-format
+msgid "You need to activate %s."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/extensions/backups-demo/views/page.php:31
+#: inc/packages/importer/framework/extensions/backups/views/page.php:20
+msgid "zip extension"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:37
+msgid "Invalid JSON response"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:44
+msgid ""
+"HTTP Loopback Connections are not enabled on this server. If you need to "
+"contact your web host, tell them that when PHP tries to connect back to the "
+"site at the URL `{url}` and it gets the error `{error}`. There may be a "
+"problem with the server configuration (eg local DNS problems, mod_security, "
+"etc) preventing connections from working properly."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:121
+#: inc/packages/importer/framework/extensions/backups/helpers.php:143
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:361
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:417
+#, php-format
+msgid "Failed to create dir: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:150
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:146
+#, php-format
+msgid "Failed to copy: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:196
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:73
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:50
+msgid "Zip extension missing"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:202
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:81
+#, php-format
+msgid "Cannot open zip (Error code: %s)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:223
+#, php-format
+msgid "Cannot restore previous zip entry: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:258
+#, php-format
+msgid "Cannot create directory: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:266
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:55
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:70
+#, php-format
+msgid "Cannot create file: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:281
+#, php-format
+msgid "Cannot read chunk from zip entry: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/helpers.php:292
+#, php-format
+msgid "Cannot close file: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:69
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:76
+msgid "Full Backup"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:69
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:85
+msgid "Content Backup"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/list-table/class--fw-ext-backups-list-table.php:88
+msgid ""
+"Warning! \n"
+"You are about to delete a backup, it will be lost forever. \n"
+"Are you sure?"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:186
+msgid "Backup Schedule"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:288
+msgid "Once Weekly"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/class--fw-ext-backups-module-schedule.php:292
+msgid "Once a month"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:16
+msgid "Interval"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:21
+msgid "Monthly"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:22
+msgid "Weekly"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:23
+msgid "Daily"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:25
+msgid "Select how often do you want to backup your website."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:32
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:45
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:58
+msgid "Age Limit"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:33
+msgid "Age limit of backups in months"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:46
+msgid "Age limit of backups in weeks"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/schedule/settings-options.php:59
+msgid "Age limit of backups in days"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:142
+msgid "undefined"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:282
+msgid "Task type not registered"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:289
+msgid "Execution stopped (next step did not started)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:309
+msgid "The execution failed. Please check error.log"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:379
+msgid "Invalid execution end time"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:602
+msgid "Invalid execution result"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:721
+msgid "Invalid token"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/class--fw-ext-backups-module-tasks.php:740
+msgid "Invalid tasks hash"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:38
+msgid "Database export"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:50
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:37
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:51
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:114
+msgid "Destination dir not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:71
+msgid "Database table disappeared"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:90
+msgid "Cannot create file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:96
+msgid "Cannot reopen file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:141
+#, php-format
+msgid "Cannot export CREATE TABLE sql for %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:212
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-export.php:268
+msgid "Cannot get next database table"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:12
+msgid "Database restore"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:127
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:37
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:41
+msgid "Source dir not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:145
+msgid "Database file not found"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:179
+msgid ""
+"PHP class SplFileObject is required but not available. Please contact your "
+"hosting"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:196
+#, php-format
+msgid "Invalid sub task %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:310
+#, php-format
+msgid "Cannot drop temporary table: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:337
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:501
+msgid "Cannot open db file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:346
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:510
+msgid "Cannot move cursor in db file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:361
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:722
+#, php-format
+msgid "Failed to decode line %d from db file."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:396
+#, php-format
+msgid "Cannot read line %d from db file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:405
+msgid "Required params not found"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:442
+msgid "Cannot do full db restore because backup is missing some tables"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:572
+#, php-format
+msgid "Imported url \"%s\" is prefix of current url"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:739
+#, php-format
+msgid "Table name is more than 64 characters: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:748
+#, php-format
+msgid "Failed to drop tmp table %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:807
+#, php-format
+msgid "Failed to create tmp table %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:820
+#, php-format
+msgid "Tried to insert data in table that was not imported %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1022
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1048
+#, php-format
+msgid "Failed to insert row from line %d into table %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1065
+#, php-format
+msgid "Invalid json type %s in db file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1072
+msgid "Cannot read line from db file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1116
+msgid "Failed to restore options keeping step"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1151
+#, php-format
+msgid "Failed to keep option: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1221
+msgid "Tables drop failed"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-db-restore.php:1235
+msgid "Tables rename failed."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:12
+msgid "Directory Cleanup"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:21
+msgid "Dir not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:30
+msgid "Cannot remove directory"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-dir-clean.php:37
+msgid "Cannot create directory"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:9
+msgid "Files Export"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:25
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:52
+msgid "Source dirs not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:33
+msgid "Destination not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:83
+#, php-format
+msgid "Source dir %s is empty"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:125
+msgid "Failed to get dir chmod"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:132
+msgid "Failed to create destination dir"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-export.php:220
+#, php-format
+msgid "Failed to restore dir listing from: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:9
+msgid "Files Restore"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:45
+#, php-format
+msgid "Invalid source dir: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:135
+msgid "No filesystem access, credentials required"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:139
+msgid "No filesystem access, invalid credentials"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:145
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:154
+msgid "Filesystem init failed"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:202
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:315
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:339
+#, php-format
+msgid "Cannot convert Filesystem path: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:207
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:320
+#, php-format
+msgid "Failed to list dir: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:237
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:279
+#, php-format
+msgid "Failed to remove dir: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:244
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:286
+#, php-format
+msgid "Failed to remove file: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:374
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-files-restore.php:430
+#, php-format
+msgid "Failed to copy file: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-remove.php:9
+msgid "Image Sizes Remove"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-remove.php:23
+msgid "Uploads dir not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:9
+msgid "Image Sizes Restore"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:12
+#, php-format
+msgid "(%d of %d)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-image-sizes-restore.php:66
+msgid "Cannot get total images count"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:12
+msgid "Archive Unzip"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:15
+#, php-format
+msgid "(%d files extracted)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:29
+msgid "Zip file not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-unzip.php:47
+msgid "Destination dir is not empty"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:12
+msgid "Archive Zip"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:45
+msgid "Source dir does not exist"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:127
+msgid "Cannot close the zip file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/class-fw-ext-backups-task-type-zip.php:146
+msgid "Cannot move zip in destination dir"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:18
+msgid "Download"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:119
+msgid "Invalid destination dir"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:132
+#, php-format
+msgid "Invalid type: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/class-fw-ext-backups-task-type-download.php:141
+#, php-format
+msgid "Args not specified for type: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:9
+msgid "Local Download"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:24
+msgid "Source not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:29
+msgid "Invalid source"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:38
+msgid "Invalid source type"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:59
+#, php-format
+msgid "Cannot open zip: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/class-fw-ext-backups-task-type-download-local.php:70
+msgid "Unhandled type"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:13
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:21
+msgid "Downloading"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:17
+#, php-format
+msgid "Downloading (%s of %s)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:25
+#, php-format
+msgid "Archive Unzip (%d files extracted)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:27
+msgid "Download finished. Doing unzip"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:30
+msgid "Downloading (invalid state)"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:56
+msgid "Url not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:61
+msgid "Invalid url"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:68
+msgid "File id not specified"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:73
+msgid "Invalid file id"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:104
+msgid "Partial download invalid state"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:147
+#, php-format
+msgid "Request failed. Error code: %d"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:158
+msgid "Invalid byte position"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:163
+msgid "Empty response body"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:183
+msgid "File ended without content"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/includes/module/tasks/type/download/type/piecemeal/class-fw-ext-backups-task-type-download-piecemeal.php:216
+msgid "Failed to write data to file"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/backups/views/page.php:70
+msgid "Archives"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:36
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:37
+msgid "Blog"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:38
+msgid "Add blog post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:39
+msgid "Add new blog post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:40
+msgid "All blog posts"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:41
+msgid "Edit blog post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:42
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:43
+msgid "Blog Post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:44
+msgid "New blog post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:45
+msgid "No blog posts found"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:46
+msgid "No blog posts found in trash"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:47
+msgid "Search blog posts"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:48
+msgid "View blog post"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:67
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:87
+#: inc/packages/importer/framework/extensions/blog/manifest.php:7
+#: inc/packages/importer/framework/extensions/blog/manifest.php:8
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/blog/class-fw-extension-blog.php:76
+msgid "Blog Categories"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:314
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:633
+msgid "Cannot delete: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:321
+msgid "Cannot create: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:399
+msgid "Cannot remove old temporary directory: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:405
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:603
+msgid "Cannot create directory: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:410
+#, php-format
+msgid "Downloading the %s..."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:415
+#, php-format
+msgid "Cannot download the %s."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:425
+#, php-format
+msgid "Installing the %s..."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:431
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:460
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:562
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:583
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:613
+msgid "Cannot access directory: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:450
+msgid "Cannot remove: "
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:485
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:552
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:659
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:683
+#, php-format
+msgid "Cannot move \"%s\" to \"%s\""
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:501
+#, php-format
+msgid "Cannot merge \"%s\" with \"%s\""
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:514
+#, php-format
+msgid "The %s has been successfully updated."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:521
+#, php-format
+msgid "Cannot remove temporary directory \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:713
+msgid "Framework Update"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:729
+msgid "Failed to get framework latest version."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:780
+msgid "Theme Update"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:796
+msgid "Failed to get theme latest version."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:813
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:388
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:401
+msgid "Theme"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:846
+msgid "Please check the extensions you want to update."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:871
+msgid "Extensions Update"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:905
+msgid "No extensions updates found."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:911
+#, php-format
+msgid "Extension \"%s\" does not exist or is disabled."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:916
+#, php-format
+msgid "No update found for the \"%s\" extension."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/class-fw-extension-update.php:941
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:419
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:432
+#, php-format
+msgid "%s extension"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:121
+#, php-format
+msgid "No releases found in repository \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:141
+#, php-format
+msgid ""
+"%s manifest has invalid \"github_update\" parameter. Please use \"user/"
+"repo\" format."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:169
+#, php-format
+msgid "Failed to fetch %s latest version from github \"%s\"."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:262
+#, php-format
+msgid "%s github repository \"%s\" does not have the \"%s\" release."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:282
+#, php-format
+msgid "Cannot download %s zip."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:295
+#, php-format
+msgid "Cannot save %s zip."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:314
+#, php-format
+msgid "Cannot remove %s zip."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/extensions/github-update/class-fw-extension-github-update.php:339
+#, php-format
+msgid "The unzipped %s directory not found."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:33
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:715
+msgid "Select All"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:84
+#, php-format
+msgid "You have version %s installed. Update to %s."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-extensions-list-table.php:126
+msgid "No Extensions for update."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-extensions-upgrader-skin.php:14
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-framework-upgrader-skin.php:16
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-theme-upgrader-skin.php:16
+msgid "Go to updates page"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-extensions-upgrader-skin.php:17
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-framework-upgrader-skin.php:19
+#: inc/packages/importer/framework/extensions/update/includes/classes/class--fw-ext-update-theme-upgrader-skin.php:19
+msgid "Return to Updates page"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/manifest.php:5
+msgid "Update"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/manifest.php:6
+msgid "Keep you framework, extensions and theme up to date."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:8
+#, php-format
+msgid "You have the latest version of %s."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:24
+msgid "Update Framework"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:38
+msgid "Your theme is up to date."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:54
+msgid "Update Theme"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:66
+#, php-format
+msgid "You have the latest version of %s Extensions."
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:85
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:106
+msgid "Update Extensions"
+msgstr ""
+
+#: inc/packages/importer/framework/extensions/update/views/updates-list.php:104
+msgid "New extensions updates available."
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-flash-messages.php:95
+#, php-format
+msgid "Invalid flash message type: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-form.php:102
+#, php-format
+msgid "Form with id \"%s\" was already defined"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-form.php:271
+msgid "Submit"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:74
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:217
+msgid "Save Changes"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:75
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:218
+msgid "Reset Options"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:76
+msgid ""
+"Click OK to reset.\n"
+"All settings will be lost and replaced with default settings!"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:261
+msgid "You have no permissions to change settings options"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:298
+msgid "The options were successfully reset"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-settings-form.php:314
+msgid "The options were successfully saved"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-filesystem.php:43
+msgid "Cannot connect to Filesystem directly"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-filesystem.php:271
+#, php-format
+msgid "Cannot create directory \"%s\". It must be inside \"%s\""
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-filesystem.php:273
+msgid "\" or \""
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:186
+msgid "No items found."
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:310
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:404
+msgid "All dates"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:417
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:433
+msgid "List View"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:434
+msgid "Excerpt View"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/class-fw-wp-list-table.php:460
+#, php-format
+msgid "%s pending"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1424
+msgid "year"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1425
+msgid "years"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1427
+msgid "month"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1428
+msgid "months"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1430
+msgid "week"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1431
+msgid "weeks"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1433
+msgid "day"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1434
+msgid "days"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1436
+msgid "hour"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1437
+msgid "hours"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1439
+msgid "minute"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1440
+msgid "minutes"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1442
+msgid "second"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1443
+msgid "seconds"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1840
+msgid "Maximum stack depth exceeded"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1843
+msgid "Underflow or the modes mismatch"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1846
+msgid "Unexpected control character found"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1849
+msgid "Syntax error, malformed JSON"
+msgstr ""
+
+#: inc/packages/importer/framework/helpers/general.php:1852
+msgid "Malformed UTF-8 characters, possibly incorrectly encoded"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/hooks.php:105
+msgid "Please register option-types on 'fw_option_types_init' action"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/hooks.php:113
+msgid "Please register container-types on 'fw_container_types_init' action"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/addable-box/class-fw-option-type-addable-box.php:203
+#: inc/packages/importer/framework/includes/option-types/addable-option/class-fw-option-type-addable-option.php:20
+#: inc/packages/importer/framework/includes/option-types/addable-popup/class-fw-option-type-addable-popup.php:187
+msgid "Add"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/addable-popup/view.php:38
+#: inc/packages/importer/framework/includes/option-types/addable-popup/view.php:53
+msgid "Clone"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/background-image/view.php:37
+msgid "Predefined images"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/background-image/view.php:38
+msgid "Custom image"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/class-fw-option-type-undefined.php:25
+msgid "UNDEFINED OPTION TYPE"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/datetime-range/view.php:41
+#: inc/packages/importer/framework/includes/option-types/gradient/view.php:46
+msgid "to"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/class-fw-option-type-icon-v2.php:75
+msgid "Change Icon"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/class-fw-option-type-icon-v2.php:76
+msgid "Add Icon"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:7
+msgid "Icon Fonts"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:22
+msgid "Custom Upload"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:35
+msgid "Favorites"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:79
+msgid "Search Icon"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:118
+msgid "Sorry, but no results have been found"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:119
+msgid "You can try something like: wordpress, twitter, heart, cat e.t.c "
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:137
+msgid "You have no favorite icons yet"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:140
+msgid ""
+"To add icons here, simply click on the star button that's on top right "
+"corner of each icon."
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:161
+msgid "Upload Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:164
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:196
+#: inc/packages/importer/framework/includes/option-types/upload/class-fw-option-type-upload.php:182
+msgid "Upload"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:178
+msgid "You have no uploaded icons yet"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:182
+msgid "To add new icons simply click on the Upload button."
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon-v2/views/templates.php:251
+msgid "Add to Favorites"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:156
+msgid "Unknown Set"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:186
+msgid "Web Application Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:188
+msgid "Hand Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:189
+msgid "Transportation Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:190
+msgid "Gender Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:191
+msgid "File Type Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:194
+msgid "Payment Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:196
+msgid "Currency Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:197
+msgid "Text Editor Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:198
+msgid "Directional Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:199
+msgid "Video Player Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:200
+msgid "Brand Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/class-fw-option-type-icon.php:201
+msgid "Medical Icons"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/icon/view.php:39
+msgid "All Categories"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:12
+msgid "Specify location"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:27
+msgid "Location Venue"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:42
+msgid "Address"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:57
+msgid "City"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:72
+msgid "Country"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:87
+msgid "State"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:103
+msgid "Zip Code"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:138
+msgid "Cannot find the location?"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/map/views/view.php:150
+msgid "Reset location"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-picker/class-fw-option-type-multi-picker.php:241
+#, php-format
+msgid "No 'picker' key set for multi-picker option: %s"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:168
+msgid "Add Images"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:169
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:197
+#: inc/packages/importer/framework/includes/option-types/popup/class-fw-option-type-popup.php:173
+#: inc/packages/importer/framework/includes/option-types/upload/class-fw-option-type-upload.php:155
+#: inc/packages/importer/framework/includes/option-types/upload/class-fw-option-type-upload.php:183
+msgid "Edit"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:170
+msgid "Select Images"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:198
+msgid "1 File"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/multi-upload/class-fw-option-type-multi-upload.php:199
+#, php-format
+msgid "%u Files"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/radio-text/class-fw-option-type-radio-text.php:26
+msgid "25%"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/radio-text/class-fw-option-type-radio-text.php:27
+msgid "50%"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/radio-text/class-fw-option-type-radio-text.php:28
+msgid "100%"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:109
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:144
+msgid "Select Color"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:110
+msgid "Current"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:124
+msgid "Color value"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:153
+msgid "Default"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:155
+msgid "Select default color"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/rgba-color-picker/static/js/scripts.js:160
+msgid "Clear color"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/simple.php:525
+#: inc/packages/importer/framework/includes/option-types/switch/class-fw-option-type-switch.php:170
+#: widgets/header-menu.php:332 widgets/header-preset/header-preset.php:226
+#: widgets/landing-page.php:863 widgets/offcanvas-menu.php:132
+#: widgets/offcanvas-menu.php:531
+msgid "Yes"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/switch/class-fw-option-type-switch.php:165
+#: widgets/header-menu.php:333 widgets/header-preset/header-preset.php:227
+#: widgets/landing-page.php:864 widgets/offcanvas-menu.php:133
+#: widgets/offcanvas-menu.php:532
+msgid "No"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:40
+msgid "Font face"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:50
+#: widgets/landing-page.php:1244
+msgid "Normal"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:51
+msgid "Italic"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:52
+msgid "Oblique"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:61
+msgid "Style"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:89
+msgid "Weight"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/typography-v2/view.php:106
+msgid "Script"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/upload/class-fw-option-type-upload.php:154
+msgid "Add Image"
+msgstr ""
+
+#: inc/packages/importer/framework/includes/option-types/upload/class-fw-option-type-upload.php:156
+msgid "Select Image"
+msgstr ""
+
+#: inc/packages/importer/framework/manifest.php:5
+msgid "Unyson"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:60
+msgid "No designer or coding skills required."
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:63
+msgid "Install Now | for FREE"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:75
+msgid "Create & Edit Everything Visually"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:83
+msgid "Choose from a lot of elements to create your own design"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:89
+msgid "Start from over 150 pre-made blocks to create your page"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:95
+msgid "The interface shows only what’s needed for the task at hand"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:101
+msgid "Know where your elements will drop when you drag them"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:105
+#: inc/packages/importer/framework/views/about.php:148
+msgid "Install Now & Start Creating"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:115
+msgid "Fast & Easy"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:116
+msgid "Using Only"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:117
+msgid "Drag & Drop"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:126
+msgid "Brizy has the smartest text editor you’ll ever work with"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:132
+msgid "Try different fonts & colors across your pages in seconds"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:138
+msgid "Changes in mobile view will be applied only on mobile devices"
+msgstr ""
+
+#: inc/packages/importer/framework/views/about.php:144
+msgid "Over 4000 icons separated in 27 categories are included"
+msgstr ""
+
+#: inc/packages/importer/framework/views/backend-settings-form.php:179
+msgid "Resetting"
+msgstr ""
+
+#: inc/packages/importer/framework/views/backend-settings-form.php:181
+msgid "We are currently resetting your settings."
+msgstr ""
+
+#: inc/packages/importer/framework/views/backend-settings-form.php:183
+#: inc/packages/importer/framework/views/backend-settings-form.php:189
+msgid "This may take a few moments."
+msgstr ""
+
+#: inc/packages/importer/framework/views/backend-settings-form.php:185
+msgid "Saving"
+msgstr ""
+
+#: inc/packages/importer/framework/views/backend-settings-form.php:187
+msgid "We are currently saving your settings."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:77
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:86
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:136
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:140
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:149
+#: inc/packages/importer/wp-import.class.php:73
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:78
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:121
+msgid "Import done."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:121
+msgid "Have fun!"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:141
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:157
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:182
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:243
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:302
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:353
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:414
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:663
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:505
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:546
+#, php-format
+msgid "<span> %1$s &#8220;%2$s&#8221; already exists.</span>"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:624
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:810
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:817
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:884
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:902
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:946
+msgid "Could not create temporary file."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:968
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:984
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:996
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1003
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1008
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1014
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1046
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1061
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1183
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1190
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1205
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/class-wp-import.php:1206
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-regex.php:103
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-simplexml.php:48
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-simplexml.php:54
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-xml.php:108
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-simplexml.php:35
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser-simplexml.php:43
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser.php:46
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/packages/importer/wordpress-importer/parsers/class-wxr-parser.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: page-settings/manager.php:50 page-settings/manager.php:52
+#: widgets/banner-breadcrumb.php:130
+msgid "Title"
+msgstr ""
+
+#: plugin.php:187
+msgid "WCF Navigation"
+msgstr ""
+
+#: plugin.php:195
+msgid "WCF Header"
+msgstr ""
+
+#: plugin.php:203
+msgid "WCF Footer Navigation"
+msgstr ""
+
+#: plugin.php:211
+msgid "WCF Banner Breadcrumb"
+msgstr ""
+
+#: plugin.php:219
+msgid "WCF Post Tags"
+msgstr ""
+
+#: plugin.php:227
+msgid "WCF Dropdown"
+msgstr ""
+
+#: plugin.php:235
+msgid "WCF Cart Count"
+msgstr ""
+
+#: plugin.php:243
+msgid "WCF Offcanvas Menu"
+msgstr ""
+
+#: plugin.php:251
+msgid "WCF Landing"
+msgstr ""
+
+#: plugin.php:259
+msgid "WCF Lottie"
+msgstr ""
+
+#: plugin.php:267
+msgid "Sassly Button"
+msgstr ""
+
+#: plugin.php:275
+msgid "Sassly Testimonial"
+msgstr ""
+
+#: plugin.php:283
+msgid "Sassly Icon Box"
+msgstr ""
+
+#: plugin.php:291
+msgid "Sassly Notification"
+msgstr ""
+
+#: plugin.php:299
+msgid "Sassly Draggable Item"
+msgstr ""
+
+#: plugin.php:307 widgets/image-generator/image-generator.php:139
+msgid "Image Generator"
+msgstr ""
+
+#: plugin.php:315
+msgid "Sassly User Login"
+msgstr ""
+
+#: plugin.php:323
+msgid "Sassly User Registration"
+msgstr ""
+
+#: skin/accordion-two.php:69
+msgid "WCF Style Two"
+msgstr ""
+
+#: skin/accordion.php:89
+msgid "WCF"
+msgstr ""
+
+#: widgets/banner-breadcrumb.php:52
+msgid "Breadcrumb"
+msgstr ""
+
+#: widgets/banner-breadcrumb.php:248
+msgid "Breadcrumb Style"
+msgstr ""
+
+#: widgets/banner-breadcrumb.php:371
+msgid "Title Style"
+msgstr ""
+
+#: widgets/blog-post-tags.php:58
+msgid "Content"
+msgstr ""
+
+#: widgets/header-menu.php:301 widgets/header-preset/header-preset.php:478
+msgid "Offcanvas Settings"
+msgstr ""
+
+#: widgets/header-menu.php:330 widgets/offcanvas-menu.php:130
+msgid "Custom Bar"
+msgstr ""
+
+#: widgets/header-menu.php:582
+msgid "Icon Settings"
+msgstr ""
+
+#: widgets/header-preset/header-preset.php:224
+msgid "Custom Icon"
+msgstr ""
+
+#: widgets/header-preset/header-preset.php:274
+msgid "Logo"
+msgstr ""
+
+#: widgets/header-preset/header-preset.php:303 widgets/landing-page.php:1343
+msgid "Menu"
+msgstr ""
+
+#: widgets/header-preset/header-preset.php:2824
+msgid "Search"
+msgstr ""
+
+#: widgets/landing-page.php:379
+msgid "Mobile Bar Width"
+msgstr ""
+
+#: widgets/landing-page.php:407
+msgid "Main Container Width"
+msgstr ""
+
+#: widgets/landing-page.php:476
+msgid "Gap"
+msgstr ""
+
+#: widgets/landing-page.php:699
+msgid "Layout"
+msgstr ""
+
+#: widgets/landing-page.php:721
+msgid "Menu Settings"
+msgstr ""
+
+#: widgets/landing-page.php:728
+msgid "Logo / Image"
+msgstr ""
+
+#: widgets/landing-page.php:743 widgets/offcanvas-menu.php:261
+msgid "Image Size"
+msgstr ""
+
+#: widgets/landing-page.php:828
+msgid "Mobile Interface"
+msgstr ""
+
+#: widgets/landing-page.php:847
+msgid "Mobile Logo"
+msgstr ""
+
+#: widgets/landing-page.php:861
+msgid "Custom Mobile Bar"
+msgstr ""
+
+#: widgets/landing-page.php:926
+msgid "Cta Button"
+msgstr ""
+
+#: widgets/landing-page.php:998
+msgid "Additional Settings"
+msgstr ""
+
+#: widgets/landing-page.php:1005
+msgid "Alignment"
+msgstr ""
+
+#: widgets/landing-page.php:1009
+msgid "Left"
+msgstr ""
+
+#: widgets/landing-page.php:1013
+msgid "Center"
+msgstr ""
+
+#: widgets/landing-page.php:1017
+msgid "Right"
+msgstr ""
+
+#: widgets/landing-page.php:1107
+msgid "Site logo"
+msgstr ""
+
+#: widgets/landing-page.php:1144 widgets/offcanvas-menu.php:459
+msgid "Width"
+msgstr ""
+
+#: widgets/landing-page.php:1180
+msgid "Max Width"
+msgstr ""
+
+#: widgets/landing-page.php:1210
+msgid "Border Color"
+msgstr ""
+
+#: widgets/landing-page.php:1251 widgets/landing-page.php:1286
+msgid "Opacity"
+msgstr ""
+
+#: widgets/landing-page.php:1279
+msgid "Hover"
+msgstr ""
+
+#: widgets/landing-page.php:1304 widgets/landing-page.php:1529
+msgid "Transition Duration"
+msgstr ""
+
+#: widgets/landing-page.php:1412
+msgid "Text Color"
+msgstr ""
+
+#: widgets/landing-page.php:1426
+msgid "Active Border Color"
+msgstr ""
+
+#: widgets/landing-page.php:1440
+msgid "Active Text & Icon Color"
+msgstr ""
+
+#: widgets/landing-page.php:1456
+msgid "Typhography"
+msgstr ""
+
+#: widgets/landing-page.php:1464
+msgid "Text Hover Color"
+msgstr ""
+
+#: widgets/landing-page.php:1477
+msgid "Hover Typhography"
+msgstr ""
+
+#: widgets/landing-page.php:1485
+msgid "Background Color"
+msgstr ""
+
+#: widgets/landing-page.php:1505
+msgid "Item Padding"
+msgstr ""
+
+#: widgets/landing-page.php:1517
+msgid "Menu Wrapper Margin"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:168
+msgid "Sticky Bar"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:245
+msgid "Add Logo / Image"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:529
+msgid "Default?"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:1212
+msgid "Svg"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:1265
+msgid "Offcanvas Right"
+msgstr ""
+
+#: widgets/offcanvas-menu.php:1297
+msgid "Offcanvas Left"
+msgstr ""
+
+#: widgets/sassly-button.php:55
+msgid "Button"
+msgstr ""

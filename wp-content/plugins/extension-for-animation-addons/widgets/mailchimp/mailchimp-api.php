@@ -1,0 +1,158 @@
+<?php
+
+/**
+ * MailChimp api
+ */
+
+namespace WCFAddonsEX\Widgets\Mailchimp;
+
+defined( 'ABSPATH' ) || die();
+
+class Mailchimp_Api {
+
+	/**
+	 * request
+	 *
+	 * @param array $submitted_data
+	 * @return array | int error
+	 */
+	public static function insert_subscriber_to_mailchimp( $submitted_data ) {
+
+		if ( ! wp_verify_nonce( $_REQUEST['nonce'], 'wcf-addons-frontend' ) ) {
+			exit( 'No naughty business please' );
+		}
+
+		$return = [];
+
+		$api = '';
+		if ( isset( $_POST['key'] ) ) {
+			$api = str_replace( 'w1c2f', '', base64_decode( $_POST['key'] ) );
+		}
+
+		$tags = '';
+		if ( isset( $_POST['listTags'] ) && ! empty( $_POST['listTags'] ) ) {
+			$tags = explode( ', ', $_POST['listTags'] );
+		}
+
+		$auth = [
+			'api_key' => $api,
+			'list_id' => $_POST['listId'],
+		];
+
+		$data = [
+			'email_address' => ( isset( $submitted_data['email'] ) ? $submitted_data['email'] : '' ),
+			'status'        => ( ( isset( $_POST['doubleOpt'] ) && $_POST['doubleOpt'] == 'yes' ) ? 'pending' : 'subscribed' ),
+			'status_if_new' => ( ( isset( $_POST['doubleOpt'] ) && $_POST['doubleOpt'] == 'yes' ) ? 'pending' : 'subscribed' ),
+			'merge_fields'  => [
+				'FNAME' => ( isset( $submitted_data['fname'] ) ? $submitted_data['fname'] : '' ),
+				'LNAME' => ( isset( $submitted_data['lname'] ) ? $submitted_data['lname'] : '' ),
+				'PHONE' => ( isset( $submitted_data['phone'] ) ? $submitted_data['phone'] : '' ),
+			],
+		];
+
+		if ( ! empty( $tags ) ) {
+			$data['tags'] = $tags;
+		}
+
+		$server = explode( '-', $auth['api_key'] );
+
+		if ( ! isset( $server[1] ) ) {
+			return [
+				'status' => 0,
+				'msg'    => esc_html__( 'Invalid API key.', 'wcf-addons' ),
+			];
+		}
+
+		$url = 'https://' . $server[1] . '.api.mailchimp.com/3.0/lists/' . $auth['list_id'] . '/members/';
+
+		$response = wp_remote_post(
+			$url,
+			[
+				'method'      => 'POST',
+				'data_format' => 'body',
+				'timeout'     => 45,
+				'headers'     => [
+					'Authorization' => 'apikey ' . $auth['api_key'],
+					'Content-Type'  => 'application/json; charset=utf-8',
+				],
+				'body'        => wp_json_encode( $data ),
+			]
+		);
+
+		if ( is_wp_error( $response ) ) {
+			$error_message    = $response->get_error_message();
+			$return['status'] = 0;
+			$return['msg']    = 'Something went wrong: ' . esc_html( $error_message );
+		} else {
+			$body           = (array) json_decode( $response['body'] );
+			$return['body'] = $body;
+			if ( $body['status'] > 399 && $body['status'] < 600 ) {
+				$return['status'] = 0;
+				$return['msg']    = $body['title'];
+			} elseif ( $body['status'] == 'subscribed' ) {
+				$return['status'] = 1;
+				$return['msg']    = esc_html__( 'Your data has been inserted on Mailchimp.', 'wcf-addons' );
+			} elseif ( $body['status'] == 'pending' ) {
+				$return['status'] = 1;
+				$return['msg']    = esc_html__( 'Confirm your subscription from your email.', 'wcf-addons' );
+			} else {
+				$return['status'] = 0;
+				$return['msg']    = esc_html__( 'Something went wrong. Try again later.', 'wcf-addons' );
+			}
+		}
+
+		return $return;
+	}
+
+	/**
+	 * Get request
+	 *
+	 * @return array all list
+	 */
+	public static function get_mailchimp_lists( $api = null ) {
+		$options = [];
+
+		$server = explode( '-', $api );
+
+		if ( ! isset( $server[1] ) ) {
+			return 0;
+		}
+
+		$url = 'https://' . $server[1] . '.api.mailchimp.com/3.0/lists';
+
+		$response = wp_remote_post(
+			$url,
+			[
+				'method'      => 'GET',
+				'data_format' => 'body',
+				'timeout'     => 45,
+				'headers'     => [
+
+					'Authorization' => 'apikey ' . $api,
+					'Content-Type'  => 'application/json; charset=utf-8',
+				],
+				'body'        => '',
+			]
+		);
+
+		if ( is_array( $response ) && ! is_wp_error( $response ) ) {
+			$body   = (array) json_decode( $response['body'] );
+			$listed = isset( $body['lists'] ) ? $body['lists'] : [];
+
+			if ( is_array( $listed ) && count( $listed ) > 0 ) {
+				$options = array_reduce(
+					$listed,
+					function ( $result, $item ) {
+						// extra space is needed to maintain order in elementor control
+						$result[ ' ' . $item->id ] = $item->name;
+
+						return $result;
+					},
+					array()
+				);
+			}
+		}
+
+		return $options;
+	}
+}

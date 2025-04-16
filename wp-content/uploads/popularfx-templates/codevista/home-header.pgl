@@ -1,0 +1,77 @@
+[pl_row pagelayer-id="oe7muoftswh3ho2r"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#eeeeeeff" row_shape_top_width="400" row_shape_top_height="300" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_color="#ffffffff" ele_margin="0%,0%,0%,0%" ele_margin_tablet="0%,0%,0%,0%" ele_margin_mobile="0%,0%,0%,0%" ele_padding="0%,0%,0%,0%" border_width="0px,0px,3px,0px" border_color="#3498dbff" overlay_transperancy="0.5" overlay_color="#1d2021e0" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" ele_bg_img="{{theme_url}}/images/home-header.png" row_shape_position="top" row_shape_type_top="mountains"]
+[pl_col pagelayer-id="e2fnio959mt2nhrq"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="3" content_pos="center"]
+[pl_inner_row pagelayer-id="LuGfJQv6uxY4rDrn"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_padding="10px,0px,10px,0px" border_type="solid" border_width="0px,0px,3px,0px" border_color="#009b72ff"]
+[pl_inner_col pagelayer-id="IRZ1VuqkiIbq12Xb"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col_width="30" content_pos="center" col_width_mobile="70"]
+[pl_image pagelayer-id="DDeSx5ZTvUoDdyT7"  id="{{theme_url}}/images/logo.png" id-size="full" align="left" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" max-width="65" link_type="custom_url" link="11459" max-width_tablet="100" max-width_mobile="90"]
+
+[/pl_image]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="8FA2bDviinX2zmYM"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col_width="70" col_width_mobile="30"]
+[pl_wp_menu pagelayer-id="s60r9zla4um0cct8"  nav_list="2" align="center" layout="horizontal" pointer="" m_animation="slide" list_style="none" submenu_ind="caret-down" menu_bg_color_hover=" " horizontal_padding="20" vertical_padding="NaN" submenu_color="#ffffff" submenu_bg_color="#3e8ef7ff" submenu_horizontal_padding="10" submenu_vertical_padding="NaN" submenu_left_margin="10" menu_toggle_align="center" menu_toggle_bg_color="#009b72ff" menu_toggle_size="30" ele_bg_hover_delay="400" submenu_position="left" menu_color="#000000ff" menu_color_hover="#009b72ff" menu_bg_color_active=" " close_hover_delay="600" menu_typo="Montserrat,18,,600,,,Solid,,Uppercase,," menu_color_active="#009b72ff" ele_padding="0px,0px,0px,0px" ele_align="margin" ele_height="auto" align_tablet="center" align_mobile="center" ele_margin="0px,0px,0px,0px" slide_style="pagelayer-wp_menu-right" menu_width="30" menu_items_width="100" menu_posy="10" menu_bg="color" close_size="25" close_padding="8" close_color="#ffffffff" close_bg_color="#009b72ff" close_color_hover="#ffffff" close_bg_color_hover="#000000" menu_items_bg="#ffffffff" drop_breakpoint="tablet" menu_toggle_size_tablet="20" menu_toggle_padding_tablet="10" ele_margin_tablet="0px,0px,0px,0px" menu_posy_mobile="NaN" menu_width_mobile="60" menu_width_tablet="60" menu_toggle_align_tablet="right" menu_toggle_color="#ffffffff" menu_toggle_align_mobile="right" menu_toggle_size_mobile="18" menu_toggle_padding_mobile="10" ele_margin_mobile="0px,0px,0px,0px" vertical_padding_tablet="20" vertical_padding_mobile="20"]
+[/pl_wp_menu]
+[/pl_inner_col]
+[/pl_inner_row]
+[pl_inner_row pagelayer-id="MxjZaiswQacrlbpA"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_padding="0px,0px,70px,0px" ele_margin="0px,0px,0px,0px" ele_padding_tablet="0px,0px,70px,0px"]
+[pl_inner_col pagelayer-id="omwKPUtvJTCHqClg"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col_width="45" col_width_tablet="100" col_width_mobile="100"]
+[pl_image pagelayer-id="aSIkRe1cBWlVZ6G6"  id="{{theme_url}}/images/home-header.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0"]
+
+
+
+
+
+
+
+
+
+
+[/pl_image]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="tHbF0MfeURj0SQtp"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col_width="55" col_width_tablet="100" content_pos="center" col_width_mobile="100"]
+[pl_anim_heading pagelayer-id="T4ZFgXNbRtf9PHvg"  type="rotating" align="left" typo="Montserrat,32,,600,,,Solid,,,," color_type="color" effects="blobs" color="#000000ff" blob_1="#ff1493" blob_2="#ff4500" blob_3="#00ff00" blob_4="#ff0000" blob_5="#ffff00" blob_6="#00ffff" blob_7="#ff8c00" animations="pagelayer-aheading-clip" rotate_text="Software Company, Payment Processing, Mobile App, CRM Software, Web Hosting, ERP Solutions, Digital Studio, Cloud SaaS" rotate_color="#009b72ff" ele_margin="0px,0px,0px,0px" ele_align="margin" ele_height="auto" ele_custom_width="210px" typo_mobile=",21,,,,,Solid,,,," ele_css="@media (max-width: 767px) and (min-width: 321px){
+{{element}} .pagelayer-aheading-holder p{
+font-size: 25px !important;
+}
+}"]
+
+
+
+
+
+
+Build your[/pl_anim_heading]
+[pl_heading pagelayer-id="IIBm3odjRP0AOSPd"  heading_state="normal" color="#111111" heading_typo="Montserrat,32,,600,,,Solid,,,," heading_typo_mobile=",21,,,,,Solid,,,," ele_css="@media (max-width: 767px) and (min-width: 321px){
+{{element}} .pagelayer-heading-holder *{
+font-size: 25px !important;
+}
+}"]
+
+
+
+<h2>with <span style="color: #009B72;">&#60;CodeVista&#62;</span></h2>[/pl_heading]
+[pl_text pagelayer-id="yq51eDJGrGzL4Jhz"  font_family="Raleway" font_size="16"]
+
+
+
+
+
+
+
+
+
+
+
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>[/pl_text]
+[pl_btn_grp pagelayer-id="Bxi2mxDhCkG23GTh"  align="left" group_layout="horizontal" vindent="3" hindent="10" ele_margin="0px,0px,0px,-10px" hindent_tablet="5" ele_margin_tablet="0px,0px,0px,-5px" hindent_mobile="3" ele_margin_mobile="0px,0px,0px,-3px" ele_css="@media (max-width: 767px) and (min-width: 321px){
+{{element}} .pagelayer-btn-holder{
+padding: calc(14px / 2) 14px !important;
+}
+}"]
+[pl_btn pagelayer-id="VhvjD1UBjo933wp3"  text="Our Services" align="left" type="pagelayer-btn-custom" size="pagelayer-btn-custom" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" link="#" btn_typo="Raleway,18,,,,,Solid,,,," btn_bg_color="#009b72ff" btn_color="#ffffff" icon="fas fa-cog" btn_border_type="solid" btn_border_color="#009b72ff" btn_border_width="2,2,2,2" btn_border_radius="25,25,25,25" btn_hover="hover" btn_bg_color_hover="#ffffffff" btn_color_hover="#009b72ff" btn_custom_size="25" btn_custom_size_tablet="20" icon_spacing_mobile="2" btn_custom_size_mobile="10" btn_typo_mobile=",16,,,,,Solid,,,,"]
+[/pl_btn]
+[pl_btn pagelayer-id="PVyTn9lusW85z96y"  text="Contact Us" align="left" type="pagelayer-btn-custom" size="pagelayer-btn-custom" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" link="#" btn_typo="Raleway,18,,,,,Solid,,,," btn_bg_color="#ffffffff" btn_color="#009b72ff" icon="fas fa-long-arrow-alt-right" btn_border_type="solid" btn_border_color="#009b72ff" btn_border_width="2,2,2,2" btn_border_radius="25,25,25,25" btn_hover="hover" btn_bg_color_hover="#009b72ff" btn_color_hover="#ffffffff" btn_custom_size="25" btn_custom_size_tablet="20" icon_spacing_mobile="2" btn_custom_size_mobile="10" btn_typo_mobile=",16,,,,,Solid,,,,"]
+[/pl_btn]
+[/pl_btn_grp]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]

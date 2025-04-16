@@ -1,0 +1,259 @@
+[pl_post_props pagelayer-id="K0j5UWStHPOvjSm8"  post_title="Services" post_name="service" post_status="publish" featured_image="" post_excerpt=""]
+[/pl_post_props]
+[pl_row pagelayer-id="dQJFws0C3ernWFSZ"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="70px,0px,70px,0px" ele_bg_type="color" ele_bg_color="#eeeeeeff"]
+[pl_col pagelayer-id="KPu3D91rj4Wfp5Hy"  overlay_hover_delay="400"]
+[pl_iconbox pagelayer-id="2e6I7bXeuDdUmXbd"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Our Services" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_alignment="center" ele_custom_pos="true" ele_align="50%" ele_height="auto" ele_custom_width="165px" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="4cdt1Kvj8gWb7dzH"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,28,,600,,,Solid,,,," ele_padding="5px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," align="center" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<h2>Simple Solutions for <br>Complex <span style="color:#009B72;">Challenges</span></h2>[/pl_heading]
+[pl_inner_row pagelayer-id="SdoRDxNs2tXQBarY"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="SA7eo96TYN7hhP88"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="XQmbB9adLIM0HVXA"  service_icon="fas fa-tachometer-alt" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Fast & Secure" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="06X7kM5Sn5ptckJ6"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="HdgNGo5lTNbPFEuO"  service_icon="fas fa-cogs" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Easy Optimization" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="4TrC3uXixpjo9nt3"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="gP3z3cQ8qJufH3NT"  service_icon="far fa-chart-bar" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Clear Interface" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="DRcsO7pcQuY8pVm1"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="rwN92c0COjhbzrC3"  service_icon="fas fa-pen-nib" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Responsive" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="bmZaMJBIwp1Dowa7"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="G2Tv1kBZ4VHSDz3a"  service_icon="fas fa-project-diagram" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Sharing" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="jyuLMwWNHfK0J1ZQ"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="BmMLFlshulpSrpVq"  service_icon="fas fa-magic" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Wizards" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="qe07v1Ajof9RuRdQ"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="CgsTZHrY6oMHm8fT"  service_icon="fas fa-layer-group" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Multitasking" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="ZCFKA3TYSjxt8OA3"  overlay_hover_delay="400" col_width="25" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="joO8zoj318iVOP7w"  service_icon="fas fa-language" service_alignment="top" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="65" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Multilanguage" heading_alignment="center" service_title_spacing="10,0,10,0" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_spacing="20,0,0,0" font_family="Raleway" font_size="16" service_content_spacing="0,10,20,10" ele_bg_type="" ele_bg_color="#eeeeeeff" border_type="solid" border_width="1px,1px,1px,1px" border_color="#000000ff" ele_hover_anim="float" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="SHH3tG4pRmBfMSd5"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="70px,0px,70px,0px"]
+[pl_col pagelayer-id="v2XzLzNXHoHh5GYM"  overlay_hover_delay="400" col="4"]
+[pl_iconbox pagelayer-id="FUnaITu30kxyWYhw"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Our Vision" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_alignment="center" ele_custom_pos="true" ele_align="50%" ele_height="auto" ele_custom_width="165px" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="dejN6uReAKv7g6c1"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,28,,600,,,Solid,,,," ele_padding="5px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," align="center" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+<h2>Deploy and Maintain Together</h2>[/pl_heading]
+[pl_inner_row pagelayer-id="sXdStb7QS3KbWumn"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="AelSGTUVcSov0MV8"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="9Sxhdcgev6N2bG5G"  service_image="{{theme_url}}/images/home1.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="middle" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Possibilities are Infinite!" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" border_radius="25px,25px,25px,25px" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>[/pl_service]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="CdwgXOW32e6G2yA2"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="dOHNi5eTz7ePdmn0"  service_image="{{theme_url}}/images/home3.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Think outside the Box!" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" border_radius="25px,25px,25px,25px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>[/pl_service]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="YvFZrxqcX5ahFWfZ"  overlay_hover_delay="400" col="4"]
+[pl_service pagelayer-id="cn945CDoLfH0YBXf"  service_image="{{theme_url}}/images/home2.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Invent the future with us!" heading_alignment="center" service_title_spacing="20,0,10,0" heading_state="normal" service_heading_color="#ffffffff" service_heading_typo="Montserrat,22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_type="color" ele_bg_color="#009b72ff" font_family="Raleway" font_size="16" service_content_spacing="0,20,0,20" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Find Out More" service_btn_spacing="10,0,20,0" service_btn_state="normal" service_button_color="#009b72ff" service_button_bg_color="#ffffffff" service_button_typo=",,,600,,,Solid,,,," btn_border_type="solid" btn_border_radius="25,25,25,25" border_radius="25px,25px,25px,25px" img_border_type="solid" img_border_color="#0986c0" img_border_width="0,0,0,0" img_border_radius="25px,25px,0px,0px" ele_hover_anim="float" animation="fadeInUp" animation_delay="600" ele_css="@media (max-width: 768px){
+{{element}} img{
+width:100%;
+}
+}
+
+{{element}} {
+color:white;
+}"]
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>[/pl_service]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="1zgoZ41oMfcwzRKQ"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="color" ele_bg_color="#eeeeeeff" ele_padding="70px,0px,70px,0px" content_pos="center"]
+[pl_col pagelayer-id="k9P7RMdTKep77fpM"  overlay_hover_delay="400" col_width="55" col_width_tablet="100" col_width_mobile="100"]
+[pl_iconbox pagelayer-id="xtQVT362zkYenhXu"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Grow Together" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" animation="fadeInLeft" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="MPt3cRXzMwnYCFmC"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,32,,600,,,Solid,,,," ele_padding="10px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," animation="fadeInLeft" animation_delay="600"]
+
+
+
+<h2>Awesome and fun<br>Constantly <span style="color: #009B72;">Growing</span></h2>[/pl_heading]
+[pl_text pagelayer-id="MjVSsAmLD38h2qYU"  ele_padding="20px,0px,0px,0px" font_family="Raleway" font_size="16" animation="fadeInLeft" animation_delay="600"]
+
+
+
+<p style="text-align: justify; ">Sed sit amet est suscipit, sollicitudin odio sit amet, rhoncus enim. Proin porta quam id erat venenatis, et congue massa pulvinar. Duis posuere quam commodo placerat imperdiet. Maecenas euismod rhoncus diam. Proin consectetur turpis eu ex elementum, quis luctus erat porttitor.</p>[/pl_text]
+[pl_inner_row pagelayer-id="S9koRIw65eEkk0Kz"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="20px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="szywQPimUaZLJdJ2"  overlay_hover_delay="400" col="4"]
+[pl_counter pagelayer-id="kzmYW4jagEKvDeQq"  counter_start_number="1" counter_end_number="282" animation_duration="2000" counter_align="center" counter_text="Million Interactions Monthly" counter_text_color="#333333" counter_text_style="Montserrat,18,,600,,,Solid,,,," counter_number_color="#009b72ff" counter_number_style="Montserrat,50,,600,,,Solid,1.2,,," ele_padding="0px,0px,0px,0px" animation="fadeInLeft" animation_delay="600" counter_align_tablet="center"]
+[/pl_counter]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="Jbnl2wWZkaQFOOJN"  overlay_hover_delay="400" col="4"]
+[pl_counter pagelayer-id="Da9gwemg6S1X5Hjh"  counter_start_number="1" counter_end_number="127" animation_duration="2000" counter_align="center" counter_text="Languages and Countries" counter_text_color="#333333" counter_text_style="Montserrat,18,,600,,,Solid,,,," counter_number_color="#009b72ff" counter_number_style="Montserrat,50,,600,,,Solid,1.2,,," ele_padding="0px,0px,0px,0px" animation="fadeInLeft" animation_delay="600"]
+[/pl_counter]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="C7sVv5Jtgt06p8ug"  overlay_hover_delay="400" col="4"]
+[pl_counter pagelayer-id="C2g9JnAMCU6FYKVF"  counter_start_number="1" counter_end_number="150" animation_duration="2000" counter_align="center" counter_text="Percent yearly turnover increase" counter_text_color="#333333" counter_text_style="Montserrat,18,,600,,,Solid,,,," counter_number_color="#009b72ff" counter_number_style="Montserrat,50,,600,,,Solid,1.2,,," ele_padding="0px,0px,0px,0px" animation="fadeInLeft" animation_delay="600"]
+[/pl_counter]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[pl_col pagelayer-id="R8wZC6L1xKO9qPkT"  overlay_hover_delay="400" col_width="45" col_width_mobile="100"]
+[pl_image pagelayer-id="e837vg31YQ0cCAog"  id="{{theme_url}}/images/grow.png" id-size="full" align="center" img_hover="normal" img_hover_delay="400" caption_color="#0986c0" animation="fadeInRight" animation_delay="600"]
+
+
+
+[/pl_image]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="HYodSnqSvvvfdNWq"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="" ele_bg_color="#eeeeeeff" ele_padding="70px,0px,70px,0px"]
+[pl_col pagelayer-id="2kwVQ5Ce35VDT6fN"  overlay_hover_delay="400"]
+[pl_iconbox pagelayer-id="LnoONcIJtuPLkpW4"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Pricing" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" service_icon_alignment="center" ele_custom_pos="true" ele_align="50%" ele_height="auto" ele_custom_width="110px" animation="fadeInUp" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="3WFT8ZzCNmDxiKAv"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,28,,600,,,Solid,,,," ele_padding="5px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," align="center"]
+
+
+<h2>Choose the best that suites you!</h2>[/pl_heading]
+[pl_inner_row pagelayer-id="hxLPdFHtkiHjSwNC"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="AiwQ4fO6w3MUuuC5"  overlay_hover_delay="400" col="4"]
+[pl_pricing pagelayer-id="5BckMP4FH6gzcDpc"  plan_title="Beginner" title_color="#ffffff" title_size="Montserrat,30,,500,,,Solid,,,," plan_sub_title="" subtitle_color="#ffffff" subtitle_size="Poppins,18,,500,,,solid,,,," header_background_color="#009b72ff" header_padding="10,10,10,10" currency="" currency_color="#ffffff" currency_size="Poppins,35,,500,,,solid,,,," currency_position="top" price="$49" price_size="Montserrat,45,,500,,,Solid,,,," price_state="normal" price_line_height="30" price_color="#ffffff" price_background_color="#59ae98ff" period="Per Month" period_color="#ffffff" period_size="Montserrat,16,,500,,,Solid,,,," features_background_color="#ffffff" features_text_color="#000000" features_text_typo="Raleway,18,,500,,,Solid,,,," price_button="true" pricing_btn_hover_delay="400" additional_info="" additional_text_color="#000000" addition_text_typo=",16,,500,,,solid,,,," button_type="pagelayer-btn-custom" button_size="pagelayer-btn-mini" button_text="Buy This Plan" btn_spacing="15" price_border_color="#000000ff" price_border_width="2,2,2,2" price_border_radius="0,0,0,0" pri_features_spacing="5" btn_state="normal" button_color="#ffffff" button_bg_color="#009b72ff" btn_typo="Raleway,16,,,,,Solid,,,," price_padding="10,0,10,0" border_radius="25px,25px,25px,25px" price_btn_border_radius="25,25,25,25" animation="fadeInUp" animation_delay="600"]
+[pl_list_item pagelayer-id="6u9dA4KKdhqxTHgu"  show_icon="" icon="fas fa-star"]
+
+
+Free Applications[/pl_list_item]
+[pl_list_item pagelayer-id="ayyP5lcHroiWx3kq"  show_icon="" icon="fas fa-star"]
+
+
+<s>24X7 Support</s>[/pl_list_item]
+[pl_list_item pagelayer-id="4CTeXeR9pbIm4Wl8"  show_icon="" icon="fas fa-star"]
+
+
+<s>High Quality Design</s>[/pl_list_item]
+[pl_list_item pagelayer-id="NLo0nE6uwEXcMVk5"  show_icon="" icon="fas fa-star"]
+
+
+<s>Client Location Support</s>[/pl_list_item]
+[/pl_pricing]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="wKlfudDwMOzaPXEH"  overlay_hover_delay="400" col="4"]
+[pl_pricing pagelayer-id="SEv8ChzidZE6u17J"  plan_title="Standard" title_color="#ffffff" title_size="Montserrat,30,,500,,,Solid,,,," plan_sub_title="" subtitle_color="#ffffff" subtitle_size="Poppins,18,,500,,,solid,,,," header_background_color="#009b72ff" header_padding="10,10,10,10" currency="" currency_color="#ffffff" currency_size="Poppins,35,,500,,,solid,,,," currency_position="top" price="$57" price_size="Montserrat,45,,500,,,Solid,,,," price_state="normal" price_line_height="30" price_color="#ffffff" price_background_color="#59ae98ff" period="Per Month" period_color="#ffffff" period_size="Montserrat,16,,500,,,Solid,,,," features_background_color="#ffffff" features_text_color="#000000" features_text_typo="Raleway,18,,500,,,Solid,,,," price_button="true" pricing_btn_hover_delay="400" additional_info="" additional_text_color="#000000" addition_text_typo=",16,,500,,,solid,,,," button_type="pagelayer-btn-custom" button_size="pagelayer-btn-mini" button_text="Buy This Plan" btn_spacing="15" price_border_color="#000000ff" price_border_width="2,2,2,2" price_border_radius="0,0,0,0" pri_features_spacing="5" btn_state="normal" button_color="#ffffff" button_bg_color="#009b72ff" btn_typo="Raleway,16,,,,,Solid,,,," price_padding="10,0,10,0" border_radius="25px,25px,25px,25px" price_btn_border_radius="25,25,25,25" ribbon="true" ribbon_text="Popular" ribbon_text_size="Montserrat,16,,500,,,Solid,,,," ribbon_text_color="#ffffff" ribbon_background="#000000ff" animation="fadeInUp" animation_delay="600"]
+[pl_list_item pagelayer-id="i19HABui8p9IYtdD"  show_icon="" icon="fas fa-star"]
+
+
+Unlimited Quotations[/pl_list_item]
+[pl_list_item pagelayer-id="WRKSLucptfWmtqTt"  show_icon="" icon="fas fa-star"]
+
+
+24X7 Support[/pl_list_item]
+[pl_list_item pagelayer-id="qLVUhhgHFlffULDR"  show_icon="" icon="fas fa-star"]
+
+
+High Quality Design[/pl_list_item]
+[pl_list_item pagelayer-id="4jRGlWZHBWgSEcqR"  show_icon="" icon="fas fa-star"]
+
+
+<s>Client Location Support</s>[/pl_list_item]
+[/pl_pricing]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="DUbzCoI12x7me2Fl"  overlay_hover_delay="400" col="4"]
+[pl_pricing pagelayer-id="CMvCG3IfxOHoY6fR"  plan_title="Professional" title_color="#ffffff" title_size="Montserrat,30,,500,,,Solid,,,," plan_sub_title="" subtitle_color="#ffffff" subtitle_size="Poppins,18,,500,,,solid,,,," header_background_color="#009b72ff" header_padding="10,10,10,10" currency="" currency_color="#ffffff" currency_size="Poppins,35,,500,,,solid,,,," currency_position="top" price="$86" price_size="Montserrat,45,,500,,,Solid,,,," price_state="normal" price_line_height="30" price_color="#ffffff" price_background_color="#59ae98ff" period="Per Month" period_color="#ffffff" period_size="Montserrat,16,,500,,,Solid,,,," features_background_color="#ffffff" features_text_color="#000000" features_text_typo="Raleway,18,,500,,,Solid,,,," price_button="true" pricing_btn_hover_delay="400" additional_info="" additional_text_color="#000000" addition_text_typo=",16,,500,,,solid,,,," button_type="pagelayer-btn-custom" button_size="pagelayer-btn-mini" button_text="Buy This Plan" btn_spacing="15" price_border_color="#000000ff" price_border_width="2,2,2,2" price_border_radius="0,0,0,0" pri_features_spacing="5" btn_state="normal" button_color="#ffffff" button_bg_color="#009b72ff" btn_typo="Raleway,16,,,,,Solid,,,," price_padding="10,0,10,0" border_radius="25px,25px,25px,25px" price_btn_border_radius="25,25,25,25" animation="fadeInUp" animation_delay="600"]
+[pl_list_item pagelayer-id="9sCPrUjikZsTAY2o"  show_icon="" icon="fas fa-star"]
+
+
+Unlimited Quotations[/pl_list_item]
+[pl_list_item pagelayer-id="4OZT8lizsd6GoX6e"  show_icon="" icon="fas fa-star"]
+
+
+24X7 Support[/pl_list_item]
+[pl_list_item pagelayer-id="D7ksa6WotxvhhqSx"  show_icon="" icon="fas fa-star"]
+
+
+High Quality Design[/pl_list_item]
+[pl_list_item pagelayer-id="I0FvXhYi0sM1Fz3b"  show_icon="" icon="fas fa-star"]
+
+
+Client Location Support[/pl_list_item]
+[/pl_pricing]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]

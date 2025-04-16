@@ -1,0 +1,359 @@
+.wcf-dpage-xml-import-container ul li {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.wcf-dpage-xml-import-container ul li:hover {
+    color: #40CF79;
+}
+
+.wcf-dpage-xml-import-container ul li .wcf-img-hover {
+    display: none;
+}
+
+.wrap .wcf-page-default-import-modal {
+    background-color: #2119ff9d !important;
+    color: #fff;
+    transition: all 0.3s;
+    border: 0;
+}
+
+.wrap .wcf-page-default-import-modal:hover {
+    color: #fff !important;
+    background-color: #2119ffe5 !important;
+    border: 0;
+}
+
+
+/* The Modal (background) */
+.wcf-page-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wcf-page-modal-content h3 {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.wcf-template-list-column h3 {
+    display: none;
+}
+
+.wcf-item .action-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+    text-align: center;
+    z-index: 1;
+}
+
+.wcf-item .demo-url,
+.wcf-item .er-template-import {
+    background: #fff;
+    color: #1C1D20;
+    font-size: 15px;
+    transition: 0.3s;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.wcf-item .er-template-import {
+    color: #ffffff;
+    background-color: #40CF79;
+}
+
+.wcf-item .demo-url:hover,
+.wcf-item .er-template-import:hover {
+    color: #fff;
+    background-color: #1C1D20;
+}
+
+.wcf-item {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+
+.wcf-item::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(22, 33, 50, 0.4);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.wcf-item:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.wcf-item:hover .demo-url,
+.wcf-item:hover .er-template-import {
+    opacity: 1;
+}
+
+.wcf-item:hover .action-wrapper {
+    top: 50%;
+}
+
+.wcf-page-filter-area {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+
+/* Modal Content */
+.wcf-page-modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    margin-left: 170px;
+    width: 80%;
+    height: 840px;
+    overflow-y: auto;
+}
+
+/* The Close Button */
+.wcf-page-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.wcf-page-close:hover,
+.wcf-page-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Single Item */
+
+.wcf-dpage-xml-import-container .wcf-row {
+    gap: 15px;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.wcf-template-list-column,
+.wcf-column {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wcf-item-templates-l,
+.wcf-item {
+    outline: none;
+    position: relative;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+}
+
+.wcf-item-templates-l img,
+.wcf-item img {
+    width: 100%;
+}
+
+.wcf-template-inner-section .action-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+}
+
+.wcf-item:hover .action-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wcf-item-templates-l:hover .wcf-template-inner-section .action-wrapper,
+.wcf-item:hover .wcf-template-inner-section .action-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wcf-page-search-js {
+    width: 300px !important;
+    padding: 8px 20px !important;
+    border: 1px solid #ddd !important;
+    font-size: 16px;
+    outline: none;
+}
+
+.wcf-page-search-js::placeholder {
+    color: #999 !important;
+}
+
+.wcf-page-select-type {
+    height: 50px;
+    border: 1px solid #ddd;
+    color: #121212;
+    min-width: 150px;
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+
+.body-import-active-overlay {
+    text-align: center;
+}
+
+.wcf-dpage-xml-import-container .wcf-msg {
+    text-align: center;
+}
+
+.wcf-msg>a,
+.wcf-return-to-libary {
+    background: #40CF79;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.wcf-msg>a {
+    font-size: 16px;
+    padding: 10px 24px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.wcf-msg>a:hover,
+.wcf-return-to-libary:hover {
+    color: #fff;
+    background: #1C1D20;
+}
+
+.wcf-msg p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.wcf-msg span {
+    display: block;
+    font-size: 20px;
+    color: #121212;
+}
+
+.wcf-page-imporing {
+    font-size: 16px;
+    padding-top: 50px;
+    color: #121212;
+}
+
+.wcf-item div {
+    width: 100%;
+}
+
+.wcf-item .wc-pageimg-wrapper img {
+    width: 100%;
+    object-position: top;
+    object-fit: cover;
+    height: 410px;
+    transition: all 5s;
+}
+
+.wcf-item:hover .wc-pageimg-wrapper img {
+    object-position: bottom;
+}
+
+.wcf-templates-pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 1500px) {
+    .wcf-page-modal-content {
+        margin-left: 170px;
+        width: 84%;
+    }
+
+    .wcf-page-modal {
+        padding-top: 33px;
+    }
+
+}
+
+
+@media (max-width: 1400px) {
+    .wcf-item .wc-pageimg-wrapper img {
+        height: 320px;
+    }
+
+    .wcf-template-list-column,
+    .wcf-column {
+        height: 360px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .wcf-page-modal-content {
+        margin-left: 165px;
+        width: 79%;
+    }
+}
+
+.post-type-page .wcf-dpage-xml-import-container .wcf-row {  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}

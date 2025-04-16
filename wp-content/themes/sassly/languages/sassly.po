@@ -1,0 +1,885 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-09-28 17:14+0600\n"
+"PO-Revision-Date: 2024-06-05 15:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html;esc_attr;__;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: 404.php:7
+msgid "Back to Home"
+msgstr ""
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "Ops! Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"The page you are looking for was moved, removed, renamed or never existed."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:345
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:400
+#: app/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:401
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:405
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:407
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:1042
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:1042
+#: app/class-tgm-plugin-activation.php:1052
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:1052
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2112
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2751
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2756
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2762
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2799
+msgid "tgmpa-type-"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3655
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3660
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3669
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3674
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3677
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: app/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: app/core/checker.class.php:85
+msgid "Update Checking.."
+msgstr ""
+
+#: app/core/default.widgets.class.php:25
+msgid "Blog widget area"
+msgstr ""
+
+#: app/core/default.widgets.class.php:27
+msgid "Appears on posts."
+msgstr ""
+
+#: app/core/default.widgets.class.php:36
+msgid "WooCommerce widget area"
+msgstr ""
+
+#: app/core/default.widgets.class.php:38
+msgid "Appears on Shop."
+msgstr ""
+
+#: app/core/default.widgets.class.php:48
+msgid "Footer One"
+msgstr ""
+
+#: app/core/default.widgets.class.php:50
+msgid "Footer one Widget."
+msgstr ""
+
+#: app/core/default.widgets.class.php:60
+msgid "Footer Two"
+msgstr ""
+
+#: app/core/default.widgets.class.php:62
+msgid "Footer  widget."
+msgstr ""
+
+#: app/core/default.widgets.class.php:72
+msgid "Footer Three"
+msgstr ""
+
+#: app/core/default.widgets.class.php:74 app/core/default.widgets.class.php:86
+msgid "Footer widget."
+msgstr ""
+
+#: app/core/default.widgets.class.php:84
+msgid "Footer Four"
+msgstr ""
+
+#: app/core/demo.class.php:25
+msgid "Health Coach"
+msgstr ""
+
+#: app/core/demo.class.php:32
+msgid "Artist"
+msgstr ""
+
+#: app/core/demo.class.php:39
+msgid "Chef"
+msgstr ""
+
+#: app/core/demo.class.php:46
+msgid "Travel Guider"
+msgstr ""
+
+#: app/core/demo.class.php:53
+msgid "Doctor"
+msgstr ""
+
+#: app/core/demo.class.php:60
+msgid "Writer"
+msgstr ""
+
+#: app/core/demo.class.php:67
+msgid "Interior Designer"
+msgstr ""
+
+#: app/core/demo.class.php:74
+msgid "Photographer"
+msgstr ""
+
+#: app/core/demo.class.php:81
+msgid "Electrician"
+msgstr ""
+
+#: app/core/demo.class.php:88
+msgid "Content Creator"
+msgstr ""
+
+#: app/core/demo.class.php:95
+msgid "Developer"
+msgstr ""
+
+#: app/core/demo.class.php:103
+msgid "Digital Marketer"
+msgstr ""
+
+#: app/core/demo.class.php:110
+msgid "Dancer"
+msgstr ""
+
+#: app/core/demo.class.php:118
+msgid "Yoga Trainer"
+msgstr ""
+
+#: app/core/demo.class.php:125
+msgid "Lawyer"
+msgstr ""
+
+#: app/core/demo.class.php:132
+msgid "Motivational Speaker"
+msgstr ""
+
+#: app/core/demo.class.php:139
+msgid "Dentist"
+msgstr ""
+
+#: app/core/demo.class.php:146
+msgid "Event Planner"
+msgstr ""
+
+#: app/core/demo.class.php:153
+msgid "Content Writer"
+msgstr ""
+
+#: app/core/demo.class.php:160
+msgid "Product Designer"
+msgstr ""
+
+#: app/core/demo.class.php:167
+msgid "Freelancer"
+msgstr ""
+
+#: app/core/demo.class.php:173
+msgid "Resume"
+msgstr ""
+
+#: app/core/demo.class.php:180
+msgid "Social Influencer"
+msgstr ""
+
+#: app/core/demo.class.php:187
+msgid "Film Maker"
+msgstr ""
+
+#: app/core/demo.class.php:194
+msgid "Beautician"
+msgstr ""
+
+#: app/core/demo.class.php:201 app/core/demo.class.php:208
+msgid "Barber"
+msgstr ""
+
+#: app/core/demo.class.php:214
+msgid "Athlete"
+msgstr ""
+
+#: app/core/demo.class.php:221
+msgid "Architect"
+msgstr ""
+
+#: app/core/demo.class.php:228
+msgid "Fashion Designer"
+msgstr ""
+
+#: app/core/demo.class.php:235
+msgid "Singer"
+msgstr ""
+
+#: app/core/required-plugins.class.php:189
+msgid "Elementor"
+msgstr ""
+
+#: app/core/required-plugins.class.php:195
+msgid "Contact form 7"
+msgstr ""
+
+#: app/core/required-plugins.class.php:201
+msgid "sassly Essential"
+msgstr ""
+
+#: app/core/required-plugins.class.php:208
+msgid "Animation Addons For Elementor"
+msgstr ""
+
+#: app/core/required-plugins.class.php:214
+msgid "WCF Element Library Pro"
+msgstr ""
+
+#: app/core/required-plugins.class.php:220
+msgid "WCF Element Library Extension"
+msgstr ""
+
+#: app/core/setup.class.php:27 app/core/setup.class.php:28
+msgid "Sassly Theme"
+msgstr ""
+
+#: app/core/setup.class.php:159
+msgid "Primary"
+msgstr ""
+
+#: app/core/tags.class.php:53 app/core/tags.class.php:58
+msgid ", "
+msgstr ""
+
+#: app/core/tags.class.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: app/core/tags.class.php:60
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: app/core/tags.class.php:66
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: app/core/tags.class.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: app/utility/global.php:202
+msgid "Readmore"
+msgstr ""
+
+#: app/utility/global.php:321
+msgid "Facebook"
+msgstr ""
+
+#: app/utility/global.php:322
+msgid "twitter"
+msgstr ""
+
+#: app/utility/global.php:323
+msgid "linkedin"
+msgstr ""
+
+#: app/utility/global.php:324
+msgid "pinterest "
+msgstr ""
+
+#: app/utility/global.php:325
+msgid "digg"
+msgstr ""
+
+#: app/utility/global.php:326
+msgid "tumblr"
+msgstr ""
+
+#: app/utility/global.php:327 app/utility/global.php:335
+msgid "blogger"
+msgstr ""
+
+#: app/utility/global.php:328
+msgid "reddit"
+msgstr ""
+
+#: app/utility/global.php:329
+msgid "delicious"
+msgstr ""
+
+#: app/utility/global.php:330 app/utility/global.php:337
+msgid "flipboard"
+msgstr ""
+
+#: app/utility/global.php:331
+msgid "vkontakte"
+msgstr ""
+
+#: app/utility/global.php:332
+msgid "odnoklassniki"
+msgstr ""
+
+#: app/utility/global.php:333
+msgid "moimir"
+msgstr ""
+
+#: app/utility/global.php:334
+msgid "livejournal"
+msgstr ""
+
+#: app/utility/global.php:336
+msgid "evernote"
+msgstr ""
+
+#: app/utility/global.php:338
+msgid "mix"
+msgstr ""
+
+#: app/utility/global.php:339
+msgid "meneame "
+msgstr ""
+
+#: app/utility/global.php:340
+msgid "pocket "
+msgstr ""
+
+#: app/utility/global.php:341
+msgid "surfingbird "
+msgstr ""
+
+#: app/utility/global.php:342
+msgid "liveinternet "
+msgstr ""
+
+#: app/utility/global.php:343
+msgid "buffer "
+msgstr ""
+
+#: app/utility/global.php:344
+msgid "instapaper "
+msgstr ""
+
+#: app/utility/global.php:345
+msgid "xing "
+msgstr ""
+
+#: app/utility/global.php:346
+msgid "wordpres "
+msgstr ""
+
+#: app/utility/global.php:347
+msgid "baidu "
+msgstr ""
+
+#: app/utility/global.php:348
+msgid "renren "
+msgstr ""
+
+#: app/utility/global.php:349
+msgid "weibo "
+msgstr ""
+
+#: app/utility/global.php:365
+msgid "Blog"
+msgstr ""
+
+#: app/utility/global.php:425
+msgid "Old Writter"
+msgstr ""
+
+#: app/utility/global.php:425
+msgid "New Writter"
+msgstr ""
+
+#: app/utility/helpers.php:295 app/utility/helpers.php:342
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: app/utility/helpers.php:295 app/utility/helpers.php:342
+#, php-format
+msgid "%s comment"
+msgstr ""
+
+#: app/utility/helpers.php:328
+msgid "by"
+msgstr ""
+
+#: app/utility/helpers.php:363
+msgid "More pages: "
+msgstr ""
+
+#: app/utility/helpers.php:369
+msgid "Next "
+msgstr ""
+
+#: app/utility/helpers.php:370
+msgid " Previous"
+msgstr ""
+
+#: app/utility/helpers.php:452
+msgid "read more"
+msgstr ""
+
+#: app/utility/helpers.php:548
+msgid "Select a option"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:16
+msgid "video"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:83
+msgid "Home"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:114
+msgid "Shop"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:170 app/utility/util-part.tpl.php:176
+#: app/utility/util-part.tpl.php:182
+msgid "Blogs for"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:188
+msgid "Author Blogs"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:193
+msgid "Blogs"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:198
+msgid "Search Result"
+msgstr ""
+
+#: app/utility/util-part.tpl.php:203
+#: template-parts/banner/content-banner-404.php:3
+msgid "404 Error"
+msgstr ""
+
+#: comments.php:20
+msgid "Comment"
+msgstr ""
+
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:66
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38 comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+msgid "Reply"
+msgstr ""
+
+#: comments.php:97
+msgid "Name*"
+msgstr ""
+
+#: comments.php:98
+msgid "Email*"
+msgstr ""
+
+#: comments.php:125
+msgid "You must be"
+msgstr ""
+
+#: comments.php:125
+msgid "logged in"
+msgstr ""
+
+#: comments.php:125
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:130
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:130
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:137
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:138
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:139
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:140
+msgid "Submit Now"
+msgstr ""
+
+#: page-templates/full-container-width.php:33 page.php:36
+msgid "Edit"
+msgstr ""
+
+#: search.php:9
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:33
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: template-parts/blog/blog-parts/part-social.php:10
+msgid "Share"
+msgstr ""
+
+#: template-parts/blog/content-none.php:3
+msgid "Nothing found!"
+msgstr ""
+
+#: template-parts/blog/content-none.php:4
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: template-parts/blog/content-page.php:13
+#: template-parts/blog/content-single.php:14
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: template-parts/blog/format/content-audio.php:68
+#: template-parts/blog/format/content-image.php:68
+#: template-parts/blog/format/content-video.php:78
+#: template-parts/blog/format/content.php:69
+msgid "Read the blog details"
+msgstr ""
+
+#: template-parts/blog/paginations/pagination-style1.php:44
+msgid "prev"
+msgstr ""
+
+#: template-parts/blog/paginations/pagination-style1.php:83
+msgid "next"
+msgstr ""
+
+#: template-parts/footer/footer.php:7
+msgid "pt-130"
+msgstr ""
+
+#: template-parts/footer/footer.php:26
+msgid "mt-0"
+msgstr ""
+
+#: template-parts/headers/content-offcanvas.php:57
+msgid "_blank"
+msgstr ""
+
+#: template-parts/headers/content-offcanvas.php:57
+msgid "_parent"
+msgstr ""

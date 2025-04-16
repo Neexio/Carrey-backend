@@ -1,0 +1,99 @@
+/*
+Theme Name: Carrey Theme
+Theme URI: https://carrey.no
+Author: Carrey
+Author URI: https://carrey.no
+Description: Custom theme for Carrey SEO tools
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: carrey-theme
+*/
+
+/* Import main styles */
+@import url('assets/css/main.css');
+
+/* Theme styles will be loaded from template files */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Elementor layout fixes */
+@media only screen and (max-width: 768px) {
+  /* Fix for Elementor sections */
+  .elementor-section {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Fix for Elementor columns */
+  .elementor-column {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* Fix for Elementor widgets */
+  .elementor-widget-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Disable custom positioning on mobile */
+  .elementor-element {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+  }
+
+  /* Fix for Elementor containers */
+  .elementor-container {
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure proper spacing */
+  .elementor-section-wrap {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Fix for Elementor buttons */
+  .elementor-button {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Fix for Elementor images */
+  img, svg, .elementor-icon {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .elementor-icon {
+    font-size: 24px !important;
+  }
+
+  /* Fix for Elementor text widgets */
+  .elementor-widget-text-editor {
+    width: 100% !important;
+  }
+
+  /* Fix for Elementor headings */
+  .elementor-heading-title {
+    text-align: center !important;
+  }
+} 

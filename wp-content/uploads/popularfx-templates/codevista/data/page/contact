@@ -1,0 +1,46 @@
+[pl_row pagelayer-id="4XAmWAu3kSlM938r"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_type="color" ele_bg_color="#eeeeeeff" ele_padding="70px,0px,70px,0px" content_pos="center"]
+[pl_col pagelayer-id="1UwONrPTCiT9TM43"  overlay_hover_delay="400" col="6"]
+[pl_google_maps pagelayer-id="95n7TwqCuvc70Lqg"  zoom="10" height="350" animation="fadeInLeft" animation_delay="600"]
+
+New York, New York, USA[/pl_google_maps]
+[/pl_col]
+[pl_col pagelayer-id="aKPykNS5TgqLE6Mt"  overlay_hover_delay="400" col="6"]
+[pl_iconbox pagelayer-id="LbjWd6df0OWvJPc4"  service_icon="fas fa-braille" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="18" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Visit Us Anytime" heading_alignment="left" service_title_spacing="0,0,0,10" heading_state="normal" service_heading_color="#009b72ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="center" service_btn_hover_delay="400" ele_padding="0px,0px,0px,15px" animation="fadeInRight" animation_delay="600"]
+
+
+
+
+
+[/pl_iconbox]
+[pl_heading pagelayer-id="ZaTAOPGvjryrAIb9"  heading_state="normal" color="#000000ff" heading_typo="Montserrat,28,,600,,,Solid,,,," ele_padding="5px,0px,0px,0px" heading_typo_mobile=",22,,,,,Solid,,,," align="left" animation="fadeInRight" animation_delay="600"]
+
+<h2>Contact Us</h2>[/pl_heading]
+[pl_text pagelayer-id="8ATwY3rQumpODql1"  ele_padding="20px,0px,0px,0px" font_family="Raleway" font_size="16" animation="fadeInRight" animation_delay="600"]
+
+
+
+<p><span style="color: rgb(0, 0, 0);">Nullam sapien lorem, fringilla sed porta eu, iaculis sed libero. Vivamus imperdiet nisi ex, quis facilisis sem rutrum sit amet.&nbsp;</span></p>[/pl_text]
+[pl_inner_row pagelayer-id="mQ7PFclMOfj47KoF"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#227bc3" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#e44993" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_padding="10px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="uLVhawPNHQLSGAsZ"  overlay_hover_delay="400" col_width="50" col_width_mobile="100" col_width_tablet="100"]
+[pl_iconbox pagelayer-id="SNHZg5iY3AdT1R1j"  service_icon="fas fa-map-marked-alt" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Main Office" heading_alignment="left" service_title_spacing="0,0,10,20" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,20" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInRight" animation_delay="600"]
+
+<p><span style="color: rgb(0, 0, 0);">206, James Street, New Balcony, 502360</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="X9nmRGoVmDZZIW0x"  overlay_hover_delay="400" col_width="50" col_width_mobile="100" col_width_tablet="100"]
+[pl_iconbox pagelayer-id="IPfdh1Dw8B3vsxux"  service_icon="fas fa-laptop-code" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="45" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Creative Office" heading_alignment="left" service_title_spacing="0,0,10,20" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,20" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInRight" animation_delay="600"]
+
+<p><span style="color: rgb(0, 0, 0);">206, James Street, New Balcony, 502360</span></p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="cJW7OsFzNEaDA6R3"  overlay_hover_delay="400" col_width="50" col_width_mobile="100" col_width_tablet="100"]
+[pl_iconbox pagelayer-id="8UHBljy50eKmlT4p"  service_icon="fas fa-phone-alt" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Call Us" heading_alignment="left" service_title_spacing="0,0,10,20" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,20" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInRight" animation_delay="600" ele_padding="0px,0px,0px,7px"]
+
+<p>+(123) 28569542</p><p>+31 3325986524</p>[/pl_iconbox]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="v1TM0C3yrhiaWckx"  overlay_hover_delay="400" col_width="50" col_width_mobile="100" col_width_tablet="100"]
+[pl_iconbox pagelayer-id="4MfHsGBcSoVo0Xnu"  service_icon="fas fa-envelope-open-text" service_alignment="left" service_vertical_alignment="middle" service_icon_view="default" service_icon_padding="15" service_icon_state="normal" service_icon_color="#009b72ff" service_icon_font_size="50" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Email Us" heading_alignment="left" service_title_spacing="0,0,10,20" heading_state="normal" service_heading_color="#010101ff" service_heading_typo="Montserrat,20,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" service_icon_spacing="0,0,10,0" font_family="Raleway" font_size="16" service_content_spacing="0,0,0,20" ele_bg_type="" ele_bg_color="#eeeeeeff" border_width="1px,1px,1px,1px" border_color="#000000ff" animation="fadeInRight" animation_delay="600" ele_padding="0px,0px,0px,7px"]
+
+<p>team@sitepad.com</p><p>office@sitepad.com</p>[/pl_iconbox]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]
